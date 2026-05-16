@@ -100,6 +100,7 @@ export interface FestivalEvent {
   type: 'festival' | 'event' | 'holiday' | 'warning';
   impact: 'positive' | 'caution' | 'avoid';
   tip: string;
+  months?: number[]; // 해당 이벤트가 발생하는 월 (1~12)
 }
 
 export interface TravelResult {
