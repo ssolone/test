@@ -1,5 +1,6 @@
 import type { TravelResult, SearchParams, CompanionType, OutfitItem } from '../types';
 import { getCityData } from './cityData';
+import { destinations, countryInfo } from './destinations';
 
 const getMonthNum = (params: SearchParams): number => {
   if (params.dateType === 'month') return parseInt(params.month || '6');
@@ -24,30 +25,184 @@ export const companionLabels: Record<CompanionType, string> = {
   large_group: '대규모 그룹 (5명+)',
 };
 
-// --- Distance & Time zone map ---
-// timeDifferenceHours: Seoul (KST = UTC+9) 기준. 음수 = 현지가 서울보다 늦음
-const cityInfoMap: Record<string, { distanceKm: number; flightHours: number; timeDiff: number; currency: string; language: string }> = {
-  '도쿄':      { distanceKm: 1200,  flightHours: 2.5,  timeDiff: 0,   currency: '엔 (JPY)',               language: '일본어' },
-  '오사카':    { distanceKm: 950,   flightHours: 2,    timeDiff: 0,   currency: '엔 (JPY)',               language: '일본어' },
-  '교토':      { distanceKm: 1000,  flightHours: 2,    timeDiff: 0,   currency: '엔 (JPY)',               language: '일본어' },
-  '삿포로':    { distanceKm: 1300,  flightHours: 2.5,  timeDiff: 0,   currency: '엔 (JPY)',               language: '일본어' },
-  '후쿠오카':  { distanceKm: 550,   flightHours: 1.5,  timeDiff: 0,   currency: '엔 (JPY)',               language: '일본어' },
-  '방콕':      { distanceKm: 3700,  flightHours: 5.5,  timeDiff: -2,  currency: '바트 (THB)',             language: '태국어' },
-  '치앙마이':  { distanceKm: 3400,  flightHours: 5,    timeDiff: -2,  currency: '바트 (THB)',             language: '태국어' },
-  '푸껫':      { distanceKm: 4200,  flightHours: 6,    timeDiff: -2,  currency: '바트 (THB)',             language: '태국어' },
-  '하노이':    { distanceKm: 2600,  flightHours: 4,    timeDiff: -2,  currency: '동 (VND)',               language: '베트남어' },
-  '호치민':    { distanceKm: 3600,  flightHours: 5,    timeDiff: -2,  currency: '동 (VND)',               language: '베트남어' },
-  '다낭':      { distanceKm: 2900,  flightHours: 4,    timeDiff: -2,  currency: '동 (VND)',               language: '베트남어' },
-  '파리':      { distanceKm: 9000,  flightHours: 12,   timeDiff: -8,  currency: '유로 (EUR)',             language: '프랑스어' },
-  '로마':      { distanceKm: 8700,  flightHours: 12,   timeDiff: -8,  currency: '유로 (EUR)',             language: '이탈리아어' },
-  '바르셀로나':{ distanceKm: 9600,  flightHours: 13,   timeDiff: -8,  currency: '유로 (EUR)',             language: '스페인어' },
-  '런던':      { distanceKm: 8700,  flightHours: 12,   timeDiff: -9,  currency: '파운드 (GBP)',           language: '영어' },
-  '뉴욕':      { distanceKm: 11100, flightHours: 14,   timeDiff: -14, currency: '달러 (USD)',             language: '영어' },
-  '하와이':    { distanceKm: 7300,  flightHours: 8.5,  timeDiff: -19, currency: '달러 (USD)',             language: '영어' },
-  '싱가포르':  { distanceKm: 4700,  flightHours: 6.5,  timeDiff: -1,  currency: '싱가포르달러 (SGD)',     language: '영어' },
-  '발리':      { distanceKm: 5200,  flightHours: 7,    timeDiff: -1,  currency: '루피아 (IDR)',           language: '인도네시아어' },
-  '두바이':    { distanceKm: 6400,  flightHours: 9.5,  timeDiff: -5,  currency: '디르함 (AED)',           language: '아랍어 (영어 통용)' },
-  '이스탄불':  { distanceKm: 8200,  flightHours: 11,   timeDiff: -6,  currency: '리라 (TRY)',             language: '터키어' },
+// 도시 → 국가명 역매핑 (currency·language 조회용)
+const cityToCountry: Record<string, string> = {};
+for (const d of destinations) {
+  for (const c of d.cities) cityToCountry[c] = d.country;
+}
+
+// --- 전 도시 거리·비행시간·시차 ---
+// timeDifferenceHours: 서울(KST=UTC+9) 기준. 음수 = 현지가 서울보다 늦음
+const cityGeoMap: Record<string, { distanceKm: number; flightHours: number; timeDiff: number }> = {
+  // 일본 (UTC+9, 시차 0)
+  '도쿄':       { distanceKm: 1200,  flightHours: 2.5,  timeDiff: 0  },
+  '오사카':     { distanceKm: 950,   flightHours: 2,    timeDiff: 0  },
+  '교토':       { distanceKm: 1000,  flightHours: 2,    timeDiff: 0  },
+  '삿포로':     { distanceKm: 1300,  flightHours: 2.5,  timeDiff: 0  },
+  '후쿠오카':   { distanceKm: 550,   flightHours: 1.5,  timeDiff: 0  },
+  '나고야':     { distanceKm: 1050,  flightHours: 2,    timeDiff: 0  },
+  '오키나와':   { distanceKm: 1550,  flightHours: 2.5,  timeDiff: 0  },
+  '나라':       { distanceKm: 980,   flightHours: 2,    timeDiff: 0  }, // 오사카 경유
+  '히로시마':   { distanceKm: 900,   flightHours: 1.5,  timeDiff: 0  },
+  '가마쿠라':   { distanceKm: 1200,  flightHours: 2.5,  timeDiff: 0  }, // 도쿄 경유
+  // 태국 (UTC+7, 시차 -2)
+  '방콕':       { distanceKm: 3700,  flightHours: 5.5,  timeDiff: -2 },
+  '치앙마이':   { distanceKm: 3400,  flightHours: 5,    timeDiff: -2 },
+  '푸껫':       { distanceKm: 4200,  flightHours: 6,    timeDiff: -2 },
+  '파타야':     { distanceKm: 3750,  flightHours: 5.5,  timeDiff: -2 },
+  '코사무이':   { distanceKm: 4100,  flightHours: 6,    timeDiff: -2 },
+  '아유타야':   { distanceKm: 3700,  flightHours: 5.5,  timeDiff: -2 }, // 방콕 경유
+  '후아힌':     { distanceKm: 3800,  flightHours: 5.5,  timeDiff: -2 },
+  // 베트남 (UTC+7, 시차 -2)
+  '하노이':     { distanceKm: 2600,  flightHours: 4,    timeDiff: -2 },
+  '호치민':     { distanceKm: 3600,  flightHours: 5,    timeDiff: -2 },
+  '다낭':       { distanceKm: 2900,  flightHours: 4,    timeDiff: -2 },
+  '호이안':     { distanceKm: 2900,  flightHours: 4,    timeDiff: -2 }, // 다낭 경유
+  '나트랑':     { distanceKm: 3200,  flightHours: 5,    timeDiff: -2 },
+  '하롱베이':   { distanceKm: 2600,  flightHours: 4,    timeDiff: -2 }, // 하노이 경유
+  '달랏':       { distanceKm: 3400,  flightHours: 5,    timeDiff: -2 },
+  '푸꾸옥':     { distanceKm: 3400,  flightHours: 5,    timeDiff: -2 },
+  // 프랑스 (UTC+1 → 시차 -8)
+  '파리':       { distanceKm: 9000,  flightHours: 12,   timeDiff: -8 },
+  '니스':       { distanceKm: 9200,  flightHours: 13,   timeDiff: -8 },
+  '리옹':       { distanceKm: 9100,  flightHours: 12.5, timeDiff: -8 },
+  '마르세유':   { distanceKm: 9200,  flightHours: 13,   timeDiff: -8 },
+  '보르도':     { distanceKm: 9400,  flightHours: 13,   timeDiff: -8 },
+  '스트라스부르':{ distanceKm: 8900, flightHours: 12,   timeDiff: -8 },
+  '몽생미셸':   { distanceKm: 9200,  flightHours: 13,   timeDiff: -8 },
+  // 이탈리아 (UTC+1 → 시차 -8)
+  '로마':       { distanceKm: 8700,  flightHours: 12,   timeDiff: -8 },
+  '밀라노':     { distanceKm: 8500,  flightHours: 12,   timeDiff: -8 },
+  '피렌체':     { distanceKm: 8700,  flightHours: 12,   timeDiff: -8 },
+  '베네치아':   { distanceKm: 8800,  flightHours: 12,   timeDiff: -8 },
+  '나폴리':     { distanceKm: 8900,  flightHours: 12.5, timeDiff: -8 },
+  '아말피':     { distanceKm: 8900,  flightHours: 12.5, timeDiff: -8 },
+  '친퀘테레':   { distanceKm: 8600,  flightHours: 12,   timeDiff: -8 },
+  '시칠리아':   { distanceKm: 9100,  flightHours: 13,   timeDiff: -8 },
+  // 스페인 (UTC+1 → 시차 -8)
+  '바르셀로나': { distanceKm: 9600,  flightHours: 13,   timeDiff: -8 },
+  '마드리드':   { distanceKm: 9800,  flightHours: 13.5, timeDiff: -8 },
+  '세비야':     { distanceKm: 10000, flightHours: 14,   timeDiff: -8 },
+  '그라나다':   { distanceKm: 9900,  flightHours: 14,   timeDiff: -8 },
+  '발렌시아':   { distanceKm: 9700,  flightHours: 13.5, timeDiff: -8 },
+  '산세바스티안':{ distanceKm: 9500, flightHours: 13,   timeDiff: -8 },
+  '말라가':     { distanceKm: 10100, flightHours: 14,   timeDiff: -8 },
+  // 미국
+  '뉴욕':       { distanceKm: 11100, flightHours: 14,   timeDiff: -14 },
+  '로스앤젤레스':{ distanceKm: 9600, flightHours: 11.5, timeDiff: -17 },
+  '샌프란시스코':{ distanceKm: 9300, flightHours: 11,   timeDiff: -17 },
+  '라스베가스': { distanceKm: 9400,  flightHours: 11,   timeDiff: -17 },
+  '시카고':     { distanceKm: 10200, flightHours: 13,   timeDiff: -15 },
+  '하와이':     { distanceKm: 7300,  flightHours: 8.5,  timeDiff: -19 },
+  '마이애미':   { distanceKm: 13000, flightHours: 16,   timeDiff: -14 },
+  '시애틀':     { distanceKm: 8400,  flightHours: 10.5, timeDiff: -17 },
+  '보스턴':     { distanceKm: 11000, flightHours: 14,   timeDiff: -14 },
+  '워싱턴 D.C.':{ distanceKm: 11200, flightHours: 14,   timeDiff: -14 },
+  // 영국 (UTC+0/+1 → 시차 -9/-8, 표준시 기준 -9)
+  '런던':       { distanceKm: 8700,  flightHours: 12,   timeDiff: -9 },
+  '에든버러':   { distanceKm: 8900,  flightHours: 12.5, timeDiff: -9 },
+  '옥스퍼드':   { distanceKm: 8700,  flightHours: 12,   timeDiff: -9 },
+  '코츠월드':   { distanceKm: 8700,  flightHours: 12,   timeDiff: -9 },
+  '맨체스터':   { distanceKm: 8700,  flightHours: 12,   timeDiff: -9 },
+  '리버풀':     { distanceKm: 8800,  flightHours: 12,   timeDiff: -9 },
+  '바스':       { distanceKm: 8700,  flightHours: 12,   timeDiff: -9 },
+  // 호주 (AEST UTC+10 → 시차 +1)
+  '시드니':     { distanceKm: 8300,  flightHours: 10,   timeDiff: 1  },
+  '멜버른':     { distanceKm: 8500,  flightHours: 10.5, timeDiff: 1  },
+  '브리즈번':   { distanceKm: 7800,  flightHours: 9.5,  timeDiff: 1  },
+  '골드코스트': { distanceKm: 7900,  flightHours: 10,   timeDiff: 1  },
+  '케언즈':     { distanceKm: 6900,  flightHours: 8,    timeDiff: 1  },
+  '퍼스':       { distanceKm: 7000,  flightHours: 8.5,  timeDiff: -1 }, // AWST UTC+8
+  '아들레이드': { distanceKm: 8500,  flightHours: 10.5, timeDiff: 0.5 },
+  '울룰루':     { distanceKm: 7700,  flightHours: 9,    timeDiff: 0.5 },
+  // 싱가포르 (UTC+8 → 시차 -1)
+  '싱가포르':   { distanceKm: 4700,  flightHours: 6.5,  timeDiff: -1 },
+  // 홍콩 (UTC+8 → 시차 -1)
+  '홍콩':       { distanceKm: 2100,  flightHours: 3.5,  timeDiff: -1 },
+  // 대만 (UTC+8 → 시차 -1)
+  '타이베이':   { distanceKm: 1500,  flightHours: 2.5,  timeDiff: -1 },
+  '타이중':     { distanceKm: 1500,  flightHours: 2.5,  timeDiff: -1 },
+  '타이난':     { distanceKm: 1600,  flightHours: 2.5,  timeDiff: -1 },
+  '가오슝':     { distanceKm: 1600,  flightHours: 2.5,  timeDiff: -1 },
+  '화롄':       { distanceKm: 1500,  flightHours: 2.5,  timeDiff: -1 },
+  '지룽':       { distanceKm: 1500,  flightHours: 2.5,  timeDiff: -1 },
+  // 중국 (UTC+8 → 시차 -1)
+  '베이징':     { distanceKm: 950,   flightHours: 2,    timeDiff: -1 },
+  '상하이':     { distanceKm: 900,   flightHours: 1.5,  timeDiff: -1 },
+  '청두':       { distanceKm: 2100,  flightHours: 3.5,  timeDiff: -1 },
+  '시안':       { distanceKm: 1700,  flightHours: 3,    timeDiff: -1 },
+  '항저우':     { distanceKm: 950,   flightHours: 2,    timeDiff: -1 },
+  '광저우':     { distanceKm: 1900,  flightHours: 3,    timeDiff: -1 },
+  '계림':       { distanceKm: 2100,  flightHours: 3.5,  timeDiff: -1 },
+  '장자제':     { distanceKm: 1900,  flightHours: 3,    timeDiff: -1 },
+  // 인도네시아 (발리=WITA UTC+8, 자카르타=WIB UTC+7)
+  '발리':       { distanceKm: 5200,  flightHours: 7,    timeDiff: -1 },
+  '자카르타':   { distanceKm: 5300,  flightHours: 7,    timeDiff: -2 },
+  '롬복':       { distanceKm: 5400,  flightHours: 7.5,  timeDiff: -1 },
+  '보로부두르': { distanceKm: 5200,  flightHours: 7,    timeDiff: -2 },
+  '코모도':     { distanceKm: 5600,  flightHours: 8,    timeDiff: 0  }, // WITA+1=WIT
+  '길리 아이르':{ distanceKm: 5400,  flightHours: 7.5,  timeDiff: -1 },
+  // 말레이시아 (UTC+8 → 시차 -1)
+  '쿠알라룸푸르':{ distanceKm: 4700, flightHours: 6.5,  timeDiff: -1 },
+  '페낭':       { distanceKm: 4600,  flightHours: 6.5,  timeDiff: -1 },
+  '코타키나발루':{ distanceKm: 3700, flightHours: 5,    timeDiff: 0  },
+  '랑카위':     { distanceKm: 4900,  flightHours: 7,    timeDiff: -1 },
+  '말라카':     { distanceKm: 4700,  flightHours: 6.5,  timeDiff: -1 },
+  // 터키 (UTC+3 → 시차 -6)
+  '이스탄불':   { distanceKm: 8200,  flightHours: 11,   timeDiff: -6 },
+  '카파도키아': { distanceKm: 8000,  flightHours: 11,   timeDiff: -6 },
+  '파묵칼레':   { distanceKm: 8200,  flightHours: 11,   timeDiff: -6 },
+  '에페수스':   { distanceKm: 8300,  flightHours: 11.5, timeDiff: -6 },
+  '보드룸':     { distanceKm: 8400,  flightHours: 11.5, timeDiff: -6 },
+  '안탈리아':   { distanceKm: 8000,  flightHours: 11,   timeDiff: -6 },
+  // 그리스 (UTC+2 → 시차 -7)
+  '아테네':     { distanceKm: 8600,  flightHours: 12,   timeDiff: -7 },
+  '산토리니':   { distanceKm: 8800,  flightHours: 12,   timeDiff: -7 },
+  '미코노스':   { distanceKm: 8800,  flightHours: 12,   timeDiff: -7 },
+  '크레타':     { distanceKm: 8700,  flightHours: 12,   timeDiff: -7 },
+  '로도스':     { distanceKm: 8700,  flightHours: 12,   timeDiff: -7 },
+  // 캐나다
+  '밴쿠버':     { distanceKm: 8200,  flightHours: 10,   timeDiff: -17 },
+  '토론토':     { distanceKm: 10700, flightHours: 14,   timeDiff: -14 },
+  '퀘벡시티':   { distanceKm: 10800, flightHours: 14,   timeDiff: -14 },
+  '몬트리올':   { distanceKm: 10800, flightHours: 14,   timeDiff: -14 },
+  '밴프':       { distanceKm: 8500,  flightHours: 11,   timeDiff: -17 },
+  '나이아가라폴스':{ distanceKm: 10700, flightHours: 14, timeDiff: -14 },
+  // 뉴질랜드 (UTC+12 → 시차 +3)
+  '오클랜드':   { distanceKm: 10700, flightHours: 13,   timeDiff: 3  },
+  '퀸스타운':   { distanceKm: 10400, flightHours: 13,   timeDiff: 3  },
+  '크라이스트처치':{ distanceKm: 10500, flightHours: 13, timeDiff: 3  },
+  '로토루아':   { distanceKm: 10600, flightHours: 13,   timeDiff: 3  },
+  '웰링턴':     { distanceKm: 10500, flightHours: 13,   timeDiff: 3  },
+  '밀포드사운드':{ distanceKm: 10300, flightHours: 13,  timeDiff: 3  },
+  // 포르투갈 (UTC+0 → 시차 -9)
+  '리스본':     { distanceKm: 10100, flightHours: 14,   timeDiff: -9 },
+  '포르투':     { distanceKm: 10200, flightHours: 14,   timeDiff: -9 },
+  '신트라':     { distanceKm: 10100, flightHours: 14,   timeDiff: -9 },
+  '알가르베':   { distanceKm: 10300, flightHours: 14,   timeDiff: -9 },
+  '마데이라':   { distanceKm: 10800, flightHours: 15,   timeDiff: -10 },
+  // 모로코 (UTC+1 → 시차 -8)
+  '마라케시':   { distanceKm: 9500,  flightHours: 13,   timeDiff: -8 },
+  '페스':       { distanceKm: 9400,  flightHours: 13,   timeDiff: -8 },
+  '카사블랑카': { distanceKm: 9400,  flightHours: 13,   timeDiff: -8 },
+  '샤우엔':     { distanceKm: 9500,  flightHours: 13,   timeDiff: -8 },
+  '메르주가':   { distanceKm: 9700,  flightHours: 14,   timeDiff: -8 },
+  // 두바이 (UTC+4 → 시차 -5)
+  '두바이':     { distanceKm: 6400,  flightHours: 9.5,  timeDiff: -5 },
+  '아부다비':   { distanceKm: 6300,  flightHours: 9.5,  timeDiff: -5 },
+  // 멕시코
+  '칸쿤':       { distanceKm: 12000, flightHours: 17,   timeDiff: -15 },
+  '멕시코시티': { distanceKm: 11700, flightHours: 15,   timeDiff: -16 },
+  '과달라하라': { distanceKm: 11800, flightHours: 15,   timeDiff: -16 },
+  '오아하카':   { distanceKm: 11800, flightHours: 15,   timeDiff: -16 },
+  '툴룸':       { distanceKm: 12100, flightHours: 17,   timeDiff: -15 },
+  '산 크리스토발':{ distanceKm: 11900, flightHours: 16, timeDiff: -16 },
+};
+
+const getCityInfo = (city: string, country: string) => {
+  const geo = cityGeoMap[city] || { distanceKm: 5000, flightHours: 7, timeDiff: -3 };
+  const info = countryInfo[country] || { currency: '현지 통화', language: '현지어' };
+  return { ...geo, currency: info.currency, language: info.language };
 };
 
 // --- Weather by destination & season ---
@@ -401,16 +556,15 @@ const getOutfits = (destination: string, season: string): OutfitItem[] => {
   ];
 };
 
-export const generateMockResult = (params: SearchParams): TravelResult => {
-  const monthNum = getMonthNum(params);
-  const season = getMonthSeason(monthNum);
-  const dest = params.destinationCity;
-  const country = params.destinationCountry;
-
-  const cityInfo = cityInfoMap[dest] || { distanceKm: 5000, flightHours: 7, timeDiff: -3, currency: '현지 통화', language: '현지어' };
+// 단일 도시 결과 생성 (내부용)
+const generateCityResult = (
+  dest: string,
+  country: string,
+  monthNum: number,
+  season: string,
+): TravelResult => {
+  const cityInfo = getCityInfo(dest, country);
   const weatherSource = (weatherMap[dest] || {})[season] || defaultWeather[season as keyof typeof defaultWeather];
-
-  // cityData.ts에서 실제 레스토랑·숙박·축제 데이터 가져오기
   const cityData = getCityData(dest, monthNum);
 
   return {
@@ -440,4 +594,21 @@ export const generateMockResult = (params: SearchParams): TravelResult => {
     outfits: getOutfits(dest, season),
     festivalsAndWarnings: cityData.festivals,
   };
+};
+
+// 하위 호환용 (단일 도시 첫 번째 결과)
+export const generateMockResult = (params: SearchParams): TravelResult => {
+  const monthNum = getMonthNum(params);
+  const season = getMonthSeason(monthNum);
+  const primary = params.destinationCities[0] || '';
+  return generateCityResult(primary, params.destinationCountry, monthNum, season);
+};
+
+// 멀티시티: 선택된 모든 도시의 결과 배열 반환
+export const generateAllResults = (params: SearchParams): TravelResult[] => {
+  const monthNum = getMonthNum(params);
+  const season = getMonthSeason(monthNum);
+  return params.destinationCities.map((city) =>
+    generateCityResult(city, params.destinationCountry, monthNum, season)
+  );
 };

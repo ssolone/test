@@ -16,7 +16,7 @@ export interface SearchParams {
   year?: string;
   companion: CompanionType;
   departureCity: string;
-  destinationCity: string;
+  destinationCities: string[];      // 멀티시티 지원 (1개 이상)
   destinationCountry: string;
 }
 

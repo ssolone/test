@@ -7,14 +7,14 @@ import RestaurantAccommodationSection from './RestaurantAccommodationSection';
 import OutfitSection from './OutfitSection';
 
 interface Props {
-  result: TravelResult;
+  results: TravelResult[];
   params: SearchParams;
   onBack: () => void;
 }
 
 type TabId = 'overview' | 'spots' | 'food' | 'outfit' | 'events';
 
-const tabs: { id: TabId; label: string; icon: string }[] = [
+const contentTabs: { id: TabId; label: string; icon: string }[] = [
   { id: 'overview', label: '개요', icon: '📋' },
   { id: 'events', label: '행사·축제', icon: '🎉' },
   { id: 'spots', label: '추천 코스', icon: '🗺️' },
@@ -22,9 +22,17 @@ const tabs: { id: TabId; label: string; icon: string }[] = [
   { id: 'outfit', label: '옷차림', icon: '👗' },
 ];
 
-export default function ResultsPage({ result, params, onBack }: Props) {
+export default function ResultsPage({ results, params, onBack }: Props) {
   const [activeTab, setActiveTab] = useState<TabId>('overview');
+  const [activeCityIdx, setActiveCityIdx] = useState(0);
+
+  const isMultiCity = results.length > 1;
+  const result = results[activeCityIdx] ?? results[0];
   const { basicInfo, spots, routes, restaurants, accommodations, outfits, festivalsAndWarnings } = result;
+
+  const headerLabel = isMultiCity
+    ? params.destinationCities.join(' + ')
+    : `${basicInfo.destination}, ${basicInfo.country}`;
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -39,13 +47,34 @@ export default function ResultsPage({ result, params, onBack }: Props) {
               ← 새로 검색
             </button>
             <div className="flex-1 h-px bg-gray-200" />
-            <div className="text-sm font-semibold text-gray-700">
-              {basicInfo.destination}, {basicInfo.country}
+            <div className="text-sm font-semibold text-gray-700 truncate max-w-xs">
+              {headerLabel}
             </div>
           </div>
-          {/* Tab navigation */}
+
+          {/* 멀티시티 도시 선택 탭 */}
+          {isMultiCity && (
+            <div className="flex gap-1.5 pb-2 overflow-x-auto scrollbar-none">
+              {results.map((r, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => setActiveCityIdx(idx)}
+                  className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium whitespace-nowrap transition-all border ${
+                    activeCityIdx === idx
+                      ? 'bg-blue-600 text-white border-blue-600'
+                      : 'bg-white text-gray-600 border-gray-200 hover:border-blue-300'
+                  }`}
+                >
+                  <span>{idx + 1}</span>
+                  {r.basicInfo.destination}
+                </button>
+              ))}
+            </div>
+          )}
+
+          {/* 콘텐츠 탭 */}
           <div className="flex gap-0.5 overflow-x-auto pb-px scrollbar-none">
-            {tabs.map((tab) => (
+            {contentTabs.map((tab) => (
               <button
                 key={tab.id}
                 onClick={() => setActiveTab(tab.id)}

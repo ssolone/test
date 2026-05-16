@@ -2,30 +2,29 @@ import { useState } from 'react';
 import './index.css';
 import SearchForm from './components/SearchForm';
 import ResultsPage from './components/ResultsPage';
-import { generateMockResult } from './data/mockResults';
+import { generateAllResults } from './data/mockResults';
 import type { SearchParams, TravelResult } from './types';
 
 type AppState = 'search' | 'loading' | 'results';
 
 function App() {
   const [state, setState] = useState<AppState>('search');
-  const [result, setResult] = useState<TravelResult | null>(null);
+  const [results, setResults] = useState<TravelResult[]>([]);
   const [params, setParams] = useState<SearchParams | null>(null);
 
   const handleSearch = (searchParams: SearchParams) => {
     setState('loading');
     setParams(searchParams);
-    // Simulate async fetch
     setTimeout(() => {
-      const data = generateMockResult(searchParams);
-      setResult(data);
+      const data = generateAllResults(searchParams);
+      setResults(data);
       setState('results');
     }, 1200);
   };
 
   const handleBack = () => {
     setState('search');
-    setResult(null);
+    setResults([]);
   };
 
   if (state === 'loading') {
@@ -53,8 +52,8 @@ function App() {
     );
   }
 
-  if (state === 'results' && result && params) {
-    return <ResultsPage result={result} params={params} onBack={handleBack} />;
+  if (state === 'results' && results.length > 0 && params) {
+    return <ResultsPage results={results} params={params} onBack={handleBack} />;
   }
 
   return <SearchForm onSearch={handleSearch} isLoading={false} />;
