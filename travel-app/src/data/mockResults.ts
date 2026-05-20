@@ -565,7 +565,7 @@ const generateCityResult = (
 ): TravelResult => {
   const cityInfo = getCityInfo(dest, country);
   const weatherSource = (weatherMap[dest] || {})[season] || defaultWeather[season as keyof typeof defaultWeather];
-  const cityData = getCityData(dest, monthNum);
+  const cityData = getCityData(dest, monthNum, country);
 
   return {
     basicInfo: {

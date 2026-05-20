@@ -1,4 +1,5 @@
 import type { FestivalEvent, Restaurant, Accommodation } from '../types';
+import { cityFestivalMap, countryFestivalMap } from './festivalData';
 
 export interface CityData {
   festivals: FestivalEvent[];
@@ -288,11 +289,11 @@ export const cityDataMap: Record<string, CityData> = {
 };
 
 // 도시 데이터 조회 (시즌 필터 포함)
-export function getCityData(city: string, monthNum: number): CityData {
+export function getCityData(city: string, monthNum: number, country?: string): CityData {
   const data = cityDataMap[city];
 
   if (!data) {
-    return getDefaultCityData(city);
+    return getDefaultCityData(city, monthNum, country);
   }
 
   // 해당 월에 관련된 이벤트만 필터링 (months 미지정 시 항상 표시)
@@ -306,11 +307,24 @@ export function getCityData(city: string, monthNum: number): CityData {
   };
 }
 
-function getDefaultCityData(city: string): CityData {
-  return {
-    festivals: [
+function getDefaultCityData(city: string, monthNum: number, country?: string): CityData {
+  // Try city-specific festival data first, then country fallback
+  const cityFestivals = cityFestivalMap[city];
+  const countryFestivals = country ? countryFestivalMap[country] : undefined;
+  const allFestivals = cityFestivals || countryFestivals;
+
+  let festivals: FestivalEvent[];
+  if (allFestivals && allFestivals.length > 0) {
+    const filtered = allFestivals.filter((f) => !f.months || f.months.includes(monthNum));
+    festivals = filtered.length > 0 ? filtered : allFestivals.slice(0, 3);
+  } else {
+    festivals = [
       { name: `${city} 현지 공휴일`, period: '방문 전 확인', months: undefined, description: `${city}의 공휴일에는 일부 관광지·식당이 예고 없이 문을 닫을 수 있습니다. 외교부 해외안전여행 앱에서 현지 공휴일을 확인하세요.`, type: 'warning', impact: 'caution', tip: '구글 검색 "[도시명] public holidays [연도]"로 미리 확인하세요.' },
-    ],
+    ];
+  }
+
+  return {
+    festivals,
     restaurants: [
       { name: `${city} 현지 재래시장`, cuisine: '현지 전통 음식', priceRange: '₩~₩₩', description: `${city} 현지 시장에서 가장 신선하고 저렴한 현지 음식을 맛볼 수 있습니다. 현지인이 많이 찾는 노점이 진짜 맛집입니다.`, companionFit: ALL },
       { name: `${city} 구시가지 레스토랑`, cuisine: '현지 전통식', priceRange: '₩₩', description: '구시가지·역사 지구 주변에 모인 전통 음식점에서 현지 문화를 느끼며 식사할 수 있습니다.', companionFit: ALL },
