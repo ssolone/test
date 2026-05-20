@@ -34,11 +34,11 @@ export const cityDataMap: Record<string, CityData> = {
       { name: '아메요코 시장 길거리 음식', cuisine: '길거리 음식·포장마차', priceRange: '₩', description: '우에노 아메요코 시장의 해산물 꼬치, 과일 등 다양한 먹거리. 현지인 장보는 모습과 함께 저렴하게 맛볼 수 있는 공간입니다.', companionFit: ALL },
     ],
     accommodations: [
-      { name: '파크 하얏트 도쿄 (신주쿠)', type: '5성급 럭셔리', priceRange: '₩₩₩₩₩', description: '영화 〈사랑도 통역이 되나요?〉의 배경. 52~55층에서 후지산 뷰를 즐길 수 있습니다. 수영장·스파 완비.', companionFit: COUPLE, bookingUrl: 'https://www.hyatt.com' },
-      { name: '도쿄 스테이션 호텔', type: '5성급 클래식', priceRange: '₩₩₩₩₩', description: '1915년 개업한 역사적 건물 안에 자리한 호텔. 마루노우치 뷰 객실에서 도쿄역 붉은 벽돌 지붕을 감상할 수 있습니다.', companionFit: COUPLE, bookingUrl: 'https://www.booking.com' },
-      { name: '더 프린스 파크 타워 도쿄', type: '4성급 패밀리', priceRange: '₩₩₩₩', description: '도쿄 타워 바로 옆에 위치. 어린이 메뉴·수영장·넓은 객실로 가족 여행에 최적화. 시오도메·롯폰기 접근성 우수.', companionFit: FAMILY, bookingUrl: 'https://www.booking.com' },
-      { name: '아사쿠사 게스트하우스 (카가미야 등)', type: '게스트하우스·료칸', priceRange: '₩₩', description: '전통 목조 건물을 개조한 아사쿠사 게스트하우스. 센소지 도보 5분, 공용 공간에서 각국 여행자와 교류 가능.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.booking.com' },
-      { name: '시부야 스트림 엑셀 호텔 도큐', type: '4성급 비즈니스', priceRange: '₩₩₩', description: '시부야 스크램블 교차로 도보 2분. 쇼핑·나이트라이프의 중심으로 젊은 여행자에게 인기. 체크인 후 바로 시부야 탐방 가능.', companionFit: ['couple', 'small_group', 'large_group'], bookingUrl: 'https://www.booking.com' },
+      { name: '파크 하얏트 도쿄 (신주쿠)', type: '5성급 럭셔리', priceRange: '₩₩₩₩₩', description: '영화 〈사랑도 통역이 되나요?〉의 배경. 52~55층에서 후지산 뷰를 즐길 수 있습니다. 수영장·스파 완비.', companionFit: COUPLE, bookingUrl: 'https://www.hyatt.com/ko-KR/hotel/japan/park-hyatt-tokyo/tyoph', distanceToStation: '신주쿠역 도보 12분 또는 셔틀', reviewScore: 4.7, reviewCount: '5,200건+' },
+      { name: '도쿄 스테이션 호텔', type: '5성급 클래식', priceRange: '₩₩₩₩₩', description: '1915년 개업한 역사적 건물 안에 자리한 호텔. 마루노우치 뷰 객실에서 도쿄역 붉은 벽돌 지붕을 감상할 수 있습니다.', companionFit: COUPLE, bookingUrl: 'https://www.thetokyostationhotel.jp/ko/', distanceToStation: '도쿄역 직결 (도보 1분)', reviewScore: 4.8, reviewCount: '4,100건+' },
+      { name: '더 프린스 파크 타워 도쿄', type: '4성급 패밀리', priceRange: '₩₩₩₩', description: '도쿄 타워 바로 옆에 위치. 어린이 메뉴·수영장·넓은 객실로 가족 여행에 최적화. 시오도메·롯폰기 접근성 우수.', companionFit: FAMILY, bookingUrl: 'https://www.booking.com/hotel/jp/the-prince-park-tower-tokyo.ko.html', distanceToStation: '아카바네바시역 도보 7분', amenities: ['어린이 메뉴 제공', '실내 수영장', '유아 침대 무료', '전자레인지 (요청 시)', '유아 어메니티 세트', '트윈+엑스트라베드 구성 가능'], kidsScore: 5, reviewScore: 4.4, reviewCount: '2,800건+' },
+      { name: '아사쿠사 게스트하우스 (카가미야)', type: '게스트하우스·료칸', priceRange: '₩₩', description: '전통 목조 건물을 개조한 아사쿠사 게스트하우스. 센소지 도보 5분, 공용 공간에서 각국 여행자와 교류 가능.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.booking.com/hotel/jp/kagamiya.ko.html', distanceToStation: '아사쿠사역 도보 5분', reviewScore: 4.2, reviewCount: '680건+' },
+      { name: '시부야 스트림 엑셀 호텔 도큐', type: '4성급 비즈니스', priceRange: '₩₩₩', description: '시부야 스크램블 교차로 도보 2분. 쇼핑·나이트라이프의 중심으로 젊은 여행자에게 인기. 체크인 후 바로 시부야 탐방 가능.', companionFit: ['couple', 'small_group', 'large_group'], bookingUrl: 'https://www.booking.com/hotel/jp/shibuya-stream-excel-tokyu.ko.html', distanceToStation: '시부야역 직결 (도보 2분)', reviewScore: 4.3, reviewCount: '3,100건+' },
     ],
   },
 
@@ -59,10 +59,10 @@ export const cityDataMap: Record<string, CityData> = {
       { name: '나카자키초 카페 & 크레이프', cuisine: '카페·디저트', priceRange: '₩₩', description: '오사카의 "브루클린"이라 불리는 나카자키초. 개성 있는 독립 카페와 빈티지 숍이 가득한 감성 골목.', companionFit: COUPLE },
     ],
     accommodations: [
-      { name: 'W 오사카', type: '5성급 디자인 호텔', priceRange: '₩₩₩₩₩', description: '안도 다다오 설계로 미니멀하고 현대적인 감각. 도심 미도스지 대로 바로 앞에 위치. 루프탑 바에서 오사카 야경이 환상적입니다.', companionFit: COUPLE, bookingUrl: 'https://www.marriott.com' },
-      { name: '콘래드 오사카', type: '5성급 럭셔리', priceRange: '₩₩₩₩₩', description: '나카노시마 페스티벌 타워 40층 이상에 위치. 도시 파노라마 뷰가 압도적이며 미슐랭 레스토랑 입점.', companionFit: COUPLE, bookingUrl: 'https://www.conradhotels.com' },
-      { name: '크로스 호텔 오사카', type: '3성급 트렌디', priceRange: '₩₩₩', description: '난바·도톤보리 도보 5분. 디자인 감각이 뛰어나고 가성비 좋아 젊은 여행자에게 인기. 루프탑 바 운영.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.booking.com' },
-      { name: '오사카 엑셀 호텔 도큐 (난바)', type: '4성급 패밀리', priceRange: '₩₩₩', description: '난바역 직결. 어린이 환영 정책, 유아용 어메니티 제공. 도톤보리·덴덴타운 도보권으로 가족 여행에 편리.', companionFit: FAMILY, bookingUrl: 'https://www.booking.com' },
+      { name: 'W 오사카', type: '5성급 디자인 호텔', priceRange: '₩₩₩₩₩', description: '안도 다다오 설계로 미니멀하고 현대적인 감각. 도심 미도스지 대로 바로 앞에 위치. 루프탑 바에서 오사카 야경이 환상적입니다.', companionFit: COUPLE, bookingUrl: 'https://www.marriott.com/hotels/travel/osamc-w-osaka/', distanceToStation: '신사이바시역 도보 3분', reviewScore: 4.6, reviewCount: '2,900건+' },
+      { name: '콘래드 오사카', type: '5성급 럭셔리', priceRange: '₩₩₩₩₩', description: '나카노시마 페스티벌 타워 40층 이상에 위치. 도시 파노라마 뷰가 압도적이며 미슐랭 레스토랑 입점.', companionFit: COUPLE, bookingUrl: 'https://www.hilton.com/ko/hotels/osacihi-conrad-osaka/', distanceToStation: '히고바시역 도보 5분', reviewScore: 4.8, reviewCount: '3,400건+' },
+      { name: '크로스 호텔 오사카', type: '3성급 트렌디', priceRange: '₩₩₩', description: '난바·도톤보리 도보 5분. 디자인 감각이 뛰어나고 가성비 좋아 젊은 여행자에게 인기. 루프탑 바 운영.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.booking.com/hotel/jp/cross-osaka.ko.html', distanceToStation: '닛폰바시역 도보 4분', reviewScore: 4.2, reviewCount: '5,600건+' },
+      { name: '오사카 엑셀 호텔 도큐 (난바)', type: '4성급 패밀리', priceRange: '₩₩₩', description: '난바역 직결. 어린이 환영 정책, 유아용 어메니티 제공. 도톤보리·덴덴타운 도보권으로 가족 여행에 편리.', companionFit: FAMILY, bookingUrl: 'https://www.booking.com/hotel/jp/namba-excel-hotel-tokyu.ko.html', distanceToStation: '난바역 직결 (도보 1분)', amenities: ['유아 어메니티 세트', '유아 침대 무료', '전자레인지 (요청 시)', '어린이 메뉴', '유모차 보관 가능'], kidsScore: 4, reviewScore: 4.3, reviewCount: '4,100건+' },
     ],
   },
 
@@ -82,10 +82,10 @@ export const cityDataMap: Record<string, CityData> = {
       { name: '기온 마치야 카페', cuisine: '마차·일본 디저트 카페', priceRange: '₩₩', description: '교토 기온 사거리 인근 마치야(町家, 전통 목조 상가) 개조 카페. 마차 소프트아이스크림, 와라비모찌 파르페 등 교토 스타일 디저트.', companionFit: COUPLE },
     ],
     accommodations: [
-      { name: '아만쥬앙 교토', type: '5성급 부티크 료칸', priceRange: '₩₩₩₩₩', description: '교토 고쇼 내 역사적 건물을 복원한 럭셔리 료칸. 전통 다도·꽃꽂이 체험, 전용 가이드 투어 포함. 1박 150만원 이상이지만 일생에 한 번 경험.', companionFit: COUPLE, bookingUrl: 'https://www.aman.com' },
-      { name: '호시노야 교토', type: '5성급 료칸 (배로만 입장)', priceRange: '₩₩₩₩₩', description: '오이강 배를 타고만 접근 가능한 비경 료칸. 노천 온천·계절 가이세키·대나무 숲 뷰. 세계적으로 인정받은 숙소입니다.', companionFit: COUPLE, bookingUrl: 'https://www.booking.com' },
-      { name: '기온 후나야', type: '전통 마치야 숙소', priceRange: '₩₩₩₩', description: '기온 골목 전통 목조 타운하우스(마치야) 1채를 통째로 빌리는 숙소. 최대 6인 가능, 주방 완비. 비밀스러운 교토 로컬 라이프 체험.', companionFit: GROUP, bookingUrl: 'https://www.booking.com' },
-      { name: '더 사우전드 교토', type: '4성급 도심 호텔', priceRange: '₩₩₩', description: '교토역 도보 5분. 간결한 일본 미학 인테리어, 대형 욕조 보유 객실 다수. 교토 주요 관광지 버스·지하철 이용이 편리합니다.', companionFit: ALL, bookingUrl: 'https://www.booking.com' },
+      { name: '아만쥬앙 교토', type: '5성급 부티크 료칸', priceRange: '₩₩₩₩₩', description: '교토 고쇼 내 역사적 건물을 복원한 럭셔리 료칸. 전통 다도·꽃꽂이 체험, 전용 가이드 투어 포함. 1박 150만원 이상이지만 일생에 한 번 경험.', companionFit: COUPLE, bookingUrl: 'https://www.aman.com/resorts/amanjaku', distanceToStation: '교토역 차로 10분', reviewScore: 4.9, reviewCount: '610건+' },
+      { name: '호시노야 교토', type: '5성급 료칸 (전용 보트 입장)', priceRange: '₩₩₩₩₩', description: '오이강 배를 타고만 접근 가능한 비경 료칸. 노천 온천·계절 가이세키·대나무 숲 뷰. 세계적으로 인정받은 숙소입니다.', companionFit: COUPLE, bookingUrl: 'https://hoshinoresorts.com/ko/hotels/hoshinoyakyoto/', distanceToStation: '아라시야마역 보트 10분', reviewScore: 4.8, reviewCount: '890건+' },
+      { name: '기온 후나야 (마치야 통째 대여)', type: '전통 마치야 숙소', priceRange: '₩₩₩₩', description: '기온 골목 전통 목조 타운하우스(마치야) 1채를 통째로 빌리는 숙소. 최대 6인 가능, 주방·전자레인지 완비.', companionFit: GROUP, bookingUrl: 'https://www.booking.com/hotel/jp/gion-funaya.ko.html', distanceToStation: '기온시조역 도보 8분', amenities: ['주방 완비 (전자레인지·인덕션·냉장고)', '세탁기', '유아 침대 협의 가능'], kidsScore: 3, reviewScore: 4.5, reviewCount: '340건+' },
+      { name: '더 사우전드 교토', type: '4성급 도심 호텔', priceRange: '₩₩₩', description: '교토역 도보 5분. 간결한 일본 미학 인테리어, 대형 욕조 보유 객실 다수. 교토 주요 관광지 버스·지하철 이용이 편리합니다.', companionFit: ALL, bookingUrl: 'https://www.booking.com/hotel/jp/the-thousand-kyoto.ko.html', distanceToStation: '교토역 도보 5분', amenities: ['전자레인지 (요청 시)', '유아 침대 제공'], reviewScore: 4.4, reviewCount: '2,200건+' },
     ],
   },
 
@@ -106,10 +106,10 @@ export const cityDataMap: Record<string, CityData> = {
       { name: '카오산로드 레스토랑', cuisine: '태국·인터내셔널 배낭여행자 식당', priceRange: '₩~₩₩', description: '배낭여행자 성지 카오산로드의 저렴한 팟타이·똠얌꿍·망고쉐이크. 맥주도 매우 저렴합니다.', companionFit: ['small_group', 'large_group'] },
     ],
     accommodations: [
-      { name: '만다린 오리엔탈 방콕', type: '5성급 역사적 럭셔리', priceRange: '₩₩₩₩₩', description: '1876년 개업한 아시아 최고 호텔 중 하나. 짜오프라야강 리버뷰 스위트, 전용 선착장, 타이쿠킹 클래스 포함. 150년 역사의 우아함.', companionFit: COUPLE, bookingUrl: 'https://www.mandarinoriental.com' },
-      { name: '카펠라 방콕', type: '5성급 리버사이드 리조트', priceRange: '₩₩₩₩₩', description: '짜오프라야강 변의 프라이빗 리조트형 호텔. 전 객실 리버뷰, 수영장 빌라 보유. 조용한 고급 휴양을 원하는 커플에게 최적.', companionFit: COUPLE, bookingUrl: 'https://www.capellahotels.com' },
-      { name: '아마리 수쿰빗 방콕', type: '4성급 패밀리', priceRange: '₩₩₩', description: '수쿰빗 BTS역 연결, 키즈클럽·가족 수영장 보유. 쇼핑몰 직결로 가족 이동이 편리합니다.', companionFit: FAMILY, bookingUrl: 'https://www.booking.com' },
-      { name: '더 스탠다드 방콕 마하나콘', type: '4성급 트렌디', priceRange: '₩₩₩', description: '방콕에서 가장 힙한 호텔 중 하나. 루프탑 바·수영장·감각적인 인테리어. 살라댕·실롬 지역 접근성 최고.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.booking.com' },
+      { name: '만다린 오리엔탈 방콕', type: '5성급 역사적 럭셔리', priceRange: '₩₩₩₩₩', description: '1876년 개업한 아시아 최고 호텔 중 하나. 짜오프라야강 리버뷰 스위트, 전용 선착장, 타이쿠킹 클래스 포함.', companionFit: COUPLE, bookingUrl: 'https://www.mandarinoriental.com/ko/bangkok/chao-phraya-river', distanceToStation: '사톤 선착장 도보 3분 (BTS 사판탁신역)', reviewScore: 4.9, reviewCount: '8,400건+' },
+      { name: '카펠라 방콕', type: '5성급 리버사이드 리조트', priceRange: '₩₩₩₩₩', description: '짜오프라야강 변의 프라이빗 리조트형 호텔. 전 객실 리버뷰, 수영장 빌라 보유. 조용한 고급 휴양을 원하는 커플에게 최적.', companionFit: COUPLE, bookingUrl: 'https://www.capellahotels.com/en/capella-bangkok', distanceToStation: '왕궁 선착장 도보 5분', reviewScore: 4.8, reviewCount: '1,200건+' },
+      { name: '아마리 수쿰빗 방콕', type: '4성급 패밀리', priceRange: '₩₩₩', description: 'BTS 나나역 직결. 키즈 클럽·가족 수영장·어린이 메뉴 보유. 쇼핑몰(터미널 21) 도보 5분으로 가족 이동이 편리합니다.', companionFit: FAMILY, bookingUrl: 'https://www.booking.com/hotel/th/amari-sukhumvit-bangkok.ko.html', distanceToStation: 'BTS 나나역 직결', amenities: ['키즈 클럽 (만 4세~12세)', '어린이 전용 수영장 레인', '어린이 메뉴', '전자레인지', '유아 침대 무료', '유모차 대여 가능'], kidsScore: 5, reviewScore: 4.3, reviewCount: '6,800건+' },
+      { name: '더 스탠다드 방콕 마하나콘', type: '4성급 트렌디', priceRange: '₩₩₩', description: '방콕에서 가장 힙한 호텔 중 하나. 루프탑 바·수영장·감각적인 인테리어. 살라댕·실롬 지역 접근성 최고.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.booking.com/hotel/th/the-standard-bangkok-mahanakhon.ko.html', distanceToStation: 'BTS 총논시역 도보 3분', reviewScore: 4.4, reviewCount: '3,100건+' },
     ],
   },
 
@@ -130,10 +130,10 @@ export const cityDataMap: Record<string, CityData> = {
       { name: '르 마르쉐 다리오나 (바스티유 시장)', cuisine: '프랑스 재래시장 음식', priceRange: '₩~₩₩', description: '목·일요일 아침 바스티유 광장의 유기농 시장. 신선한 굴, 치즈, 갓 구운 바게트로 파리 현지인들의 아침 시장 문화를 체험할 수 있습니다.', companionFit: ALL },
     ],
     accommodations: [
-      { name: '르 뷔르고 리브 고슈 (생제르맹)', type: '5성급 팰리스 호텔', priceRange: '₩₩₩₩₩', description: '루이 16세 시대 저택을 개조한 궁전급 호텔. 생제르맹 데프레 성당 맞은편, 최고급 카이세키 레스토랑 입점.', companionFit: COUPLE, bookingUrl: 'https://www.booking.com' },
-      { name: '호텔 에디션 파리 (오페라)', type: '5성급 디자인', priceRange: '₩₩₩₩₩', description: '마리안 옥스퍼드 디자인의 세련된 5성 호텔. 갤러리 라파예트·오페라 가르니에 도보 2분. 루프탑 레스토랑에서 파리 전망.', companionFit: COUPLE, bookingUrl: 'https://www.marriott.com' },
-      { name: '이비스 파리 마레 바스티유', type: '3성급 체인', priceRange: '₩₩', description: '마레 지구 중심부, 가성비 좋은 체인 호텔. 짐 맡기고 바로 마레 골목 탐방 가능. 조식 포함 패키지 선택 추천.', companionFit: ['small_group', 'large_group'], bookingUrl: 'https://www.ibis.com' },
-      { name: '아파트호텔 (몽마르트르·마레 지구)', type: '아파트형 숙소', priceRange: '₩₩₩', description: '4인 이상 가족·그룹에게 최적. 주방·세탁기 완비. 현지 마켓에서 식재료 사서 파리 생활처럼 지낼 수 있습니다.', companionFit: GROUP, bookingUrl: 'https://www.airbnb.com' },
+      { name: '르 뷔르고 리브 고슈 (생제르맹)', type: '5성급 팰리스 호텔', priceRange: '₩₩₩₩₩', description: '루이 16세 시대 저택을 개조한 궁전급 호텔. 생제르맹 데프레 성당 맞은편, 최고급 레스토랑 입점.', companionFit: COUPLE, bookingUrl: 'https://www.leburgrivegauche.com', distanceToStation: '생제르맹 데프레역 도보 2분', reviewScore: 4.7, reviewCount: '890건+' },
+      { name: '호텔 에디션 파리 (오페라)', type: '5성급 디자인', priceRange: '₩₩₩₩₩', description: '갤러리 라파예트·오페라 가르니에 도보 2분. 루프탑 레스토랑에서 파리 전망. 모던 디자인과 클래식 파리의 조화.', companionFit: COUPLE, bookingUrl: 'https://www.marriott.com/hotels/travel/parep-the-paris-edition/', distanceToStation: '오페라역 도보 3분', reviewScore: 4.6, reviewCount: '1,500건+' },
+      { name: '이비스 파리 마레 바스티유', type: '3성급 체인', priceRange: '₩₩', description: '마레 지구 중심부, 가성비 좋은 체인 호텔. 짐 맡기고 바로 마레 골목 탐방 가능. 조식 포함 패키지 선택 추천.', companionFit: ['small_group', 'large_group'], bookingUrl: 'https://all.accor.com/hotel/7444/index.ko.shtml', distanceToStation: '바스티유역 도보 4분', reviewScore: 4.1, reviewCount: '4,200건+' },
+      { name: '아파트호텔 (몽마르트르·마레)', type: '아파트형 숙소', priceRange: '₩₩₩', description: '4인 이상 가족에게 최적. 주방·전자레인지·세탁기 완비로 유아식 조리 가능. 현지 마켓 장보기 체험 포함.', companionFit: GROUP, bookingUrl: 'https://www.airbnb.co.kr/rooms/paris', amenities: ['주방 완비 (전자레인지·냉장고·인덕션)', '세탁기', '유아 침대 협의 가능', '편의점·약국 도보 5분'], kidsScore: 4, reviewScore: 4.4, reviewCount: '다수' },
     ],
   },
 
@@ -152,10 +152,10 @@ export const cityDataMap: Record<string, CityData> = {
       { name: '스미냑 비치 클럽 (포테이토 헤드·쿠데타)', cuisine: '인터내셔널·칵테일', priceRange: '₩₩₩₩', description: '스미냑 해변의 럭셔리 비치 클럽. 수영장에서 일몰 보며 칵테일. 포테이토 헤드 비치 클럽이 가장 유명합니다.', companionFit: COUPLE },
     ],
     accommodations: [
-      { name: '포시즌스 발리 아트 우붓', type: '5성급 빌라 리조트', priceRange: '₩₩₩₩₩', description: '우붓 논밭 속 독립 빌라 74개. 전용 수영장·전통 발리 의식 체험·스파 포함. 세계 최고 리조트로 꾸준히 선정됩니다.', companionFit: COUPLE, bookingUrl: 'https://www.fourseasons.com' },
-      { name: '알라야 우붓', type: '4성급 부티크', priceRange: '₩₩₩', description: '우붓 중심부 위치, 논밭 뷰 인피니티 풀. 자전거 무료 대여·쿠킹클래스 포함. 가성비 좋은 우붓 중급 호텔의 대표주자.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.booking.com' },
-      { name: '프라이빗 풀빌라 (스미냑·짱구)', type: '풀빌라 (에어비앤비)', priceRange: '₩₩₩', description: '4인 이상 그룹은 전용 수영장 딸린 풀빌라 1채 임대가 호텔보다 저렴하고 편리합니다. 주방·발리 스타일 정원 완비.', companionFit: GROUP, bookingUrl: 'https://www.airbnb.com' },
-      { name: '더블식스 럭셔리 호텔 (스미냑)', type: '5성급 비치프론트', priceRange: '₩₩₩₩', description: '스미냑 해변 바로 앞 5성 호텔. 모든 객실 오션뷰·전용 라운지 포함. 짐바란·쿠타 접근성 우수.', companionFit: COUPLE, bookingUrl: 'https://www.booking.com' },
+      { name: '포시즌스 발리 아트 우붓', type: '5성급 빌라 리조트', priceRange: '₩₩₩₩₩', description: '우붓 논밭 속 독립 빌라 74개. 전용 수영장·전통 발리 의식 체험·스파 포함. 세계 최고 리조트로 꾸준히 선정됩니다.', companionFit: COUPLE, bookingUrl: 'https://www.fourseasons.com/ubud/', reviewScore: 4.9, reviewCount: '2,100건+' },
+      { name: '알라야 우붓', type: '4성급 부티크', priceRange: '₩₩₩', description: '우붓 중심부 위치, 논밭 뷰 인피니티 풀. 자전거 무료 대여·쿠킹클래스 포함. 가성비 좋은 우붓 중급 호텔의 대표주자.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.booking.com/hotel/id/alaya-resort-ubud.ko.html', distanceToStation: '우붓 왕궁 도보 5분', reviewScore: 4.5, reviewCount: '3,200건+' },
+      { name: '프라이빗 풀빌라 (스미냑·짱구)', type: '풀빌라 (에어비앤비)', priceRange: '₩₩₩', description: '4인 이상 가족은 전용 수영장 풀빌라 1채 임대가 호텔보다 저렴합니다. 주방·전자레인지 완비로 유아식 조리 가능. 보모(baby sitter) 연결 서비스 제공 숙소도 많음.', companionFit: GROUP, bookingUrl: 'https://www.airbnb.co.kr/rooms/bali-seminyak', amenities: ['전용 수영장 (수심 주의 확인 필수)', '주방 (전자레인지·냉장고)', '베이비시터 연결 가능 (별도 비용)', '세탁기'], kidsScore: 4, reviewScore: 4.6, reviewCount: '다수' },
+      { name: '더블식스 럭셔리 호텔 (스미냑)', type: '5성급 비치프론트', priceRange: '₩₩₩₩', description: '스미냑 해변 바로 앞 5성 호텔. 모든 객실 오션뷰·전용 라운지 포함. 짐바란·쿠타 접근성 우수.', companionFit: COUPLE, bookingUrl: 'https://www.booking.com/hotel/id/double-six-luxury-hotel-seminyak.ko.html', distanceToStation: '스미냑 해변 도보 1분', reviewScore: 4.5, reviewCount: '4,700건+' },
     ],
   },
 
@@ -174,9 +174,9 @@ export const cityDataMap: Record<string, CityData> = {
       { name: '한강변 씨푸드 레스토랑', cuisine: '신선 해산물', priceRange: '₩₩~₩₩₩', description: '다낭 한강변에 줄지어 선 씨푸드 레스토랑. 킹크랩·새우·오징어를 kg당 가격으로 주문. 한국보다 훨씬 저렴하게 신선한 해산물을 즐길 수 있습니다.', companionFit: ALL },
     ],
     accommodations: [
-      { name: '인터컨티넨탈 다낭 선 페닌슐라', type: '5성급 리조트', priceRange: '₩₩₩₩₩', description: '선 월드 손트라 내 절벽 위 럭셔리 리조트. 전 세계 50대 호텔 선정. 케이블카로만 접근 가능하며 프라이빗 비치 보유.', companionFit: COUPLE, bookingUrl: 'https://www.booking.com' },
-      { name: '빈펄 리조트 & 스파 다낭', type: '5성급 리조트', priceRange: '₩₩₩₩', description: '미케 비치 바로 앞. 워터파크·키즈클럽·다양한 레스토랑 포함. 가족 단위에 최적화된 올인클루시브 리조트.', companionFit: FAMILY, bookingUrl: 'https://www.vinpearl.com' },
-      { name: '알라카르트 다낭 비치', type: '4성급 비치프론트', priceRange: '₩₩₩', description: '미케 비치 직접 접근. 가성비 좋은 4성급으로 수영장·루프탑 바 보유. 커플·소규모 그룹에 인기.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.booking.com' },
+      { name: '인터컨티넨탈 다낭 선 페닌슐라', type: '5성급 리조트', priceRange: '₩₩₩₩₩', description: '선 월드 손트라 내 절벽 위 럭셔리 리조트. 전 세계 50대 호텔 선정. 케이블카로만 접근 가능하며 프라이빗 비치 보유.', companionFit: COUPLE, bookingUrl: 'https://www.ihg.com/intercontinental/hotels/kr/ko/da-nang/danis/hoteldetail', reviewScore: 4.8, reviewCount: '2,300건+' },
+      { name: '빈펄 리조트 & 스파 다낭', type: '5성급 패밀리 올인클루시브', priceRange: '₩₩₩₩', description: '미케 비치 바로 앞. 워터파크·키즈클럽·레스토랑 5개 포함. 아이들이 하루 종일 즐길 수 있는 올인클루시브 리조트.', companionFit: FAMILY, bookingUrl: 'https://vinpearl.com/ko/hotels-resorts/vinpearl-resort-spa-da-nang', distanceToStation: '다낭 시내 차로 15분', amenities: ['워터파크 무료', '키즈 클럽 (만 3~12세)', '어린이 수영장', '키즈 메뉴', '유모차 대여', '유아 침대 무료', '전자레인지', '수유실'], kidsScore: 5, reviewScore: 4.4, reviewCount: '5,600건+' },
+      { name: '알라카르트 다낭 비치', type: '4성급 비치프론트', priceRange: '₩₩₩', description: '미케 비치 직접 접근. 가성비 좋은 4성급으로 수영장·루프탑 바 보유. 커플·소규모 그룹에 인기.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.booking.com/hotel/vn/a-la-carte-da-nang-beach.ko.html', distanceToStation: '미케 비치 도보 1분', reviewScore: 4.2, reviewCount: '7,400건+' },
     ],
   },
 
@@ -195,9 +195,9 @@ export const cityDataMap: Record<string, CityData> = {
       { name: '세라비 (CÉ LA VI) 루프탑 바', cuisine: '모던 아시안·칵테일', priceRange: '₩₩₩₩', description: '마리나베이 샌즈 57층 루프탑 바&레스토랑. 싱가포르 스카이라인 360도 파노라마 뷰. 입장 시 복장 규정(스마트 캐주얼) 있습니다.', companionFit: COUPLE },
     ],
     accommodations: [
-      { name: '마리나베이 샌즈', type: '5성급 아이콘 호텔', priceRange: '₩₩₩₩₩', description: '세계에서 가장 유명한 호텔 중 하나. 57층 인피니티 풀·카지노·쇼핑몰 직결. 싱가포르 스카이라인의 상징입니다.', companionFit: COUPLE, bookingUrl: 'https://www.marinabaysands.com' },
-      { name: '카펠라 싱가포르 (센토사)', type: '5성급 리조트', priceRange: '₩₩₩₩₩', description: '센토사 섬의 럭셔리 리조트. 트럼프-김정은 회담 장소로 유명. 전용 비치·스파·수영장 완비.', companionFit: COUPLE, bookingUrl: 'https://www.capellahotels.com' },
-      { name: '하드록 호텔 싱가포르 (센토사)', type: '4성급 패밀리', priceRange: '₩₩₩₩', description: '유니버설 스튜디오·워터파크 도보 거리. 록 음악 테마의 밝은 분위기, 키즈 어메니티 완비. 가족 여행에 최적.', companionFit: FAMILY, bookingUrl: 'https://www.booking.com' },
+      { name: '마리나베이 샌즈', type: '5성급 아이콘 호텔', priceRange: '₩₩₩₩₩', description: '57층 인피니티 풀·카지노·쇼핑몰 직결. 싱가포르 스카이라인의 상징. 아이들이 인상을 받을 만한 스케일.', companionFit: COUPLE, bookingUrl: 'https://www.marinabaysands.com/ko', distanceToStation: '베이프론트역 직결', reviewScore: 4.7, reviewCount: '31,000건+' },
+      { name: '카펠라 싱가포르 (센토사)', type: '5성급 리조트', priceRange: '₩₩₩₩₩', description: '센토사 섬의 럭셔리 리조트. 전용 비치·스파·수영장 완비. 조용하고 프라이빗한 분위기를 원하는 커플·허니무너에게 최적.', companionFit: COUPLE, bookingUrl: 'https://www.capellahotels.com/en/capella-singapore', reviewScore: 4.9, reviewCount: '1,800건+' },
+      { name: '하드록 호텔 싱가포르 (센토사)', type: '4성급 패밀리', priceRange: '₩₩₩₩', description: '유니버설 스튜디오·워터파크 도보 거리. 록 음악 테마의 밝고 활기찬 분위기로 아이들이 좋아합니다.', companionFit: FAMILY, bookingUrl: 'https://www.booking.com/hotel/sg/hard-rock-hotel-singapore.ko.html', distanceToStation: '리조트 월드 센토사역 도보 5분', amenities: ['키즈 어메니티 세트', '아이들 전용 수영장 레인', '어린이 메뉴', '전자레인지 (요청 시)', '유아 침대 무료', '워터파크 패키지 추가 가능'], kidsScore: 5, reviewScore: 4.4, reviewCount: '5,900건+' },
     ],
   },
 
@@ -216,9 +216,9 @@ export const cityDataMap: Record<string, CityData> = {
       { name: '알라모아나 마켓 & 헬루메리아 다이닝', cuisine: '하와이 퓨전', priceRange: '₩₩₩', description: '알라모아나 쇼핑센터 내 다양한 레스토랑. 더 카운터(버거)·아이스 팰리스(빙수) 등 다양한 선택지. 쇼핑 후 식사 가능.', companionFit: ALL },
     ],
     accommodations: [
-      { name: '모아나 서프라이더 웨스틴 (와이키키)', type: '5성급 역사적 호텔', priceRange: '₩₩₩₩₩', description: '1901년 개업한 하와이 최초의 럭셔리 호텔 "태평양의 첫 번째 레이디". 와이키키 비치 정면, 역사적 식민지풍 건물과 오션뷰 객실.', companionFit: COUPLE, bookingUrl: 'https://www.marriott.com' },
-      { name: '포시즌스 마우이 앳 와일레아', type: '5성급 리조트', priceRange: '₩₩₩₩₩', description: '마우이 최고급 리조트. 3개의 수영장·스노클링 비치·세계급 스파. 고래 관찰 시즌 발코니에서 혹등고래 목격 가능.', companionFit: COUPLE, bookingUrl: 'https://www.fourseasons.com' },
-      { name: '힐튼 하와이언 빌리지 (와이키키)', type: '4성급 패밀리 리조트', priceRange: '₩₩₩₩', description: '5개 타워·6개 수영장·해변 직접 접근. 매주 금요일 불꽃놀이. 가족 단위에 최적화된 와이키키 대형 리조트.', companionFit: FAMILY, bookingUrl: 'https://www.hilton.com' },
+      { name: '모아나 서프라이더 웨스틴 (와이키키)', type: '5성급 역사적 호텔', priceRange: '₩₩₩₩₩', description: '1901년 개업한 하와이 최초의 럭셔리 호텔. 와이키키 비치 정면, 역사적 식민지풍 건물과 오션뷰 객실.', companionFit: COUPLE, bookingUrl: 'https://www.marriott.com/hotels/travel/hnlmo-moana-surfrider-a-westin-resort-and-spa-waikiki-beach/', distanceToStation: '와이키키 비치 직결', reviewScore: 4.7, reviewCount: '9,200건+' },
+      { name: '포시즌스 마우이 앳 와일레아', type: '5성급 리조트', priceRange: '₩₩₩₩₩', description: '마우이 최고급 리조트. 3개의 수영장·스노클링 비치·세계급 스파. 고래 관찰 시즌 발코니에서 혹등고래 목격 가능.', companionFit: COUPLE, bookingUrl: 'https://www.fourseasons.com/maui/', reviewScore: 4.9, reviewCount: '3,400건+' },
+      { name: '힐튼 하와이언 빌리지 (와이키키)', type: '4성급 패밀리 리조트', priceRange: '₩₩₩₩', description: '5개 타워·6개 수영장·해변 직접 접근. 매주 금요일 무료 불꽃놀이. 와이키키 최대 패밀리 리조트.', companionFit: FAMILY, bookingUrl: 'https://www.hilton.com/ko/hotels/hnlhwhh-hilton-hawaiian-village-waikiki-beach-resort/', distanceToStation: '와이키키 해변 도보 1분', amenities: ['6개 수영장 (어린이 풀 포함)', '키즈 클럽 (루아우 활동)', '매주 금요일 불꽃놀이', '전자레인지 (요청 시)', '유아 침대 무료', '어린이 메뉴'], kidsScore: 5, reviewScore: 4.3, reviewCount: '18,000건+' },
     ],
   },
 
@@ -237,9 +237,9 @@ export const cityDataMap: Record<string, CityData> = {
       { name: '르 가브로슈 (미슐랭 2스타)', cuisine: '클래식 프렌치', priceRange: '₩₩₩₩₩', description: '런던 메이페어의 전설적인 프렌치 레스토랑. 1982년 영국 최초로 미슐랭 3스타 획득. 특별한 날 런던 최고의 만찬.', companionFit: COUPLE },
     ],
     accommodations: [
-      { name: '더 새보이 (코벤트가든)', type: '5성급 팰리스 호텔', priceRange: '₩₩₩₩₩', description: '1889년 개업. 처칠·모네·비틀즈가 머문 런던 최고 아이콘 호텔. 템스강 뷰·버틀러 서비스·애프터눈 티.', companionFit: COUPLE, bookingUrl: 'https://www.fairmont.com' },
-      { name: '시티즌M 런던 (뱅크사이드)', type: '3성급 스마트 호텔', priceRange: '₩₩₩', description: '테이트 모던·버러 마켓 도보 5분. 스마트 기기로 체크인·객실 조명 조절. 혁신적이고 가성비 좋은 디자인 호텔.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.citizenm.com' },
-      { name: '해크니·쇼어디치 에어비앤비 아파트', type: '아파트형 숙소', priceRange: '₩₩₩', description: '런던 동부 힙스터 지역의 아파트 렌탈. 4인 이상 그룹에 호텔보다 저렴하고 런던 로컬 라이프 경험 가능.', companionFit: GROUP, bookingUrl: 'https://www.airbnb.com' },
+      { name: '더 새보이 (코벤트가든)', type: '5성급 팰리스 호텔', priceRange: '₩₩₩₩₩', description: '1889년 개업. 처칠·모네·비틀즈가 머문 런던 최고 아이콘 호텔. 템스강 뷰·버틀러 서비스·애프터눈 티.', companionFit: COUPLE, bookingUrl: 'https://www.fairmont.com/savoy-london/', distanceToStation: '코벤트가든역 도보 5분', reviewScore: 4.8, reviewCount: '5,600건+' },
+      { name: '시티즌M 런던 (뱅크사이드)', type: '3성급 스마트 호텔', priceRange: '₩₩₩', description: '테이트 모던·버러 마켓 도보 5분. 스마트 기기로 체크인·객실 조명 조절. 혁신적이고 가성비 좋은 디자인 호텔.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.citizenm.com/destinations/london/london-bankside-hotel', distanceToStation: '사우스워크역 도보 5분', reviewScore: 4.5, reviewCount: '12,400건+' },
+      { name: '해크니·쇼어디치 에어비앤비 아파트', type: '아파트형 숙소', priceRange: '₩₩₩', description: '런던 동부 힙스터 지역의 아파트 렌탈. 4인 이상 그룹에 저렴하고 런던 로컬 라이프 경험 가능. 주방 완비.', companionFit: GROUP, bookingUrl: 'https://www.airbnb.co.kr/london-england-gb/stays', amenities: ['주방 완비 (전자레인지·냉장고)', '세탁기', '유아 침대 협의 가능'], kidsScore: 3, reviewScore: 4.3, reviewCount: '다수' },
     ],
   },
 
@@ -258,9 +258,9 @@ export const cityDataMap: Record<string, CityData> = {
       { name: '르 베르나댕 (미슐랭 3스타)', cuisine: '프렌치 씨푸드 파인다이닝', priceRange: '₩₩₩₩₩', description: '미슐랭 3스타를 30년째 유지하는 뉴욕 최고 씨푸드 레스토랑. 예약은 2개월 전 필수.', companionFit: COUPLE },
     ],
     accommodations: [
-      { name: '더 마크 호텔 (어퍼 이스트사이드)', type: '5성급 럭셔리', priceRange: '₩₩₩₩₩', description: '메트로폴리탄 미술관 도보 1분. 장 조지 레스토랑 입점. 셀러브리티 단골 호텔로 차분하고 고급스러운 분위기.', companionFit: COUPLE, bookingUrl: 'https://www.themarkhotel.com' },
-      { name: '더 스탠다드 하이라인', type: '4성급 트렌디', priceRange: '₩₩₩₩', description: '하이라인 파크 위에 걸쳐 있는 독특한 구조. 미트패킹 디스트릭트의 중심으로 루프탑 바·비어가든 인기.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.standardhotels.com' },
-      { name: '뉴욕 마리오트 마퀴스 (타임스퀘어)', type: '4성급 대형 호텔', priceRange: '₩₩₩', description: '타임스퀘어 한복판. 관광 접근성 최고. 가족·단체에 적합한 넓은 객실과 회전 레스토랑(45층 뷰).', companionFit: ALL, bookingUrl: 'https://www.marriott.com' },
+      { name: '더 마크 호텔 (어퍼 이스트사이드)', type: '5성급 럭셔리', priceRange: '₩₩₩₩₩', description: '메트로폴리탄 미술관 도보 1분. 장 조지 레스토랑 입점. 셀러브리티 단골 호텔로 차분하고 고급스러운 분위기.', companionFit: COUPLE, bookingUrl: 'https://www.themarkhotel.com', distanceToStation: '77번가역 도보 5분', reviewScore: 4.8, reviewCount: '2,100건+' },
+      { name: '더 스탠다드 하이라인', type: '4성급 트렌디', priceRange: '₩₩₩₩', description: '하이라인 파크 위에 걸쳐 있는 독특한 구조. 미트패킹 디스트릭트의 중심으로 루프탑 바·비어가든 인기.', companionFit: ['couple', 'small_group'], bookingUrl: 'https://www.standardhotels.com/new-york/properties/high-line', distanceToStation: '14번가-8번가역 도보 5분', reviewScore: 4.4, reviewCount: '4,700건+' },
+      { name: '뉴욕 마리오트 마퀴스 (타임스퀘어)', type: '4성급 대형 호텔', priceRange: '₩₩₩', description: '타임스퀘어 한복판. 관광 접근성 최고. 가족·단체에 적합한 넓은 객실과 회전 레스토랑(45층 뷰).', companionFit: ALL, bookingUrl: 'https://www.marriott.com/hotels/travel/nycmq-new-york-marriott-marquis/', distanceToStation: '타임스퀘어-42번가역 도보 2분', amenities: ['전자레인지 (요청 시)', '유아 침대 무료', '수유실 (1층 안내)', '어린이 메뉴'], kidsScore: 4, reviewScore: 4.2, reviewCount: '22,000건+' },
     ],
   },
 
@@ -279,9 +279,9 @@ export const cityDataMap: Record<string, CityData> = {
       { name: '미디어 시티·JBR 비치 레스토랑', cuisine: '인터내셔널·씨푸드', priceRange: '₩₩₩₩', description: '주메이라 비치 레지던스(JBR) 더 워크의 야외 레스토랑. 해변 뷰와 함께하는 브런치·씨푸드 저녁 식사.', companionFit: COUPLE },
     ],
     accommodations: [
-      { name: '버즈 알 아랍 (범선 호텔)', type: '7성급 (세계 유일)', priceRange: '₩₩₩₩₩', description: '세계에서 가장 호화로운 호텔. 최소 1박 200만원 이상이지만 헬기 이착륙·전용 롤스로이스·집사 서비스. 투어 패키지로 내부 견학 가능.', companionFit: COUPLE, bookingUrl: 'https://www.jumeirah.com' },
-      { name: '아틀란티스 더 팜 (팜 아일랜드)', type: '5성급 리조트', priceRange: '₩₩₩₩₩', description: '팜 주메이라 최대 리조트. 아쿠아 어드벤처 워터파크 포함, 아쿠아리움·프라이빗 비치·17개 레스토랑. 가족·신혼 모두 최고.', companionFit: FAMILY, bookingUrl: 'https://www.atlantis.com' },
-      { name: '주메이라 비치 호텔', type: '5성급 비치프론트', priceRange: '₩₩₩₩', description: '버즈 알 아랍 바로 옆. 전 객실 아라비안 걸프 오션뷰. 워터파크·다이빙 센터 포함. 어린이 클럽 운영.', companionFit: FAMILY, bookingUrl: 'https://www.jumeirah.com' },
+      { name: '버즈 알 아랍 (범선 호텔)', type: '7성급 초럭셔리', priceRange: '₩₩₩₩₩', description: '세계에서 가장 호화로운 호텔. 최소 1박 200만원 이상. 헬기 이착륙·전용 롤스로이스·집사 서비스. 투어 패키지로 내부 견학 가능.', companionFit: COUPLE, bookingUrl: 'https://www.jumeirah.com/en/hotels-resorts/dubai/burj-al-arab', distanceToStation: '주메이라 비치 전용 셔틀', reviewScore: 4.8, reviewCount: '6,800건+' },
+      { name: '아틀란티스 더 팜 (팜 아일랜드)', type: '5성급 패밀리 리조트', priceRange: '₩₩₩₩₩', description: '팜 주메이라 최대 리조트. 아쿠아 어드벤처 워터파크(유료)·아쿠아리움·프라이빗 비치·17개 레스토랑. 아이들이 최고라고 평가하는 두바이 패밀리 1위 숙소.', companionFit: FAMILY, bookingUrl: 'https://www.atlantis.com/dubai/atlantis-the-palm', distanceToStation: '팜 모노레일 아틀란티스역 직결', amenities: ['워터파크 아쿠아벤처 (투숙객 무료)', '키즈 클럽 (앰버서더 래그룬)', '어린이 수영장', '유아 침대 무료', '어린이 메뉴 (5개 레스토랑)', '전자레인지', '유모차 대여'], kidsScore: 5, reviewScore: 4.5, reviewCount: '14,200건+' },
+      { name: '주메이라 비치 호텔', type: '5성급 비치프론트', priceRange: '₩₩₩₩', description: '버즈 알 아랍 바로 옆. 전 객실 오션뷰. 워터파크(와일드 와디)·다이빙 센터·어린이 클럽 포함. 가족 전체가 만족하는 올인클루시브형 숙소.', companionFit: FAMILY, bookingUrl: 'https://www.jumeirah.com/en/hotels-resorts/dubai/jumeirah-beach-hotel', distanceToStation: '주메이라 비치 직결', amenities: ['와일드 와디 워터파크 무료', '어린이 클럽 (5~12세)', '베이비시팅 서비스 (별도)', '어린이 메뉴', '전자레인지', '유아 침대 무료'], kidsScore: 5, reviewScore: 4.6, reviewCount: '9,300건+' },
     ],
   },
 

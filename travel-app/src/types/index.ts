@@ -48,6 +48,8 @@ export interface Spot {
   description: string;
   tip: string;
   companionFit: CompanionType[];
+  childFriendly?: boolean;
+  childNote?: string;
 }
 
 export interface RouteDay {
@@ -73,6 +75,8 @@ export interface Restaurant {
   description: string;
   companionFit: CompanionType[];
   mapUrl?: string;
+  kidsMenu?: boolean;
+  highChair?: boolean;
 }
 
 export interface Accommodation {
@@ -82,6 +86,11 @@ export interface Accommodation {
   description: string;
   companionFit: CompanionType[];
   bookingUrl?: string;
+  distanceToStation?: string;
+  amenities?: string[];
+  kidsScore?: number;   // 유소아 적합도 1~5
+  reviewScore?: number; // 종합 평점 (예: 4.5)
+  reviewCount?: string; // 리뷰 수 표시 (예: "4,200건+")
 }
 
 export interface OutfitItem {

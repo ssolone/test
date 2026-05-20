@@ -284,12 +284,12 @@ const defaultWeather = {
 
 // --- Spots by destination ---
 const getSpots = (destination: string) => [
-  { name: `${destination} 구시가지 & 문화거리`, type: '역사/문화', description: '현지 문화와 역사를 한눈에 볼 수 있는 핵심 관광지', tip: '오전 일찍 방문하면 한산하게 즐길 수 있습니다', companionFit: ['couple', 'small_group', 'large_group', 'family_all', 'family_elderly', 'family_young_kids'] as CompanionType[] },
-  { name: `${destination} 중앙 마켓 & 야시장`, type: '쇼핑/미식', description: '현지 음식과 특산품을 체험할 수 있는 활기찬 시장', tip: '오후 4시 이후 방문 시 가장 활기차며 가격 흥정 가능', companionFit: ['couple', 'small_group', 'large_group', 'family_all', 'family_young_kids'] as CompanionType[] },
-  { name: `${destination} 유명 박물관`, type: '박물관/전시', description: '지역 역사와 예술을 체험하는 문화 공간', tip: '무료 입장일을 확인하면 절약 가능', companionFit: ['family_elderly', 'family_all', 'couple', 'small_group'] as CompanionType[] },
-  { name: `${destination} 자연공원 & 뷰포인트`, type: '자연/경치', description: '탁 트인 전망과 자연을 즐길 수 있는 명소', tip: '일출·일몰 시간에 방문하면 최고의 경치를 감상할 수 있습니다', companionFit: ['couple', 'small_group', 'large_group', 'family_all', 'family_elderly', 'family_young_kids'] as CompanionType[] },
-  { name: `${destination} 전통 사원 & 종교 문화지`, type: '종교/문화', description: '지역 전통 신앙과 건축미를 느낄 수 있는 장소', tip: '복장 규정 확인 (어깨·무릎 가리기), 조용한 태도 유지', companionFit: ['family_elderly', 'family_all', 'couple', 'small_group'] as CompanionType[] },
-  { name: `${destination} 테마파크 & 어트랙션`, type: '테마파크/놀이', description: '온 가족이 함께 즐길 수 있는 엔터테인먼트 공간', tip: '온라인 사전 예매 시 15-30% 할인 가능', companionFit: ['family_young_kids', 'family_all', 'large_group'] as CompanionType[] },
+  { name: `${destination} 구시가지 & 문화거리`, type: '역사/문화', description: '현지 문화와 역사를 한눈에 볼 수 있는 핵심 관광지', tip: '오전 일찍 방문하면 한산하게 즐길 수 있습니다', companionFit: ['couple', 'small_group', 'large_group', 'family_all', 'family_elderly', 'family_young_kids'] as CompanionType[], childFriendly: true, childNote: '유아차 진입 어려운 좁은 골목 많음. 슬링·힙시트 준비 권장. 아이 걷기 힘들면 오전에만 짧게 방문.' },
+  { name: `${destination} 중앙 마켓 & 야시장`, type: '쇼핑/미식', description: '현지 음식과 특산품을 체험할 수 있는 활기찬 시장', tip: '오후 4시 이후 방문 시 가장 활기차며 가격 흥정 가능', companionFit: ['couple', 'small_group', 'large_group', 'family_all', 'family_young_kids'] as CompanionType[], childFriendly: true, childNote: '야시장(저녁)은 유소아에게 피로감·혼잡. 점심 마켓 위주로 방문 권장. 알레르기 유발 식재료 현지어로 확인 필요.' },
+  { name: `${destination} 유명 박물관`, type: '박물관/전시', description: '지역 역사와 예술을 체험하는 문화 공간', tip: '무료 입장일을 확인하면 절약 가능', companionFit: ['family_elderly', 'family_all', 'couple', 'small_group'] as CompanionType[], childNote: '2~4세에겐 지루할 수 있음. 어린이 체험 코너 있는 대형 박물관인지 사전 확인 권장.' },
+  { name: `${destination} 자연공원 & 뷰포인트`, type: '자연/경치', description: '탁 트인 전망과 자연을 즐길 수 있는 명소', tip: '일출·일몰 시간에 방문하면 최고의 경치를 감상할 수 있습니다', companionFit: ['couple', 'small_group', 'large_group', 'family_all', 'family_elderly', 'family_young_kids'] as CompanionType[], childFriendly: true, childNote: '유아차 이동 가능한 포장 산책로 여부 사전 확인. 그늘과 벤치 있는 코스 선택. 모자·선크림·물 필수.' },
+  { name: `${destination} 전통 사원 & 종교 문화지`, type: '종교/문화', description: '지역 전통 신앙과 건축미를 느낄 수 있는 장소', tip: '복장 규정 확인 (어깨·무릎 가리기), 조용한 태도 유지', companionFit: ['family_elderly', 'family_all', 'couple', 'small_group'] as CompanionType[], childNote: '경내 뛰거나 큰 소리 내면 제지당할 수 있음. 짧게 둘러보고 인근 공원으로 이동하는 패턴 추천.' },
+  { name: `${destination} 테마파크 & 어트랙션`, type: '테마파크/놀이', description: '온 가족이 함께 즐길 수 있는 엔터테인먼트 공간', tip: '온라인 사전 예매 시 15-30% 할인 가능', companionFit: ['family_young_kids', 'family_all', 'large_group'] as CompanionType[], childFriendly: true, childNote: '탑승 신장 제한(보통 90~120cm) 사전 확인. 유아차 보관소·수유실·기저귀 교환대 위치 입장 전 파악. 오전 개장 직후 인기 시설 먼저 공략.' },
   { name: `${destination} 로컬 카페 & 감성 골목`, type: '카페/감성', description: '현지인이 즐겨 찾는 인스타그래머블 카페와 골목', tip: '이른 아침 방문 시 웨이팅 없이 조용히 즐길 수 있습니다', companionFit: ['couple', 'small_group'] as CompanionType[] },
 ];
 
