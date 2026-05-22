@@ -91,6 +91,7 @@ export interface Accommodation {
   kidsScore?: number;   // 유소아 적합도 1~5
   reviewScore?: number; // 종합 평점 (예: 4.5)
   reviewCount?: string; // 리뷰 수 표시 (예: "4,200건+")
+  companionNote?: string; // 동반자 유형별 특이사항
 }
 
 export interface OutfitItem {

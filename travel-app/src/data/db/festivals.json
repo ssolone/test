@@ -1,0 +1,3124 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-05-22",
+  "destinations": {
+    "도쿄": {
+      "country": "일본",
+      "city": "도쿄",
+      "events": [
+        {
+          "id": "tokyo-cherry-blossom",
+          "name": "도쿄 벚꽃 시즌",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            3,
+            4
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-03-22",
+              "endDate": "2026-04-05",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-03-21",
+              "endDate": "2027-04-04",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-03-23",
+              "endDate": "2028-04-06",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-03-22",
+              "endDate": "2029-04-05",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-03-21",
+              "endDate": "2030-04-04",
+              "confirmed": false
+            }
+          ],
+          "description": "우에노 공원·메구로강·신주쿠 교원 등 도쿄 곳곳이 분홍빛으로 물드는 최고 인기 시즌. 꽃구경 나온 인파로 인기 명소는 극도로 혼잡합니다.",
+          "tip": "메구로강은 야간 조명과 함께 즐기세요. 우에노는 이른 아침이 쾌적. 개화 시기는 매년 약간씩 다릅니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "tokyo-golden-week",
+          "name": "골든위크",
+          "type": "holiday",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            4,
+            5
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-04-29",
+              "endDate": "2026-05-05",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-04-29",
+              "endDate": "2027-05-05",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-04-29",
+              "endDate": "2028-05-05",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-04-29",
+              "endDate": "2029-05-05",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-04-29",
+              "endDate": "2030-05-05",
+              "confirmed": true
+            }
+          ],
+          "description": "일본 최대 연휴. 관광지·교통·숙소 모두 극혼잡. 도쿄 주요 명소 대기 2~3배 증가. 가격도 급등합니다.",
+          "tip": "숙소는 최소 3개월 전 예약 필수. 이 기간 피할 수 없다면 새벽 일찍 움직이세요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "tokyo-obon",
+          "name": "오봉 연휴",
+          "type": "holiday",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            8
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-08-13",
+              "endDate": "2026-08-16",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-08-13",
+              "endDate": "2027-08-16",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-08-13",
+              "endDate": "2028-08-16",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-08-13",
+              "endDate": "2029-08-16",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-08-13",
+              "endDate": "2030-08-16",
+              "confirmed": true
+            }
+          ],
+          "description": "일본 귀성 성수기. 신칸센·항공 예약 어렵고 관광지도 혼잡. 일부 소규모 가게 휴업.",
+          "tip": "8월 도쿄는 35도 이상 폭염. 이 시기 방문 시 실내 위주 일정 권장.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "tokyo-new-year",
+          "name": "연말연시",
+          "type": "holiday",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            12,
+            1
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-12-29",
+              "endDate": "2027-01-03",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-12-29",
+              "endDate": "2028-01-03",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-12-29",
+              "endDate": "2029-01-03",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-12-29",
+              "endDate": "2030-01-03",
+              "confirmed": true
+            }
+          ],
+          "description": "도쿄 메이지 신궁 초하츠모데(새해 첫 참배)에 100만 명 이상 몰립니다. 연말은 조용하고 새해 1월 1~3일은 신사 주변 극혼잡.",
+          "tip": "12월 31일 자정 시부야 카운트다운 행사 주의. 신주쿠·시부야는 자정 전후 엄청난 인파.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "tokyo-marathon",
+          "name": "도쿄 마라톤",
+          "type": "event",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            3
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-03-01",
+              "endDate": "2026-03-01",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-03-07",
+              "endDate": "2027-03-07",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-03-05",
+              "endDate": "2028-03-05",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-03-04",
+              "endDate": "2029-03-04",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-03-03",
+              "endDate": "2030-03-03",
+              "confirmed": false
+            }
+          ],
+          "description": "세계 6대 마라톤 중 하나. 신주쿠~도쿄역 구간 교통 통제로 이동 제한. 약 3만 8천 명 참가.",
+          "tip": "대회 당일 도쿄 도심 동서 이동이 어렵습니다. 지하철 이용 권장.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "오사카": {
+      "country": "일본",
+      "city": "오사카",
+      "events": [
+        {
+          "id": "osaka-cherry-blossom",
+          "name": "오사카 벚꽃 시즌",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            3,
+            4
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-03-25",
+              "endDate": "2026-04-08",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-03-24",
+              "endDate": "2027-04-07",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-03-26",
+              "endDate": "2028-04-09",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-03-25",
+              "endDate": "2029-04-08",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-03-24",
+              "endDate": "2030-04-07",
+              "confirmed": false
+            }
+          ],
+          "description": "오사카성 공원·나카노시마·모즈야마 고분 등에서 벚꽃 만개. 오사카성 벚꽃은 일본 최고의 조합 중 하나입니다.",
+          "tip": "오사카성 천수각과 벚꽃 조합은 아침 일찍 방문. 나카노시마 공원은 야간 조명도 예쁩니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "osaka-golden-week",
+          "name": "골든위크",
+          "type": "holiday",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            4,
+            5
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-04-29",
+              "endDate": "2026-05-05",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-04-29",
+              "endDate": "2027-05-05",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-04-29",
+              "endDate": "2028-05-05",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-04-29",
+              "endDate": "2029-05-05",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-04-29",
+              "endDate": "2030-05-05",
+              "confirmed": true
+            }
+          ],
+          "description": "유니버설 스튜디오 재팬(USJ) 대기 4~6시간. 도톤보리·신사이바시 극혼잡. 숙소 가격 2배 이상.",
+          "tip": "USJ는 익스프레스 패스 필수. 골든위크 USJ는 6개월 전 예약해도 늦을 수 있습니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "osaka-tenjin",
+          "name": "텐진 마츠리",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            7
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-07-24",
+              "endDate": "2026-07-25",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-07-24",
+              "endDate": "2027-07-25",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-07-24",
+              "endDate": "2028-07-25",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-07-24",
+              "endDate": "2029-07-25",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-07-24",
+              "endDate": "2030-07-25",
+              "confirmed": true
+            }
+          ],
+          "description": "일본 3대 마츠리 중 하나. 오사카 텐만구에서 수상 퍼레이드·불꽃놀이. 7월 25일 저녁이 클라이맥스.",
+          "tip": "7월 25일 오후 오카와강 유람선 예약하면 수상 퍼레이드·불꽃놀이를 최고 시야로 즐길 수 있습니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "osaka-obon",
+          "name": "오봉 연휴",
+          "type": "holiday",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            8
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-08-13",
+              "endDate": "2026-08-16",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-08-13",
+              "endDate": "2027-08-16",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-08-13",
+              "endDate": "2028-08-16",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-08-13",
+              "endDate": "2029-08-16",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-08-13",
+              "endDate": "2030-08-16",
+              "confirmed": true
+            }
+          ],
+          "description": "일본 귀성 연휴. USJ·오사카성·도톤보리 극혼잡. 8월 오사카 체감온도 38~40도로 매우 덥습니다.",
+          "tip": "무더위 대비 필수. 도톤보리 야간 방문이 낮보다 훨씬 쾌적합니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "교토": {
+      "country": "일본",
+      "city": "교토",
+      "events": [
+        {
+          "id": "kyoto-cherry-blossom",
+          "name": "교토 벚꽃 시즌",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            3,
+            4
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-03-28",
+              "endDate": "2026-04-10",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-03-27",
+              "endDate": "2027-04-09",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-03-29",
+              "endDate": "2028-04-11",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-03-28",
+              "endDate": "2029-04-10",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-03-27",
+              "endDate": "2030-04-09",
+              "confirmed": false
+            }
+          ],
+          "description": "마루야마 공원·철학의 길·아라시야마 등 교토 전역의 벚꽃. 일본에서 가장 아름다운 벚꽃 명소로 꼽힙니다.",
+          "tip": "철학의 길 이른 아침(7시 이전) 방문하면 인파 없이 여유롭게 즐길 수 있습니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "kyoto-gion-matsuri",
+          "name": "기온 마츠리",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            7
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-07-01",
+              "endDate": "2026-07-31",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-07-01",
+              "endDate": "2027-07-31",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-07-01",
+              "endDate": "2028-07-31",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-07-01",
+              "endDate": "2029-07-31",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-07-01",
+              "endDate": "2030-07-31",
+              "confirmed": true
+            }
+          ],
+          "description": "1,000년 역사의 교토 3대 축제. 화려하게 장식된 야마호코(산차) 행렬이 클라이맥스. 17일·24일이 퍼레이드 당일. 7월 내내 야마보코 전시와 요이야마(전날 밤 축제).",
+          "tip": "17일·24일 퍼레이드는 오전 9시 시작. 야마보코 전시는 10~17일. 7월 교토는 체감 40도 이상.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "kyoto-golden-week",
+          "name": "골든위크",
+          "type": "holiday",
+          "impact": "avoid",
+          "recurrence": "annual",
+          "months": [
+            4,
+            5
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-04-29",
+              "endDate": "2026-05-05",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-04-29",
+              "endDate": "2027-05-05",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-04-29",
+              "endDate": "2028-05-05",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-04-29",
+              "endDate": "2029-05-05",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-04-29",
+              "endDate": "2030-05-05",
+              "confirmed": true
+            }
+          ],
+          "description": "교토 인기 명소(아라시야마·후시미이나리·킨카쿠지) 최악의 혼잡 시기. 숙소 가격 2~3배. 인력거·다도 체험 예약 불가.",
+          "tip": "피할 수 없다면 오전 6~7시에 인기 명소 방문. 아라시야마 대나무 숲은 일출 직후가 유일하게 한산합니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "kyoto-autumn-leaves",
+          "name": "교토 단풍 시즌",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            11
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-11-15",
+              "endDate": "2026-11-30",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-11-14",
+              "endDate": "2027-11-29",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-11-16",
+              "endDate": "2028-11-30",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-11-15",
+              "endDate": "2029-11-29",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-11-14",
+              "endDate": "2030-11-28",
+              "confirmed": false
+            }
+          ],
+          "description": "도후쿠지·에이칸도·아라시야마의 단풍은 세계 최고 수준. 교토 연중 두 번째로 인기 있는 시즌.",
+          "tip": "11월 말 주말은 교토 1년 중 최고 성수기. 숙소 3개월 전 예약 필수.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "방콕": {
+      "country": "태국",
+      "city": "방콕",
+      "events": [
+        {
+          "id": "bangkok-songkran",
+          "name": "송크란 (물 축제)",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            4
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-04-13",
+              "endDate": "2026-04-15",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-04-13",
+              "endDate": "2027-04-15",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-04-13",
+              "endDate": "2028-04-15",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-04-13",
+              "endDate": "2029-04-15",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-04-13",
+              "endDate": "2030-04-15",
+              "confirmed": true
+            }
+          ],
+          "description": "태국 설날 물 축제. 방콕 실롬·카오산로드 일대에서 대규모 물 싸움. 전자기기 방수 필수. 태국 최대 공휴일로 은행·관공서 휴무.",
+          "tip": "방수팩·방수 케이스 필수. 4월 방콕은 40도 이상 폭염과 겹쳐 오후엔 실내 대피 권장.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "bangkok-loy-krathong",
+          "name": "러이 끄라통 (등불 축제)",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            11
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-11-06",
+              "endDate": "2026-11-06",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-11-26",
+              "endDate": "2027-11-26",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-11-15",
+              "endDate": "2028-11-15",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-11-04",
+              "endDate": "2029-11-04",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-11-23",
+              "endDate": "2030-11-23",
+              "confirmed": true
+            }
+          ],
+          "description": "차오프라야 강에 꽃과 향초로 만든 수레(끄라통)를 띄우는 아름다운 축제. 방콕 왓아룬·아시아티크 일대가 특히 아름답습니다.",
+          "tip": "왓아룬(새벽사원) 앞 강변이 최고의 명당. 저녁 6시 이전 자리 확보 필요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "bangkok-lunar-new-year",
+          "name": "설날 (차이나타운 축제)",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            1,
+            2
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-02-17",
+              "endDate": "2026-02-17",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-02-06",
+              "endDate": "2027-02-06",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-01-26",
+              "endDate": "2028-01-26",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-02-13",
+              "endDate": "2029-02-13",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-02-03",
+              "endDate": "2030-02-03",
+              "confirmed": true
+            }
+          ],
+          "description": "방콕 야오와랏(차이나타운)에서 화려한 용춤·불꽃놀이·음식 행사. 태국 화교 사회 최대 명절.",
+          "tip": "야오와랏 로드 오후 5시 이후 방문. 용춤 퍼레이드는 저녁 8시경 클라이맥스.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "bangkok-rainy-season",
+          "name": "우기 (몬순)",
+          "type": "warning",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "occurrences": [],
+          "description": "5~10월 매일 오후 집중 소나기. 일부 지역 침수. 그러나 오전은 맑은 날이 많아 관광 가능.",
+          "tip": "우산·우비 필수. 오전 관광·오후 쇼핑몰(샴쌍·아이콘샴) 패턴이 현지인 방식.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "싱가포르": {
+      "country": "싱가포르",
+      "city": "싱가포르",
+      "events": [
+        {
+          "id": "singapore-f1",
+          "name": "싱가포르 F1 그랑프리",
+          "type": "event",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            9
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-09-18",
+              "endDate": "2026-09-20",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-09-17",
+              "endDate": "2027-09-19",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-09-15",
+              "endDate": "2028-09-17",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-09-21",
+              "endDate": "2029-09-23",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-09-20",
+              "endDate": "2030-09-22",
+              "confirmed": false
+            }
+          ],
+          "description": "세계 유일 야간 F1 레이스. 마리나 베이 주변 도로 통제·숙소 가격 3~5배. 싱가포르 최대 이벤트.",
+          "tip": "F1 기간 피타 빌딩·마리나 베이 샌즈 주변 숙소는 6개월 전 예약 필수. 레이스 티켓 없어도 도심 분위기 즐길 수 있습니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "singapore-lunar-new-year",
+          "name": "설날 (차이나타운 축제)",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            1,
+            2
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-02-17",
+              "endDate": "2026-02-17",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-02-06",
+              "endDate": "2027-02-06",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-01-26",
+              "endDate": "2028-01-26",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-02-13",
+              "endDate": "2029-02-13",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-02-03",
+              "endDate": "2030-02-03",
+              "confirmed": true
+            }
+          ],
+          "description": "싱가포르 차이나타운의 화려한 설날 장식과 공연. 약 15일간 축제 분위기 지속. 싱가포르 최대 공휴일.",
+          "tip": "설날 당일 차이나타운·오차드 로드 사람들로 극혼잡. 1~2주 전 방문이 장식 구경과 쇼핑 모두 최적.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "singapore-national-day",
+          "name": "싱가포르 건국기념일",
+          "type": "holiday",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            8
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-08-09",
+              "endDate": "2026-08-09",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-08-09",
+              "endDate": "2027-08-09",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-08-09",
+              "endDate": "2028-08-09",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-08-09",
+              "endDate": "2029-08-09",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-08-09",
+              "endDate": "2030-08-09",
+              "confirmed": true
+            }
+          ],
+          "description": "마리나 베이에서 퍼레이드·불꽃놀이·항공 쇼. 싱가포르 최대 국가 행사. 마리나 베이 샌즈 주변 명당 자리 경쟁.",
+          "tip": "MBS 루프탑풀에서 불꽃놀이 관람이 최고지만 숙박비가 매우 높습니다. 에스플러네이드 인근 무료 관람 가능.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "singapore-deepavali",
+          "name": "디파발리 (빛의 축제)",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            10,
+            11
+          ],
+          "occurrences": [],
+          "description": "힌두교 최대 명절. 리틀 인디아 일대가 화려한 빛 장식으로 수놓입니다. 10월 하순~11월 초.",
+          "tip": "리틀 인디아 세랑군 로드 저녁 방문. 인도 음식과 장식품 쇼핑이 함께 즐거운 경험.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "하와이": {
+      "country": "미국",
+      "city": "호놀룰루",
+      "events": [
+        {
+          "id": "hawaii-peak-season",
+          "name": "겨울 성수기",
+          "type": "event",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            12,
+            1,
+            2
+          ],
+          "occurrences": [],
+          "description": "본토 미국인들의 겨울 피한 여행 성수기. 숙소·항공 가격 최고점. 와이키키 해변 극혼잡.",
+          "tip": "12~2월은 고래 관찰 시즌 (혹등고래). 혼잡하지만 이 기간에만 가능한 경험입니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "hawaii-aloha-festivals",
+          "name": "알로하 페스티벌",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            9
+          ],
+          "occurrences": [],
+          "description": "하와이 최대 문화 축제. 훌라 댄스·퍼레이드·전통 공연. 9월 내내 오아후·마우이·빅아일랜드에서 개최.",
+          "tip": "무료 행사 다수. 와이키키 쉘 야외 공연장에서 훌라 공연이 하이라이트.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "hawaii-ironman",
+          "name": "아이언맨 세계 선수권",
+          "type": "event",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            10
+          ],
+          "occurrences": [],
+          "description": "빅아일랜드 코나에서 열리는 세계 최대 트라이애슬론. 10월 코나 지역 숙소·교통 극혼잡.",
+          "tip": "빅아일랜드 코나 방문 시 대회 날짜 확인 필수. 코나 공항 주변 숙소 3개월 전 예약.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "다낭": {
+      "country": "베트남",
+      "city": "다낭",
+      "events": [
+        {
+          "id": "danang-tet",
+          "name": "뗏 (베트남 설날)",
+          "type": "holiday",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            1,
+            2
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-02-17",
+              "endDate": "2026-02-23",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-02-06",
+              "endDate": "2027-02-12",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-01-26",
+              "endDate": "2028-02-01",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-02-13",
+              "endDate": "2029-02-19",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-02-03",
+              "endDate": "2030-02-09",
+              "confirmed": true
+            }
+          ],
+          "description": "베트남 최대 명절. 현지 식당·가게 대부분 1주일 이상 휴업. 호텔은 영업하나 레스토랑 선택폭 대폭 감소.",
+          "tip": "뗏 3~5일 전 방문하면 꽃 시장과 활기찬 분위기 즐길 수 있습니다. 뗏 당일은 모든 것이 멈춥니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "danang-fireworks",
+          "name": "다낭 국제 불꽃 대회",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            6,
+            7
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-06-06",
+              "endDate": "2026-07-04",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-06-05",
+              "endDate": "2027-07-03",
+              "confirmed": false
+            }
+          ],
+          "description": "세계 각국 불꽃 팀이 참가하는 국제 불꽃 대회. 한강 위 화려한 불꽃 쇼. 격주 토요일 밤 개최.",
+          "tip": "한강 동쪽 다낭 시내 쪽에서 무료 관람 가능. 용 다리 근처가 명당. 대회 기간 숙소 가격 20~30% 상승.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "danang-dry-season",
+          "name": "건기 최적 시즌",
+          "type": "event",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "occurrences": [],
+          "description": "3~8월 다낭 건기. 미케 해변과 바나힐 탐방 최적 시기. 맑고 따뜻한 날씨.",
+          "tip": "6~8월은 더위가 강하지만 해변 즐기기 최고. 바나힐은 3~4월 이른 오전 방문이 안개 없이 최적.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "파리": {
+      "country": "프랑스",
+      "city": "파리",
+      "events": [
+        {
+          "id": "paris-bastille-day",
+          "name": "바스티유 데이 (혁명 기념일)",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            7
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-07-14",
+              "endDate": "2026-07-14",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-07-14",
+              "endDate": "2027-07-14",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-07-14",
+              "endDate": "2028-07-14",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-07-14",
+              "endDate": "2029-07-14",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-07-14",
+              "endDate": "2030-07-14",
+              "confirmed": true
+            }
+          ],
+          "description": "프랑스 국경일. 샹젤리제 군사 퍼레이드와 에펠탑 불꽃놀이. 파리 연중 최고의 축제일.",
+          "tip": "에펠탑 불꽃은 트로카데로 광장이나 샹드마르스 공원에서. 오후 3시 이전 자리 잡기 필요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "paris-fashion-week",
+          "name": "파리 패션 위크",
+          "type": "event",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            1,
+            2,
+            3,
+            9,
+            10
+          ],
+          "occurrences": [],
+          "description": "1월(남성복)·2~3월(오트쿠튀르·여성 기성복)·9~10월(SS·FW 컬렉션) 개최. 마레 지구·생제르망 일대 교통 혼잡 및 숙소 가격 상승.",
+          "tip": "패션 위크 기간 파리 중심가 숙소 가격이 30~50% 상승합니다. 미리 예약하거나 외곽 숙소 고려.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "paris-august",
+          "name": "8월 바캉스 시즌",
+          "type": "warning",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            8
+          ],
+          "occurrences": [],
+          "description": "파리 시민 대부분이 바캉스로 도시를 떠납니다. 현지 식당·소규모 상점 다수 휴업. 관광객은 오히려 많습니다.",
+          "tip": "8월은 관광 명소는 붐비지만 '진짜 파리' 분위기가 없습니다. 현지 맛집 사전 예약 확인 필수.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "paris-christmas",
+          "name": "크리스마스 & 새해",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            12
+          ],
+          "occurrences": [],
+          "description": "샹젤리제·생제르망 마르셰 드 노엘(크리스마스 마켓). 에펠탑 조명과 거리 장식이 아름다운 시즌.",
+          "tip": "12월 파리는 춥지만 크리스마스 마켓과 조명이 낭만적. 12월 31일 에펠탑 카운트다운은 무료.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "발리": {
+      "country": "인도네시아",
+      "city": "발리",
+      "events": [
+        {
+          "id": "bali-nyepi",
+          "name": "느삐 (발리 침묵의 날)",
+          "type": "holiday",
+          "impact": "avoid",
+          "recurrence": "annual",
+          "months": [
+            3,
+            4
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-03-19",
+              "endDate": "2026-03-19",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-03-09",
+              "endDate": "2027-03-09",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-03-26",
+              "endDate": "2028-03-26",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-03-14",
+              "endDate": "2029-03-14",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-04-02",
+              "endDate": "2030-04-02",
+              "confirmed": true
+            }
+          ],
+          "description": "발리 힌두교 새해 침묵의 날. 이 날 하루 전 섬 전체 통행 금지·불빛 금지·소음 금지. 공항도 폐쇄됩니다.",
+          "tip": "느삐 당일은 호텔 밖 외출 불가. 전날 밤 오고오고(악귀 상 퍼레이드)는 구경 가능. 여행 날짜와 겹치지 않도록 주의.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "bali-galungan",
+          "name": "갈룽안 & 쿠닝안",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            3,
+            6,
+            11
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-03-18",
+              "endDate": "2026-03-28",
+              "confirmed": true
+            },
+            {
+              "year": 2026,
+              "startDate": "2026-11-14",
+              "endDate": "2026-11-24",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-06-11",
+              "endDate": "2027-06-21",
+              "confirmed": true
+            }
+          ],
+          "description": "발리 힌두교 최대 명절. 210일마다 돌아오는 발리 달력 기준 명절로 거리에 펜조르(대나무 장대)가 세워지고 전통 의식이 열립니다.",
+          "tip": "갈룽안 기간 발리 전통 의식을 구경하기 좋습니다. 사원 주변에서 진행되며 존중하며 관람.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "bali-dry-season",
+          "name": "건기 성수기",
+          "type": "event",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            7,
+            8
+          ],
+          "occurrences": [],
+          "description": "7~8월 발리 최성수기. 우붓·꾸따·스미냑·짱구 모든 지역 극혼잡. 숙소 가격 2배. 교통 정체.",
+          "tip": "7~8월 발리는 숙소 3개월 전 예약 필수. 인스타그램 유명 명소 줄이 매우 깁니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "런던": {
+      "country": "영국",
+      "city": "런던",
+      "events": [
+        {
+          "id": "london-new-year",
+          "name": "새해 카운트다운",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            12,
+            1
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-12-31",
+              "endDate": "2026-12-31",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-12-31",
+              "endDate": "2027-12-31",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-12-31",
+              "endDate": "2028-12-31",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-12-31",
+              "endDate": "2029-12-31",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-12-31",
+              "endDate": "2030-12-31",
+              "confirmed": true
+            }
+          ],
+          "description": "빅벤·런던 아이 앞 템스강 불꽃놀이. 유료 티켓 사전 예매 필요. 런던 최대 새해 행사.",
+          "tip": "템스강 불꽃 유료 구역 티켓은 10월에 예매. 무료 구역은 오후 2~3시 자리 확보 필요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "london-notting-hill",
+          "name": "노팅힐 카니발",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            8
+          ],
+          "occurrences": [],
+          "description": "유럽 최대 거리 축제. 카리브해 문화 퍼레이드·음악·음식. 매년 8월 마지막 주 일~월요일. 100만 명 이상 참가.",
+          "tip": "소매치기 주의. 대중교통 이용. 8월 마지막 주말 노팅힐 주변 숙소는 미리 예약.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "london-chelsea-flower",
+          "name": "첼시 플라워 쇼",
+          "type": "event",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            5
+          ],
+          "occurrences": [],
+          "description": "세계 최고 권위의 꽃 박람회. 5월 셋째~넷째 주 첼시 왕립병원에서 개최. 기간 중 런던 중심가 숙소 30% 이상 가격 상승.",
+          "tip": "티켓은 공식 사이트에서 사전 예매 필수. 첼시 주변 교통 혼잡.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "뉴욕": {
+      "country": "미국",
+      "city": "뉴욕",
+      "events": [
+        {
+          "id": "newyork-nye",
+          "name": "타임스퀘어 새해 카운트다운",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            12,
+            1
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-12-31",
+              "endDate": "2026-12-31",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-12-31",
+              "endDate": "2027-12-31",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-12-31",
+              "endDate": "2028-12-31",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-12-31",
+              "endDate": "2029-12-31",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-12-31",
+              "endDate": "2030-12-31",
+              "confirmed": true
+            }
+          ],
+          "description": "볼 드롭과 함께하는 세계 최대 새해 카운트다운. 타임스퀘어에 100만 명 이상 집결. 입장 무료이나 오후부터 자리 잡아야 합니다.",
+          "tip": "오후 3시 이전 타임스퀘어 자리 확보. 음식·화장실 접근 어렵습니다. 12월 31일 뉴욕 숙소는 가격 3~5배.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "newyork-thanksgiving",
+          "name": "추수감사절 & 메이시스 퍼레이드",
+          "type": "holiday",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            11
+          ],
+          "occurrences": [],
+          "description": "11월 넷째 목요일 메이시스 추수감사절 퍼레이드. 센트럴파크웨스트~헤럴드스퀘어 경로. 대형 풍선 캐릭터가 클라이맥스.",
+          "tip": "퍼레이드 루트 오전 7시 이전 자리 확보. 당일 많은 상점 휴업. 블랙 프라이데이 쇼핑 인파 주의.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "newyork-summer",
+          "name": "여름 성수기",
+          "type": "event",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            6,
+            7,
+            8
+          ],
+          "occurrences": [],
+          "description": "7~8월 뉴욕 최성수기. 자유의 여신상·메트로폴리탄 박물관·브루클린 브리지 극혼잡. 기온 35도 이상의 폭염.",
+          "tip": "뮤지엄은 오전 10시 오픈 직후 방문. 자유의 여신상 티켓은 2~3개월 전 예약 필수.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "두바이": {
+      "country": "아랍에미리트",
+      "city": "두바이",
+      "events": [
+        {
+          "id": "dubai-ramadan",
+          "name": "라마단",
+          "type": "holiday",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            1,
+            2,
+            3
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-02-18",
+              "endDate": "2026-03-19",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-02-07",
+              "endDate": "2027-03-08",
+              "confirmed": false
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-01-28",
+              "endDate": "2028-02-25",
+              "confirmed": false
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-02-17",
+              "endDate": "2029-03-18",
+              "confirmed": false
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-02-06",
+              "endDate": "2030-03-07",
+              "confirmed": false
+            }
+          ],
+          "description": "이슬람 단식 성월. 낮 시간 공공장소 음식·음료 금지. 레스토랑 영업 제한. 영업시간 변동 큼. 이프타르(일몰 후 식사) 문화 체험 가능.",
+          "tip": "이프타르 뷔페 예약 추천 (호텔·현지 레스토랑). 낮에 물 마시는 것도 공공장소에선 자제 필요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "dubai-shopping-festival",
+          "name": "두바이 쇼핑 페스티벌",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            1,
+            2
+          ],
+          "occurrences": [],
+          "description": "1월~2월 중 두바이 최대 쇼핑·오락 행사. 쇼핑몰 대규모 할인·불꽃놀이·공연·경품 추첨.",
+          "tip": "1월 두바이는 기온 25도로 관광 최적기. 쇼핑 페스티벌과 겹치면 최고의 여행 시기.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "dubai-national-day",
+          "name": "UAE 건국기념일",
+          "type": "holiday",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            12
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-12-02",
+              "endDate": "2026-12-03",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-12-02",
+              "endDate": "2027-12-03",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-12-02",
+              "endDate": "2028-12-03",
+              "confirmed": true
+            },
+            {
+              "year": 2029,
+              "startDate": "2029-12-02",
+              "endDate": "2029-12-03",
+              "confirmed": true
+            },
+            {
+              "year": 2030,
+              "startDate": "2030-12-02",
+              "endDate": "2030-12-03",
+              "confirmed": true
+            }
+          ],
+          "description": "UAE 연방 결성 기념일. 두바이 분수·버즈할리파 불꽃놀이·드론 쇼. 도로 퍼레이드와 국가적 축제.",
+          "tip": "버즈할리파 주변은 하루 전부터 자리 경쟁. 다운타운 숙소 가격 상승.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "dubai-summer",
+          "name": "여름 혹서기",
+          "type": "warning",
+          "impact": "avoid",
+          "recurrence": "annual",
+          "months": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "occurrences": [],
+          "description": "6~9월 두바이 기온 43~48도. 야외 활동 불가능한 극한 더위. 야외 관광지(사막·해변) 사실상 이용 불가.",
+          "tip": "6~9월 두바이 방문 시 실내(쇼핑몰·실내 스키장·아쿠아리움) 위주 일정 필수. 대신 숙소 가격 50% 이상 할인.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "삿포로": {
+      "country": "일본",
+      "city": "삿포로",
+      "events": [
+        {
+          "id": "sapporo-snow-fest",
+          "name": "삿포로 눈 축제",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            2
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-02-05",
+              "endDate": "2026-02-11",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-02-04",
+              "endDate": "2027-02-11",
+              "confirmed": false
+            }
+          ],
+          "description": "오도리 공원에 거대한 눈·얼음 조각품 300여 개가 전시됩니다. 매년 200만 명 이상 방문하는 일본 겨울 최대 축제.",
+          "tip": "방한 장비 철저히 준비. 숙소는 3개월 전 예약 필수.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "sapporo-yosakoi",
+          "name": "요사코이 소란 축제",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            6
+          ],
+          "occurrences": [],
+          "description": "3만 명의 댄서가 화려한 의상으로 에너지 넘치는 춤을 선보이는 일본 최대 댄스 축제.",
+          "tip": "6월 삿포로는 날씨도 쾌적. 오도리 공원 메인 스테이지 앞에서 무료 관람.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "sapporo-golden-week",
+          "name": "골든위크 & 벚꽃",
+          "type": "holiday",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            4,
+            5
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-04-29",
+              "endDate": "2026-05-05",
+              "confirmed": true
+            }
+          ],
+          "description": "삿포로 벚꽃은 골든위크와 겹쳐 숙소·관광지 극혼잡. 홋카이도 벚꽃은 도쿄보다 약 1개월 늦습니다.",
+          "tip": "5월 초 삿포로 벚꽃은 일본에서 가장 늦은 벚꽃. 숙소는 최소 3개월 전 예약 필수.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "후쿠오카": {
+      "country": "일본",
+      "city": "후쿠오카",
+      "events": [
+        {
+          "id": "fukuoka-yamakasa",
+          "name": "하카타 기온 야마카사",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            7
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-07-01",
+              "endDate": "2026-07-15",
+              "confirmed": true
+            }
+          ],
+          "description": "1,000년 역사의 축제. 15일 새벽 4시 59분 수 톤짜리 수레를 메고 구도심을 달리는 '오이야마'가 클라이맥스.",
+          "tip": "오이야마 당일 새벽 3시 이전에 나카스·캐널시티 일대에서 자리 잡기.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "fukuoka-dontaku",
+          "name": "하카타 돈타쿠 항구 축제",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            5
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-05-03",
+              "endDate": "2026-05-04",
+              "confirmed": true
+            }
+          ],
+          "description": "일본 최대 규모 시민 축제. 200만 명 방문. 퍼레이드·음악·공연이 후쿠오카 도심 전역에서 열립니다.",
+          "tip": "하카타역~캐널시티 메인 퍼레이드 무료 관람. 숙소는 6개월 전 예약.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "fukuoka-golden-week",
+          "name": "골든위크",
+          "type": "holiday",
+          "impact": "avoid",
+          "recurrence": "annual",
+          "months": [
+            4,
+            5
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-04-29",
+              "endDate": "2026-05-05",
+              "confirmed": true
+            }
+          ],
+          "description": "하카타 돈타쿠와 겹쳐 후쿠오카 최대 성수기. 숙소·교통 모두 2배 이상 혼잡.",
+          "tip": "6개월 전 예약이 필수. 골든위크 직전(4월 말) 방문이 벚꽃+여유 조합으로 최고.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "오키나와": {
+      "country": "일본",
+      "city": "오키나와",
+      "events": [
+        {
+          "id": "okinawa-sea-opening",
+          "name": "우미히라키 (바다 개방)",
+          "type": "event",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            4
+          ],
+          "occurrences": [],
+          "description": "오키나와 바다 공식 개막. 일본에서 가장 먼저 여름 바다를 즐길 수 있습니다.",
+          "tip": "4~6월은 해파리 주의. 만타가오리 다이빙은 6~11월이 시즌.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "okinawa-typhoon",
+          "name": "태풍 시즌",
+          "type": "warning",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            7,
+            8,
+            9,
+            10
+          ],
+          "occurrences": [],
+          "description": "오키나와는 일본에서 태풍이 가장 잦은 지역. 8~9월 직격탄 다수. 항공편 결항·해변 폐쇄 빈번.",
+          "tip": "여행자보험 필수. 출발 전 기상 앱 실시간 확인.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "okinawa-shuri-fest",
+          "name": "슈리성 축제",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            11
+          ],
+          "occurrences": [],
+          "description": "류큐 왕조 시대 의식을 재현하는 슈리성 가을 축제. 11월은 태풍도 끝나고 날씨도 최고.",
+          "tip": "11월 오키나와는 기온 22~25도로 쾌적한 최성수기. 숙소 조기 예약 필요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "나고야": {
+      "country": "일본",
+      "city": "나고야",
+      "events": [
+        {
+          "id": "nagoya-festival",
+          "name": "나고야 마츠리",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            10
+          ],
+          "occurrences": [],
+          "description": "오다 노부나가·도요토미 히데요시·도쿠가와 이에야스 세 무장의 행렬 재현. 나고야성~사카에 화려한 역사 퍼레이드.",
+          "tip": "나고야성 입구 앞 행렬이 가장 볼만합니다. 10월 나고야는 날씨도 쾌적.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "nagoya-golden-week",
+          "name": "골든위크",
+          "type": "holiday",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            4,
+            5
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-04-29",
+              "endDate": "2026-05-05",
+              "confirmed": true
+            }
+          ],
+          "description": "레고랜드·나고야항 수족관 등 가족 명소 극혼잡. 숙소 가격 2배 이상.",
+          "tip": "레고랜드는 온라인 사전 예매 시 대기 시간 단축. 평일 방문 권장.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "나라": {
+      "country": "일본",
+      "city": "나라",
+      "events": [
+        {
+          "id": "nara-wakakusa",
+          "name": "와카쿠사 산 야화",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            1
+          ],
+          "occurrences": [],
+          "description": "와카쿠사 산 전체를 불태우는 전통 행사. 불꽃놀이와 함께 산이 타오르는 광경이 장관.",
+          "tip": "나라 공원 동쪽 와카쿠사야마 입구에서 관람. 오후 6시 이전 자리 확보 필요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "nara-deer-cherry",
+          "name": "사슴·벚꽃 시즌",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            3,
+            4
+          ],
+          "occurrences": [],
+          "description": "나라 공원의 1,200여 마리 사슴과 벚꽃의 조화. 일본에서도 손꼽히는 벚꽃 명소.",
+          "tip": "사슴 전병 판매 중 사슴이 달려드는 경우 있음. 어린이·어르신 주의 필요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "히로시마": {
+      "country": "일본",
+      "city": "히로시마",
+      "events": [
+        {
+          "id": "hiroshima-peace",
+          "name": "평화 기념식",
+          "type": "event",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            8
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-08-06",
+              "endDate": "2026-08-06",
+              "confirmed": true
+            }
+          ],
+          "description": "원폭 투하 희생자를 추모하는 세계적 평화 기념식. 평화 기념 공원에서 수만 명이 모입니다.",
+          "tip": "8월 히로시마는 매우 덥습니다. 이른 아침 기념식 후 평화 기념 박물관 방문 추천.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "hiroshima-hana-fest",
+          "name": "히로시마 꽃 축제",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            5
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-05-03",
+              "endDate": "2026-05-05",
+              "confirmed": true
+            }
+          ],
+          "description": "히로시마 최대 시민 축제. 평화 대로에서 퍼레이드·음악 공연·댄스.",
+          "tip": "5월 초 히로시마는 날씨 쾌적. 미야지마 당일치기와 조합 추천.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "치앙마이": {
+      "country": "태국",
+      "city": "치앙마이",
+      "events": [
+        {
+          "id": "chiangmai-yipeng",
+          "name": "이펑 축제 (하늘 등불)",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            11
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-11-06",
+              "endDate": "2026-11-06",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-11-26",
+              "endDate": "2027-11-26",
+              "confirmed": true
+            },
+            {
+              "year": 2028,
+              "startDate": "2028-11-15",
+              "endDate": "2028-11-15",
+              "confirmed": true
+            }
+          ],
+          "description": "수천 개의 하늘 등불이 밤하늘을 수놓는 세계 여행 버킷리스트 1위 장면.",
+          "tip": "숙소는 6개월 전 예약 필수. 메핑강 인근에서 등불 날리기 추천.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "chiangmai-flower",
+          "name": "치앙마이 꽃 축제",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            2
+          ],
+          "occurrences": [],
+          "description": "치앙마이 전역이 형형색색의 꽃으로 장식되는 퍼레이드. 건기 최고 시즌과 겹쳐 최고 여행 시기.",
+          "tip": "2월은 건기 최고 시즌. 꽃 마차 퍼레이드는 2월 첫째 토요일 오전에 진행.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "chiangmai-songkran",
+          "name": "송크란 물 축제",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            4
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-04-13",
+              "endDate": "2026-04-15",
+              "confirmed": true
+            }
+          ],
+          "description": "방콕보다 더 격렬한 물 싸움. 구시가지 해자 주변에서 대규모 물 싸움.",
+          "tip": "방수팩 필수. 전자기기 방수 케이스에. 하얀 옷 피하기.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "푸껫": {
+      "country": "태국",
+      "city": "푸껫",
+      "events": [
+        {
+          "id": "phuket-vegetarian",
+          "name": "베지터리언 페스티벌",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            9,
+            10
+          ],
+          "occurrences": [],
+          "description": "9일간 화교 문화의 채식 축제. 불 걷기·꼬챙이 의식 등 극한 의식이 열립니다.",
+          "tip": "꼬챙이 의식은 강렬한 장면. 카투 사원에서 진행.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "phuket-high-season",
+          "name": "건기 성수기",
+          "type": "event",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            11,
+            12,
+            1,
+            2,
+            3,
+            4
+          ],
+          "occurrences": [],
+          "description": "푸껫 최고 여행 시기. 맑은 하늘, 잔잔한 바다. 12~1월 가격 최고점.",
+          "tip": "해양 스포츠는 이 시기가 최적. 10~11월 성수기 전환 시점이 가성비 최고.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "phuket-monsoon",
+          "name": "우기 (거친 파도)",
+          "type": "warning",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "occurrences": [],
+          "description": "파타야·카말라 서쪽 해변에 거친 파도와 강한 스콜. 적기(Red Flag) 게양 시 입수 금지.",
+          "tip": "적기 무시하면 익사 위험. 파도 조건 확인 후 수영 결정.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "하노이": {
+      "country": "베트남",
+      "city": "하노이",
+      "events": [
+        {
+          "id": "hanoi-tet",
+          "name": "뗏 (베트남 설날)",
+          "type": "holiday",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            1,
+            2
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-02-17",
+              "endDate": "2026-02-23",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-02-06",
+              "endDate": "2027-02-12",
+              "confirmed": true
+            }
+          ],
+          "description": "베트남 최대 명절. 대부분의 상점·식당이 1~2주간 문을 닫습니다.",
+          "tip": "뗏 3~5일 전 방문하면 꽃 시장과 활기찬 분위기 즐길 수 있습니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "hanoi-dry-season",
+          "name": "건기 최적 시즌",
+          "type": "event",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            10,
+            11,
+            12,
+            1,
+            2,
+            3,
+            4
+          ],
+          "occurrences": [],
+          "description": "하노이 여행 최적 시기. 10~11월은 쾌청하고 시원. 12~2월은 쌀쌀할 수 있지만 우기보다 낫습니다.",
+          "tip": "하노이는 동남아 기준 겨울이 있습니다 (12~2월 15~20도). 가디건 하나 챙기세요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "hanoi-rainy",
+          "name": "우기 (북부)",
+          "type": "warning",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            5,
+            6,
+            7,
+            8,
+            9
+          ],
+          "occurrences": [],
+          "description": "하노이 포함 북부 베트남 우기. 매일 강한 소나기와 높은 습도.",
+          "tip": "우산·비옷 필수. 오토바이 이동 시 빗길 미끄러움 주의.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "호치민": {
+      "country": "베트남",
+      "city": "호치민",
+      "events": [
+        {
+          "id": "hcm-tet",
+          "name": "뗏 (구정)",
+          "type": "holiday",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            1,
+            2
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-02-17",
+              "endDate": "2026-02-23",
+              "confirmed": true
+            }
+          ],
+          "description": "베트남 최대 명절. 대부분의 상점·식당이 1주일 이상 문을 닫습니다.",
+          "tip": "구정 3~5일 전 방문하면 꽃 시장과 활기찬 분위기 즐길 수 있습니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "hcm-reunification",
+          "name": "통일 기념일",
+          "type": "holiday",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            4
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-04-30",
+              "endDate": "2026-04-30",
+              "confirmed": true
+            }
+          ],
+          "description": "1975년 사이공 함락 기념일. 통일궁·전쟁박물관 무료 입장 가능.",
+          "tip": "전쟁박물관은 베트남전 역사를 깊이 이해하는 최고 장소. 오전 이른 방문 추천.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "hcm-rainy",
+          "name": "우기 (남부)",
+          "type": "warning",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "occurrences": [],
+          "description": "호치민 포함 남부 우기. 오후 2~5시 집중 스콜. 아침은 보통 맑습니다.",
+          "tip": "오전 관광, 오후 쇼핑몰·카페로 대피 패턴이 현지인 방식.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "호이안": {
+      "country": "베트남",
+      "city": "호이안",
+      "events": [
+        {
+          "id": "hoian-lantern",
+          "name": "음력 보름 등불 축제",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "occurrences": [],
+          "description": "매달 보름날 전기를 끄고 종이 등불로만 구시가지를 밝히는 환상적인 축제. 투본강에 등불 띄우기.",
+          "tip": "15,000동에 등불을 사서 강에 띄워보세요. 오후 6시 이후 구시가지 진입.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "hoian-typhoon",
+          "name": "우기 태풍 시즌",
+          "type": "warning",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "occurrences": [],
+          "description": "베트남 중부 우기로 태풍 및 집중 강우. 10~11월 홍수로 구시가지 침수 가능.",
+          "tip": "여행자보험 필수. 호이안 방문은 2~4월·7~8월 추천.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "로마": {
+      "country": "이탈리아",
+      "city": "로마",
+      "events": [
+        {
+          "id": "rome-easter",
+          "name": "부활절 & 성주간",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            3,
+            4
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-04-02",
+              "endDate": "2026-04-05",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-03-25",
+              "endDate": "2027-03-28",
+              "confirmed": false
+            }
+          ],
+          "description": "바티칸 성 베드로 광장의 교황 부활절 미사. 전 세계 순례자·관광객이 몰려 숙소·교통 극혼잡.",
+          "tip": "바티칸 미사 입장권은 사전 온라인 예약 필수. 숙소는 최소 3개월 전 예약.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "rome-august",
+          "name": "페라고스토 (8월 혹서)",
+          "type": "warning",
+          "impact": "avoid",
+          "recurrence": "annual",
+          "months": [
+            8
+          ],
+          "occurrences": [],
+          "description": "이탈리아 최대 휴가 시즌. 현지 식당·상점 상당수가 2~4주간 문을 닫습니다. 기온 35~42도.",
+          "tip": "8월 로마는 피하거나 에어컨 있는 박물관 위주 관광. 5~6월 또는 9~10월이 훨씬 좋습니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "rome-new-year",
+          "name": "새해 불꽃놀이",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            12,
+            1
+          ],
+          "occurrences": [],
+          "description": "로마 포폴로 광장·콜로세움 주변 새해 불꽃놀이. 이탈리아식 카포다노(새해 전야) 파티.",
+          "tip": "12월 31일 시내 레스토랑 섣달그믐 메뉴는 미리 예약 필수.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "베네치아": {
+      "country": "이탈리아",
+      "city": "베네치아",
+      "events": [
+        {
+          "id": "venice-carnival",
+          "name": "베네치아 카니발",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            2,
+            3
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-02-07",
+              "endDate": "2026-02-17",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-02-27",
+              "endDate": "2027-03-09",
+              "confirmed": false
+            }
+          ],
+          "description": "세계 최고의 가면 축제. 화려한 가면과 의상을 입은 사람들이 산마르코 광장을 채웁니다.",
+          "tip": "가면 대여·구매는 무라노 유리 가면 공방 추천. 카니발 기간 숙소는 1년 전 예약.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "venice-biennale",
+          "name": "베네치아 비엔날레",
+          "type": "event",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-04-18",
+              "endDate": "2026-11-24",
+              "confirmed": false
+            }
+          ],
+          "description": "세계 최대 현대미술 비엔날레. 짝수 해 개최. 전 세계 예술가·컬렉터·관광객이 몰립니다.",
+          "tip": "비엔날레 기간(4~11월) 베네치아 숙소 가격 30% 이상 상승. 미리 예약 필요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "venice-acqua-alta",
+          "name": "아쿠아 알타 (침수 시즌)",
+          "type": "warning",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            10,
+            11,
+            12,
+            1
+          ],
+          "occurrences": [],
+          "description": "10월~1월 조수 상승으로 베네치아 구시가지 침수. 산마르코 광장이 물에 잠기기도 합니다.",
+          "tip": "방수 장화 지참 권장. 산마르코 광장 조기 방문. 침수 예보 앱(Città di Venezia) 활용.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "피렌체": {
+      "country": "이탈리아",
+      "city": "피렌체",
+      "events": [
+        {
+          "id": "florence-calcio",
+          "name": "칼초 스토리코 (역사 축구)",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            6
+          ],
+          "occurrences": [],
+          "description": "16세기 복장의 선수들이 산타크로체 광장에서 벌이는 거친 역사 축구. 매년 6월 개최.",
+          "tip": "6월 피렌체는 기온 30도 이상. 6~7월은 가장 붐비는 시기지만 칼초 스토리코는 놓치기 아깝습니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "florence-summer",
+          "name": "여름 성수기",
+          "type": "warning",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            7,
+            8
+          ],
+          "occurrences": [],
+          "description": "7~8월 우피치·두오모 대기 2~4시간. 기온 35~40도로 야외 관광 매우 힘든 시기.",
+          "tip": "우피치·아카데미아 갤러리는 온라인 사전 예매 필수. 오전 8시 오픈 직후 방문.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "바르셀로나": {
+      "country": "스페인",
+      "city": "바르셀로나",
+      "events": [
+        {
+          "id": "barcelona-lamerce",
+          "name": "라 메르세 축제",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            9
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-09-20",
+              "endDate": "2026-09-24",
+              "confirmed": true
+            }
+          ],
+          "description": "바르셀로나 최대 시민 축제. 인간 탑 쌓기·불꽃 퍼레이드·콘서트. 카탈루냐 문화의 정수.",
+          "tip": "9월 말 바르셀로나는 날씨도 쾌적. 고딕 지구에서 카스텔레르(인간 탑) 공연 관람 추천.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "barcelona-summer",
+          "name": "여름 성수기",
+          "type": "caution",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            7,
+            8
+          ],
+          "occurrences": [],
+          "description": "7~8월 사그라다 파밀리아·파크 구엘 극혼잡. 가우디 건축물 입장 대기 2~3시간.",
+          "tip": "가우디 명소는 공식 사이트에서 날짜·시간 지정 예매 필수. 오픈 직후가 제일 쾌적.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "barcelona-new-year",
+          "name": "스페인 새해 (라스 우바스)",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            12,
+            1
+          ],
+          "occurrences": [],
+          "description": "자정 12번의 종소리에 맞춰 포도알 12개 먹기. 카탈루냐 광장에서 새해 카운트다운.",
+          "tip": "미리 포도 사서 자정 카운트다운에 맞춰 먹는 스페인 전통 참여해 보세요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "마드리드": {
+      "country": "스페인",
+      "city": "마드리드",
+      "events": [
+        {
+          "id": "madrid-san-isidro",
+          "name": "산 이시드로 축제",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            5
+          ],
+          "occurrences": [],
+          "description": "마드리드 수호성인 축제. 전통 의상·콘서트·투우. 프라도 공원에서 무료 공연 다수.",
+          "tip": "5월 마드리드 날씨 완벽. 프라도 공원 야외 공연은 무료.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "madrid-summer",
+          "name": "여름 혹서기",
+          "type": "warning",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            7,
+            8
+          ],
+          "occurrences": [],
+          "description": "7~8월 마드리드 기온 40도 이상. 스페인 현지인들도 바캉스로 떠나 도시가 한산해집니다.",
+          "tip": "8월 마드리드는 박물관은 붐비지만 레스토랑 일부 휴업. 프라도 미술관은 연중 개관.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "로스앤젤레스": {
+      "country": "미국",
+      "city": "로스앤젤레스",
+      "events": [
+        {
+          "id": "la-oscars",
+          "name": "아카데미 시상식",
+          "type": "event",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            3
+          ],
+          "occurrences": [],
+          "description": "할리우드 돌비 시어터에서 개최. 할리우드·비버리힐스 일대 교통 통제 및 숙소 가격 상승.",
+          "tip": "3월 LA 날씨 쾌적. 시상식 당일 할리우드 대로 방문은 피하거나 오전 일찍 방문.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "la-summer",
+          "name": "여름 성수기",
+          "type": "caution",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            6,
+            7,
+            8
+          ],
+          "occurrences": [],
+          "description": "7~8월 LA 최성수기. 유니버설 스튜디오·디즈니랜드 극혼잡. 항공·숙소 가격 최고점.",
+          "tip": "테마파크는 오픈 직후 방문이 대기 줄 최소화. 라이트닝 레인 예매 권장.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "시드니": {
+      "country": "호주",
+      "city": "시드니",
+      "events": [
+        {
+          "id": "sydney-nye",
+          "name": "시드니 새해 불꽃놀이",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            12,
+            1
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-12-31",
+              "endDate": "2026-12-31",
+              "confirmed": true
+            }
+          ],
+          "description": "오페라 하우스·하버 브리지 배경의 세계 최고 새해 불꽃놀이. 전 세계 생방송 중계. 미드나이트 불꽃은 20분간.",
+          "tip": "12월 31일 명당(밀슨스 포인트·보타닉 가든) 오후 2시 이전 자리 확보. 유료 예약 행사도 있습니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "sydney-mardi-gras",
+          "name": "시드니 마디 그라",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            2,
+            3
+          ],
+          "occurrences": [],
+          "description": "세계 최대 LGBTQ+ 퍼레이드. 옥스포드 스트리트 퍼레이드와 하이드 파크 파티. 2~3월 개최.",
+          "tip": "2~3월 시드니는 여름 성수기. 숙소 미리 예약.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "sydney-summer",
+          "name": "여름 성수기 (12~2월)",
+          "type": "event",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            12,
+            1,
+            2
+          ],
+          "occurrences": [],
+          "description": "호주 여름. 본다이 해변·맨리 해변 최성수기. 기온 25~35도로 야외 활동 최적.",
+          "tip": "자외선이 매우 강합니다. SPF 50+ 선크림 필수.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "멜버른": {
+      "country": "호주",
+      "city": "멜버른",
+      "events": [
+        {
+          "id": "melbourne-cup",
+          "name": "멜버른 컵 (경마)",
+          "type": "event",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            11
+          ],
+          "occurrences": [],
+          "description": "11월 첫째 화요일. 호주 최대 경마 대회. 멜버른 전역 공휴일. 플레밍턴 경마장 인파 집결.",
+          "tip": "멜버른 컵 당일 플레밍턴 주변 교통 극혼잡. 숙소 가격 최고점.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "melbourne-aus-open",
+          "name": "호주 오픈 (테니스)",
+          "type": "event",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            1
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-01-19",
+              "endDate": "2026-02-01",
+              "confirmed": false
+            }
+          ],
+          "description": "세계 4대 그랜드슬램 중 하나. 1월 중순~2월 초 멜버른 파크에서 개최. 기간 중 숙소 가격 급등.",
+          "tip": "호주 오픈 기간 멜버른 시내 숙소 3개월 전 예약 필수.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "홍콩": {
+      "country": "홍콩",
+      "city": "홍콩",
+      "events": [
+        {
+          "id": "hongkong-lunar-ny",
+          "name": "홍콩 설날 불꽃놀이",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            1,
+            2
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-02-17",
+              "endDate": "2026-02-17",
+              "confirmed": true
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-02-06",
+              "endDate": "2027-02-06",
+              "confirmed": true
+            }
+          ],
+          "description": "빅토리아 하버에서 펼쳐지는 설날 불꽃놀이. 채완·완차이 해안이 최고 명당.",
+          "tip": "설날 당일과 전날 홍콩 MRT 극혼잡. 오전 일찍 이동 권장.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "hongkong-dragon-boat",
+          "name": "용선 축제 (드래곤보트)",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            6
+          ],
+          "occurrences": [],
+          "description": "단오절 용선 경주. 스탠리·타이포 등에서 화려한 용선 경기가 펼쳐집니다.",
+          "tip": "스탠리 해변 용선 경기가 가장 볼만합니다. 6월 홍콩은 무덥고 습합니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "타이베이": {
+      "country": "대만",
+      "city": "타이베이",
+      "events": [
+        {
+          "id": "taipei-lantern",
+          "name": "핑시 하늘 등불 축제",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            2
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-03-03",
+              "endDate": "2026-03-03",
+              "confirmed": false
+            }
+          ],
+          "description": "원소절(음력 1월 15일) 핑시에서 하늘 등불 날리기. 대만 최대 축제 중 하나.",
+          "tip": "핑시 기차역 당일 인파 매우 많습니다. 기차 사전 예매 필수.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "taipei-dragon-boat",
+          "name": "용선 축제 (단오)",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            6
+          ],
+          "occurrences": [],
+          "description": "단오절 용선 경기. 타이베이 다한강·지룽항에서 개최. 대만 공휴일.",
+          "tip": "단오절 당일 쭝즈(대나무 잎 찹쌀밥) 꼭 먹어보세요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "taipei-lunar-ny",
+          "name": "설날 연휴",
+          "type": "holiday",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            1,
+            2
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-02-17",
+              "endDate": "2026-02-23",
+              "confirmed": true
+            }
+          ],
+          "description": "대만 최대 명절. 많은 상점·야시장 휴업. 도시가 한산해지고 귀성 인파로 교통 혼잡.",
+          "tip": "설날 기간 타이베이 야시장(스린·라오허) 일부 휴업 확인 필요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "이스탄불": {
+      "country": "터키",
+      "city": "이스탄불",
+      "events": [
+        {
+          "id": "istanbul-tulip",
+          "name": "튤립 축제",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            4
+          ],
+          "occurrences": [],
+          "description": "4월 이스탄불 공원·광장에 수백만 송이 튤립이 만개. 에미르간 공원·술탄아흐메트 광장이 최고 명소.",
+          "tip": "4월 이스탄불은 날씨도 쾌적하고 성수기 혼잡 전 방문 가능한 최적기.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "istanbul-ramadan",
+          "name": "라마단",
+          "type": "holiday",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            1,
+            2,
+            3
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-02-18",
+              "endDate": "2026-03-19",
+              "confirmed": false
+            },
+            {
+              "year": 2027,
+              "startDate": "2027-02-07",
+              "endDate": "2027-03-08",
+              "confirmed": false
+            }
+          ],
+          "description": "이슬람 단식 성월. 낮 시간 공공장소 음식 삼가. 이프타르(해질 무렵 식사) 시간 레스토랑 예약 필요.",
+          "tip": "이프타르 뷔페 체험 추천. 이스탄불 라마단은 독특한 문화 체험 기회이기도 합니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "istanbul-summer",
+          "name": "여름 성수기",
+          "type": "caution",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            7,
+            8
+          ],
+          "occurrences": [],
+          "description": "7~8월 이스탄불 최성수기. 아야 소피아·그랜드 바자르 극혼잡. 기온 32~38도.",
+          "tip": "아야 소피아 입장은 사전 온라인 예약 권장. 이른 오전·늦은 저녁 방문이 쾌적.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "아테네": {
+      "country": "그리스",
+      "city": "아테네",
+      "events": [
+        {
+          "id": "athens-easter",
+          "name": "그리스 정교회 부활절",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            4,
+            5
+          ],
+          "occurrences": [],
+          "description": "그리스 최대 종교 축제. 자정 촛불 행진과 부활절 불꽃놀이. 아테네 전역 축제 분위기.",
+          "tip": "부활절 주간 아테네 숙소 미리 예약. 모나스티라키 광장에서 전통 양고기 구이 체험.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "athens-summer",
+          "name": "여름 혹서기",
+          "type": "warning",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            7,
+            8
+          ],
+          "occurrences": [],
+          "description": "7~8월 아테네 40도 이상 폭염. 아크로폴리스 야외 관광 매우 힘든 시기.",
+          "tip": "아크로폴리스 오전 8~9시 방문. 오후 2~5시는 그늘에서 휴식. 5~6월 또는 9~10월이 최적.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "산토리니": {
+      "country": "그리스",
+      "city": "산토리니",
+      "events": [
+        {
+          "id": "santorini-peak",
+          "name": "여름 최성수기",
+          "type": "caution",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            7,
+            8
+          ],
+          "occurrences": [],
+          "description": "7~8월 오이아 일몰 명소 극혼잡. 숙소 가격 3~5배. 항구 케이블카 대기 1~2시간.",
+          "tip": "오이아 일몰은 오후 6시 이전 자리 잡기. 이아 마을 골목 탐험이 더 여유롭습니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "santorini-shoulder",
+          "name": "봄·가을 최적 시즌",
+          "type": "event",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            4,
+            5,
+            9,
+            10
+          ],
+          "occurrences": [],
+          "description": "5월·9월이 산토리니 최적 여행 시기. 성수기보다 한산하고 날씨도 좋습니다.",
+          "tip": "5월 피라·오이아 에어비앤비형 동굴 숙소 예약 시 숙소 가격 30~50% 저렴.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "퀘벡시티": {
+      "country": "캐나다",
+      "city": "퀘벡시티",
+      "events": [
+        {
+          "id": "quebec-carnival",
+          "name": "퀘벡 겨울 카니발",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            2
+          ],
+          "occurrences": [],
+          "description": "세계 최대 겨울 축제 중 하나. 퀘벡 구시가지 아이스팰리스·눈 조각·야외 파티.",
+          "tip": "2월 퀘벡은 영하 20~30도. 방한 장비 철저히. 아이스팰리스 야간 조명이 가장 아름답습니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "quebec-summer",
+          "name": "여름 축제 시즌",
+          "type": "event",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            7
+          ],
+          "occurrences": [],
+          "description": "7월 퀘벡 여름 축제(페스티발 데테). 플레인스 오브 에이브라함에서 야외 콘서트.",
+          "tip": "7월 퀘벡 날씨 쾌적. 구시가지·샤토 프롱트나크 주변이 가장 활기찬 시기.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "리스본": {
+      "country": "포르투갈",
+      "city": "리스본",
+      "events": [
+        {
+          "id": "lisbon-santos-populares",
+          "name": "산투스 포풀라리스 (성인 축제)",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            6
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-06-12",
+              "endDate": "2026-06-13",
+              "confirmed": true
+            }
+          ],
+          "description": "리스본 최대 시민 축제. 알파마 지구 전체가 파티장으로 변신. 정어리 구이·와인·음악.",
+          "tip": "6월 12~13일 알파마 좁은 골목을 누비며 현지인들과 함께 축제 즐기기. 소매치기 주의.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "lisbon-summer",
+          "name": "여름 성수기",
+          "type": "caution",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            7,
+            8
+          ],
+          "occurrences": [],
+          "description": "7~8월 리스본 최성수기. 기온 35~40도. 신트라·카보다로카 등 당일치기 명소 극혼잡.",
+          "tip": "신트라는 7~8월 입장권 사전 예매 필수. 오전 8~9시 방문이 인파 최소.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "포르투": {
+      "country": "포르투갈",
+      "city": "포르투",
+      "events": [
+        {
+          "id": "porto-sao-joao",
+          "name": "상 주앙 축제",
+          "type": "festival",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            6
+          ],
+          "occurrences": [
+            {
+              "year": 2026,
+              "startDate": "2026-06-23",
+              "endDate": "2026-06-24",
+              "confirmed": true
+            }
+          ],
+          "description": "포르투 최대 축제. 6월 23~24일 플라스틱 망치로 서로 두드리고 마늘·바질 선물. 도루강변 불꽃놀이.",
+          "tip": "6월 23일 자정 포르투 구시가지 전체가 축제. 도루강변 빌라노바 가이아 쪽이 불꽃놀이 명당.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "porto-wine-harvest",
+          "name": "도루 밸리 포도 수확 시즌",
+          "type": "event",
+          "impact": "positive",
+          "recurrence": "annual",
+          "months": [
+            9,
+            10
+          ],
+          "occurrences": [],
+          "description": "9~10월 도루 밸리 포도 수확. 와이너리 투어·포트 와인 테이스팅 최적기.",
+          "tip": "도루 밸리 와이너리 투어는 레가 두루강 크루즈+기차 조합 추천.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    },
+    "칸쿤": {
+      "country": "멕시코",
+      "city": "칸쿤",
+      "events": [
+        {
+          "id": "cancun-spring-break",
+          "name": "스프링 브레이크",
+          "type": "warning",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            3
+          ],
+          "occurrences": [],
+          "description": "3월 미국 대학생들의 봄 방학. 칸쿤 호텔존 해변·클럽 매우 시끄럽고 혼잡. 숙소 가격 2배.",
+          "tip": "가족 여행 시 3월 칸쿤 호텔존 회피 추천. 플라야 델 카르멘이나 툴룸이 조용합니다.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        },
+        {
+          "id": "cancun-hurricane",
+          "name": "허리케인 시즌",
+          "type": "warning",
+          "impact": "caution",
+          "recurrence": "annual",
+          "months": [
+            8,
+            9,
+            10
+          ],
+          "occurrences": [],
+          "description": "카리브해 허리케인 시즌. 8~10월 카리브해 폭풍 위험. 일부 리조트 폐쇄 가능.",
+          "tip": "여행자보험 필수. 8~10월 칸쿤 숙소 가격은 저렴하지만 날씨 위험 감수 필요.",
+          "lastUpdated": "2026-05-22",
+          "sources": []
+        }
+      ]
+    }
+  }
+}

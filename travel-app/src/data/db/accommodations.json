@@ -1,0 +1,752 @@
+{
+  "schemaVersion": 1,
+  "lastUpdated": "2026-05-20",
+  "destinations": {
+    "도쿄": {
+      "country": "일본",
+      "city": "도쿄",
+      "accommodations": [
+        {
+          "id": "park-hyatt-tokyo",
+          "name": "파크 하얏트 도쿄 (신주쿠)",
+          "type": "5성급 럭셔리",
+          "priceRange": "₩₩₩₩₩",
+          "description": "영화 〈사랑도 통역이 되나요?〉의 배경. 52~55층에서 후지산 뷰를 즐길 수 있습니다. 수영장·스파 완비.",
+          "bookingUrl": "https://www.hyatt.com/ko-KR/hotel/japan/park-hyatt-tokyo/tyoph",
+          "distanceToStation": "신주쿠역 도보 12분 또는 셔틀",
+          "reviewScore": 4.7,
+          "reviewCount": "5,200건+",
+          "amenities": ["수영장", "스파", "피트니스", "레스토랑 3개"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["후지산 뷰 객실", "뉴욕 바 루프탑", "스파 & 수영장"], "tip": "마루노우치 뷰 객실 사전 요청. 영화 '사랑도 통역이 되나요?' 배경지 경험." },
+            "family_young_kids": { "score": 1, "fit": false, "highlights": [], "tip": "유아 특화 시설 없음. 조용한 고급 분위기로 어린이 동반에 불편." },
+            "family_elderly": { "score": 4, "fit": true, "highlights": ["엘리베이터 완비", "호텔 내 레스토랑 3곳", "스파"], "tip": "이동 최소화 가능. 고급 레스토랑에서 모든 식사 해결 가능." },
+            "small_group": { "score": 3, "fit": true, "highlights": ["라운지 바", "레스토랑"], "tip": "소규모 비즈니스 미팅·식사 모임에 적합." },
+            "large_group": { "score": 1, "fit": false, "highlights": [], "tip": "대규모 객실 동시 확보 어려움." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "어린이 제한적 환경. 멀티제너레이션 여행에는 비추천." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "tokyo-station-hotel",
+          "name": "도쿄 스테이션 호텔",
+          "type": "5성급 클래식",
+          "priceRange": "₩₩₩₩₩",
+          "description": "1915년 개업한 역사적 건물 안에 자리한 호텔. 마루노우치 뷰 객실에서 도쿄역 붉은 벽돌 지붕을 감상할 수 있습니다.",
+          "bookingUrl": "https://www.thetokyostationhotel.jp/ko/",
+          "distanceToStation": "도쿄역 직결 (도보 1분)",
+          "reviewScore": 4.8,
+          "reviewCount": "4,100건+",
+          "amenities": ["스파", "레스토랑 5개", "피트니스"],
+          "companionProfiles": {
+            "couple": { "score": 4, "fit": true, "highlights": ["도쿄역 붉은 벽돌 뷰", "역사적 건물", "미슐랭급 레스토랑"], "tip": "마루노우치 뷰 객실 사전 예약 필수. 아침 일찍 도착해 역 주변 탐방." },
+            "family_young_kids": { "score": 1, "fit": false, "highlights": [], "tip": "클래식하고 조용한 분위기. 어린이 전용 시설 미비." },
+            "family_elderly": { "score": 5, "fit": true, "highlights": ["도쿄역 직결 - 이동 최소화", "엘리베이터 완비", "고급 레스토랑 내부"], "tip": "도쿄역 직결이라 이동이 거의 없음. 어르신 여행에 최적." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["프라이빗 다이닝", "바 라운지"], "tip": "소규모 특별한 여행에 최고의 선택." },
+            "large_group": { "score": 2, "fit": false, "highlights": [], "tip": "대형 그룹 객실 확보 어려움." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "전반적으로 조용하고 격식 있는 분위기. 어린이 환경 아님." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "prince-park-tower-tokyo",
+          "name": "더 프린스 파크 타워 도쿄",
+          "type": "4성급 패밀리",
+          "priceRange": "₩₩₩₩",
+          "description": "도쿄 타워 바로 옆에 위치. 어린이 메뉴·수영장·넓은 객실로 가족 여행에 최적화.",
+          "bookingUrl": "https://www.booking.com/hotel/jp/the-prince-park-tower-tokyo.ko.html",
+          "distanceToStation": "아카바네바시역 도보 7분",
+          "reviewScore": 4.4,
+          "reviewCount": "2,800건+",
+          "amenities": ["어린이 메뉴 제공", "실내 수영장", "유아 침대 무료", "전자레인지 (요청 시)", "유아 어메니티 세트", "트윈+엑스트라베드 구성 가능"],
+          "companionProfiles": {
+            "couple": { "score": 3, "fit": true, "highlights": ["도쿄 타워 뷰", "수영장"], "tip": "도쿄 타워 뷰 객실 요청. 가족 여행객이 많아 분위기는 패밀리 위주." },
+            "family_young_kids": { "score": 5, "fit": true, "highlights": ["도쿄 타워 뷰", "실내 수영장", "유아 침대 무료", "전자레인지 요청 가능", "어린이 메뉴"], "tip": "도쿄에서 유소아 동반 1순위 호텔. 유아식 전자레인지 데우기 가능. 수영장은 어린이도 안전." },
+            "family_elderly": { "score": 4, "fit": true, "highlights": ["엘리베이터 완비", "레스토랑 내부", "수영장"], "tip": "접근성 좋고 편의시설 완비. 도쿄 타워 야경 감상 추천." },
+            "small_group": { "score": 3, "fit": true, "highlights": ["수영장", "레스토랑"], "tip": "소규모 그룹 여행에도 적합. 시오도메·롯폰기 접근성 우수." },
+            "large_group": { "score": 4, "fit": true, "highlights": ["대형 객실", "수영장", "연회장"], "tip": "단체 예약 가능. 연회장 이용 시 사전 문의 필요." },
+            "family_all": { "score": 5, "fit": true, "highlights": ["어린이 메뉴", "수영장", "유아 침대", "가족실"], "tip": "멀티제너레이션 가족에 최고. 어르신부터 아이까지 모두 만족." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "asakusa-guesthouse-kagamiya",
+          "name": "아사쿠사 게스트하우스 (카가미야)",
+          "type": "게스트하우스·료칸",
+          "priceRange": "₩₩",
+          "description": "전통 목조 건물을 개조한 아사쿠사 게스트하우스. 센소지 도보 5분, 공용 공간에서 각국 여행자와 교류 가능.",
+          "bookingUrl": "https://www.booking.com/hotel/jp/kagamiya.ko.html",
+          "distanceToStation": "아사쿠사역 도보 5분",
+          "reviewScore": 4.2,
+          "reviewCount": "680건+",
+          "amenities": ["공용 주방", "공용 라운지", "자전거 대여"],
+          "companionProfiles": {
+            "couple": { "score": 4, "fit": true, "highlights": ["전통 료칸 분위기", "센소지 도보 5분", "아사쿠사 골목 탐방"], "tip": "부부 또는 커플에게도 매력적인 전통 숙소 경험." },
+            "family_young_kids": { "score": 1, "fit": false, "highlights": [], "tip": "공용 시설 위주로 유아 동반에 불편. 유아 어메니티 없음." },
+            "family_elderly": { "score": 2, "fit": false, "highlights": [], "tip": "계단 많고 공용 욕실. 어르신 동반에는 불편할 수 있음." },
+            "small_group": { "score": 5, "fit": true, "highlights": ["공용 라운지", "각국 여행자 교류", "가성비 최고"], "tip": "여행자들끼리 어울리기 좋은 분위기. 도미토리 또는 개인실 선택 가능." },
+            "large_group": { "score": 2, "fit": false, "highlights": [], "tip": "대규모 그룹 수용 어려움." },
+            "family_all": { "score": 1, "fit": false, "highlights": [], "tip": "가족 여행에는 부적합. 개인 욕실 없음." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "shibuya-stream-excel-tokyu",
+          "name": "시부야 스트림 엑셀 호텔 도큐",
+          "type": "4성급 비즈니스",
+          "priceRange": "₩₩₩",
+          "description": "시부야 스크램블 교차로 도보 2분. 쇼핑·나이트라이프의 중심으로 젊은 여행자에게 인기.",
+          "bookingUrl": "https://www.booking.com/hotel/jp/shibuya-stream-excel-tokyu.ko.html",
+          "distanceToStation": "시부야역 직결 (도보 2분)",
+          "reviewScore": 4.3,
+          "reviewCount": "3,100건+",
+          "amenities": ["피트니스", "레스토랑", "바"],
+          "companionProfiles": {
+            "couple": { "score": 4, "fit": true, "highlights": ["시부야 스크램블 뷰", "트렌디한 위치", "루프탑 바"], "tip": "시부야 야경과 스크램블 교차로 뷰 객실 인기. 젊은 커플에게 최적." },
+            "family_young_kids": { "score": 1, "fit": false, "highlights": [], "tip": "나이트라이프 지역이라 유아 동반에 불적합. 유아 시설 없음." },
+            "family_elderly": { "score": 2, "fit": false, "highlights": [], "tip": "번화가라 소음 있음. 어르신 여행에는 다소 불편할 수 있음." },
+            "small_group": { "score": 5, "fit": true, "highlights": ["시부야 중심", "쇼핑 직결", "나이트라이프 접근성"], "tip": "젊은 소규모 그룹 여행에 최고. 시부야·하라주쿠·오모테산도 접근성 최상." },
+            "large_group": { "score": 3, "fit": true, "highlights": ["시부야 중심"], "tip": "대규모 그룹도 수용 가능하지만 방 분산될 수 있음." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "가족 여행에는 위치가 번잡함." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        }
+      ]
+    },
+    "오사카": {
+      "country": "일본",
+      "city": "오사카",
+      "accommodations": [
+        {
+          "id": "w-osaka",
+          "name": "W 오사카",
+          "type": "5성급 디자인 호텔",
+          "priceRange": "₩₩₩₩₩",
+          "description": "안도 다다오 설계로 미니멀하고 현대적인 감각. 도심 미도스지 대로 바로 앞에 위치. 루프탑 바에서 오사카 야경이 환상적.",
+          "bookingUrl": "https://www.marriott.com/hotels/travel/osamc-w-osaka/",
+          "distanceToStation": "신사이바시역 도보 3분",
+          "reviewScore": 4.6,
+          "reviewCount": "2,900건+",
+          "amenities": ["수영장", "스파", "루프탑 바", "피트니스"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["루프탑 바 오사카 야경", "안도 다다오 건축", "도톤보리 도보 5분"], "tip": "신사이바시·도톤보리 도보 거리. 루프탑 선셋 바 예약 강추." },
+            "family_young_kids": { "score": 1, "fit": false, "highlights": [], "tip": "나이트라이프 중심 호텔. 유아 시설 없음." },
+            "family_elderly": { "score": 3, "fit": true, "highlights": ["접근성 좋음", "레스토랑 내부"], "tip": "신사이바시 바로 앞이라 쇼핑·식사 편리. 스파 이용 추천." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["루프탑 바", "미도스지 대로 뷰"], "tip": "힙하고 감각적인 분위기. 소규모 여행 그룹에 최고." },
+            "large_group": { "score": 2, "fit": false, "highlights": [], "tip": "대규모 예약 어려움." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "가족 여행에는 과하게 트렌디한 분위기." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "conrad-osaka",
+          "name": "콘래드 오사카",
+          "type": "5성급 럭셔리",
+          "priceRange": "₩₩₩₩₩",
+          "description": "나카노시마 페스티벌 타워 40층 이상에 위치. 도시 파노라마 뷰가 압도적이며 미슐랭 레스토랑 입점.",
+          "bookingUrl": "https://www.hilton.com/ko/hotels/osacihi-conrad-osaka/",
+          "distanceToStation": "히고바시역 도보 5분",
+          "reviewScore": 4.8,
+          "reviewCount": "3,400건+",
+          "amenities": ["수영장", "스파", "미슐랭 레스토랑", "피트니스"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["40층+ 파노라마 뷰", "미슐랭 레스토랑", "스파"], "tip": "오사카 최고급 로맨틱 숙소. 특별한 기념일 추천." },
+            "family_young_kids": { "score": 1, "fit": false, "highlights": [], "tip": "고급 파인다이닝 위주라 어린이 동반에 불편." },
+            "family_elderly": { "score": 5, "fit": true, "highlights": ["40층 전망", "고급 레스토랑", "스파", "엘리베이터 완비"], "tip": "이동 최소화하며 최고의 뷰와 서비스 경험 가능." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["파노라마 뷰", "레스토랑"], "tip": "특별한 소규모 여행에 최고의 선택." },
+            "large_group": { "score": 2, "fit": false, "highlights": [], "tip": "대규모 예약 어려움." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "어린이와 함께라면 다른 호텔 추천." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "cross-hotel-osaka",
+          "name": "크로스 호텔 오사카",
+          "type": "3성급 트렌디",
+          "priceRange": "₩₩₩",
+          "description": "난바·도톤보리 도보 5분. 디자인 감각이 뛰어나고 가성비 좋아 젊은 여행자에게 인기. 루프탑 바 운영.",
+          "bookingUrl": "https://www.booking.com/hotel/jp/cross-osaka.ko.html",
+          "distanceToStation": "닛폰바시역 도보 4분",
+          "reviewScore": 4.2,
+          "reviewCount": "5,600건+",
+          "amenities": ["루프탑 바", "레스토랑", "피트니스"],
+          "companionProfiles": {
+            "couple": { "score": 4, "fit": true, "highlights": ["도톤보리 도보 5분", "루프탑 바", "디자인 인테리어"], "tip": "젊은 커플에게 가성비 좋은 선택. 도톤보리 접근성 최고." },
+            "family_young_kids": { "score": 1, "fit": false, "highlights": [], "tip": "유아 시설 없음." },
+            "family_elderly": { "score": 2, "fit": false, "highlights": [], "tip": "트렌디한 분위기로 어르신 취향에 맞지 않을 수 있음." },
+            "small_group": { "score": 5, "fit": true, "highlights": ["난바 중심", "루프탑 바", "가성비"], "tip": "소규모 그룹의 오사카 미식 탐방 기지로 최고." },
+            "large_group": { "score": 3, "fit": true, "highlights": ["중심 위치"], "tip": "대규모 그룹도 수용 가능." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "가족 여행에는 다소 좁고 트렌디한 분위기." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "namba-excel-hotel-tokyu",
+          "name": "오사카 엑셀 호텔 도큐 (난바)",
+          "type": "4성급 패밀리",
+          "priceRange": "₩₩₩",
+          "description": "난바역 직결. 어린이 환영 정책, 유아용 어메니티 제공. 도톤보리·덴덴타운 도보권.",
+          "bookingUrl": "https://www.booking.com/hotel/jp/namba-excel-hotel-tokyu.ko.html",
+          "distanceToStation": "난바역 직결 (도보 1분)",
+          "reviewScore": 4.3,
+          "reviewCount": "4,100건+",
+          "amenities": ["유아 어메니티 세트", "유아 침대 무료", "전자레인지 (요청 시)", "어린이 메뉴", "유모차 보관 가능"],
+          "companionProfiles": {
+            "couple": { "score": 3, "fit": true, "highlights": ["난바 직결", "도톤보리 도보 3분"], "tip": "오사카 맛집 탐방의 기지로 최고 위치." },
+            "family_young_kids": { "score": 4, "fit": true, "highlights": ["난바역 직결", "유아 침대 무료", "전자레인지 요청 가능", "어린이 메뉴", "유모차 보관"], "tip": "유아식 전자레인지 가능. 난바 직결로 이동 편리. 도톤보리·USJ 접근성 우수." },
+            "family_elderly": { "score": 4, "fit": true, "highlights": ["난바 직결 이동 편리", "엘리베이터"], "tip": "역 직결로 어르신 이동 최적. 도톤보리·구로몬 시장 도보 거리." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["난바 중심", "가성비"], "tip": "오사카 먹방 그룹 여행의 최적 위치." },
+            "large_group": { "score": 3, "fit": true, "highlights": ["난바 중심"], "tip": "대규모 그룹 수용 가능." },
+            "family_all": { "score": 4, "fit": true, "highlights": ["역 직결", "어린이 메뉴", "유아 침대"], "tip": "멀티제너레이션 가족에게 좋은 선택." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        }
+      ]
+    },
+    "교토": {
+      "country": "일본",
+      "city": "교토",
+      "accommodations": [
+        {
+          "id": "hoshino-resorts-hoshinoya-kyoto",
+          "name": "호시노야 교토",
+          "type": "5성급 료칸 리조트",
+          "priceRange": "₩₩₩₩₩",
+          "description": "보트로만 접근 가능한 절경 속 럭셔리 료칸. 아라시야마 산 속, 가쓰라강변. 교토의 자연과 전통을 최고로 경험할 수 있습니다.",
+          "bookingUrl": "https://hoshinoresorts.com/ko/hotels/hoshinoyakyoto/",
+          "distanceToStation": "아라시야마역 보트 10분",
+          "reviewScore": 4.9,
+          "reviewCount": "1,400건+",
+          "amenities": ["전용 보트", "온천 스파", "카이세키 식사", "다도 체험"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["전용 보트 접근", "가쓰라강 뷰", "카이세키 코스 식사", "온천"], "tip": "일생에 한 번의 로맨틱 료칸 경험. 최소 1박 이상 예약 권장." },
+            "family_young_kids": { "score": 1, "fit": false, "highlights": [], "tip": "보트 이동과 고급 다다미 객실 구조로 유아 동반 불편." },
+            "family_elderly": { "score": 3, "fit": true, "highlights": ["조용한 자연 속", "온천 스파"], "tip": "보트 탑승이 있어 이동 동선 확인 필요. 조용한 환경은 최상." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["절경", "온천", "카이세키"], "tip": "특별한 소규모 여행에 최고의 교토 경험." },
+            "large_group": { "score": 1, "fit": false, "highlights": [], "tip": "소규모 럭셔리 전용 숙소. 대규모 그룹 예약 불가." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "어린이 동반 가족에는 부적합." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "hotel-the-celestine-kyoto-gion",
+          "name": "호텔 더 셀레스틴 교토 기온",
+          "type": "4성급 부티크",
+          "priceRange": "₩₩₩₩",
+          "description": "기온 중심부의 세련된 부티크 호텔. 전통 마치야 분위기와 현대적 편의시설의 조화. 야사카 신사 도보 3분.",
+          "bookingUrl": "https://www.booking.com/hotel/jp/the-celestine-kyoto-gion.ko.html",
+          "distanceToStation": "기온시조역 도보 5분",
+          "reviewScore": 4.5,
+          "reviewCount": "2,300건+",
+          "amenities": ["레스토랑", "바", "피트니스"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["기온 마치야 분위기", "야사카 신사 도보 3분", "프리미엄 조식"], "tip": "기온 탐방 최적 위치. 새벽 게이샤 골목 산책 가능." },
+            "family_young_kids": { "score": 2, "fit": false, "highlights": [], "tip": "부티크 호텔로 유아 전용 시설 없음." },
+            "family_elderly": { "score": 4, "fit": true, "highlights": ["기온 중심 위치", "택시 접근 편리"], "tip": "교토 전통 거리에서 도보 이동. 렌터카보다 택시 추천." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["기온 중심", "전통 분위기"], "tip": "교토 문화 탐방 그룹에 최적 위치." },
+            "large_group": { "score": 2, "fit": false, "highlights": [], "tip": "소형 부티크 호텔이라 대규모 예약 어려움." },
+            "family_all": { "score": 3, "fit": true, "highlights": ["기온 중심 위치"], "tip": "위치 최고. 어린이 시설은 기본 수준." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        }
+      ]
+    },
+    "방콕": {
+      "country": "태국",
+      "city": "방콕",
+      "accommodations": [
+        {
+          "id": "mandarin-oriental-bangkok",
+          "name": "만다린 오리엔탈 방콕",
+          "type": "5성급 역사적 럭셔리",
+          "priceRange": "₩₩₩₩₩",
+          "description": "1876년 개업한 아시아 최고 호텔 중 하나. 짜오프라야강 리버뷰 스위트, 전용 선착장, 타이쿠킹 클래스 포함.",
+          "bookingUrl": "https://www.mandarinoriental.com/ko/bangkok/chao-phraya-river",
+          "distanceToStation": "사톤 선착장 도보 3분 (BTS 사판탁신역)",
+          "reviewScore": 4.9,
+          "reviewCount": "8,400건+",
+          "amenities": ["수영장", "스파", "쿠킹 클래스", "전용 선착장", "레스토랑 10개+"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["짜오프라야강 리버뷰", "149년 전통의 역사", "스파 & 쿠킹 클래스"], "tip": "방콕 최고의 로맨틱 호텔. 강변 디너 크루즈 패키지 추천." },
+            "family_young_kids": { "score": 2, "fit": false, "highlights": [], "tip": "고급 정통 호텔이라 어린이 전용 시설 제한. BTS 역에서 도보 거리 있음." },
+            "family_elderly": { "score": 5, "fit": true, "highlights": ["전용 선착장 이동", "레스토랑 다수", "스파"], "tip": "이동 없이 강변에서 최고의 서비스 경험. 쿠킹 클래스 등 문화 체험 가능." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["리버뷰", "쿠킹 클래스", "스파"], "tip": "특별한 소규모 여행. 단체 쿠킹 클래스 예약 가능." },
+            "large_group": { "score": 3, "fit": true, "highlights": ["연회장", "레스토랑 다수"], "tip": "단체 연회 가능. 사전 예약 필수." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "전통적인 고급 호텔로 어린이 동반 가족에는 부적합." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "amari-sukhumvit-bangkok",
+          "name": "아마리 수쿰빗 방콕",
+          "type": "4성급 패밀리",
+          "priceRange": "₩₩₩",
+          "description": "BTS 나나역 직결. 키즈 클럽·가족 수영장·어린이 메뉴 보유. 쇼핑몰(터미널 21) 도보 5분.",
+          "bookingUrl": "https://www.booking.com/hotel/th/amari-sukhumvit-bangkok.ko.html",
+          "distanceToStation": "BTS 나나역 직결",
+          "reviewScore": 4.3,
+          "reviewCount": "6,800건+",
+          "amenities": ["키즈 클럽 (만 4세~12세)", "어린이 전용 수영장 레인", "어린이 메뉴", "전자레인지", "유아 침대 무료", "유모차 대여 가능"],
+          "companionProfiles": {
+            "couple": { "score": 3, "fit": true, "highlights": ["BTS 직결", "터미널 21 도보"], "tip": "위치 좋고 가성비 적절. 패밀리 호텔이라 분위기는 로맨틱 아님." },
+            "family_young_kids": { "score": 5, "fit": true, "highlights": ["BTS 나나역 직결", "키즈 클럽", "어린이 수영장", "전자레인지", "유아 침대 무료", "유모차 대여"], "tip": "방콕 유소아 동반 1순위. BTS 직결로 이동 편리. 키즈 클럽으로 아이들 즐거움 보장." },
+            "family_elderly": { "score": 4, "fit": true, "highlights": ["BTS 직결", "수영장", "레스토랑"], "tip": "BTS 직결로 이동 편리. 수쿰빗 맛집 접근성 최고." },
+            "small_group": { "score": 3, "fit": true, "highlights": ["BTS 직결", "쇼핑 접근성"], "tip": "수쿰빗 탐방 기지로 적합. 터미널 21 쇼핑몰 도보." },
+            "large_group": { "score": 3, "fit": true, "highlights": ["수영장", "키즈 클럽"], "tip": "대규모 가족 그룹에도 적합." },
+            "family_all": { "score": 5, "fit": true, "highlights": ["키즈 클럽", "어린이 메뉴", "수영장", "BTS 직결"], "tip": "멀티제너레이션 방콕 여행 최고의 선택." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "the-standard-mahanakhon",
+          "name": "더 스탠다드 방콕 마하나콘",
+          "type": "4성급 트렌디",
+          "priceRange": "₩₩₩",
+          "description": "방콕에서 가장 힙한 호텔 중 하나. 루프탑 바·수영장·감각적인 인테리어. 살라댕·실롬 지역 접근성 최고.",
+          "bookingUrl": "https://www.booking.com/hotel/th/the-standard-bangkok-mahanakhon.ko.html",
+          "distanceToStation": "BTS 총논시역 도보 3분",
+          "reviewScore": 4.4,
+          "reviewCount": "3,100건+",
+          "amenities": ["루프탑 바", "수영장", "레스토랑", "피트니스"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["루프탑 바 방콕 야경", "감각적 디자인", "실롬 중심"], "tip": "방콕 힙 커플 여행 1순위. 루프탑 선셋 타임 예약 필수." },
+            "family_young_kids": { "score": 1, "fit": false, "highlights": [], "tip": "성인 트렌디 호텔. 유아 동반에 부적합." },
+            "family_elderly": { "score": 2, "fit": false, "highlights": [], "tip": "트렌디한 바 위주 분위기. 어르신 취향에 맞지 않을 수 있음." },
+            "small_group": { "score": 5, "fit": true, "highlights": ["루프탑 바", "실롬 나이트라이프", "수영장"], "tip": "젊은 그룹 여행 최고 선택. 실롬 나이트라이프 탐방 기지." },
+            "large_group": { "score": 3, "fit": true, "highlights": ["루프탑 바"], "tip": "대규모 그룹도 수용 가능." },
+            "family_all": { "score": 1, "fit": false, "highlights": [], "tip": "가족 여행에 비적합." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        }
+      ]
+    },
+    "싱가포르": {
+      "country": "싱가포르",
+      "city": "싱가포르",
+      "accommodations": [
+        {
+          "id": "marina-bay-sands",
+          "name": "마리나베이 샌즈",
+          "type": "5성급 아이콘 호텔",
+          "priceRange": "₩₩₩₩₩",
+          "description": "57층 인피니티 풀·카지노·쇼핑몰 직결. 싱가포르 스카이라인의 상징.",
+          "bookingUrl": "https://www.marinabaysands.com/ko",
+          "distanceToStation": "베이프론트역 직결",
+          "reviewScore": 4.7,
+          "reviewCount": "31,000건+",
+          "amenities": ["인피니티 풀 (57층)", "카지노", "쇼핑몰 직결", "레스토랑 다수"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["57층 인피니티 풀", "마리나베이 야경", "파인다이닝"], "tip": "싱가포르 최고의 상징적 호텔. 인피니티 풀 일몰 타임이 하이라이트." },
+            "family_young_kids": { "score": 3, "fit": true, "highlights": ["57층 풀 (보호자 동반)", "쇼핑몰 직결", "레스토랑 다양"], "tip": "57층 풀은 어린이도 이용 가능하지만 수심 주의. 쇼핑몰 내 이동 편리." },
+            "family_elderly": { "score": 4, "fit": true, "highlights": ["베이프론트역 직결", "내부 식사 편리", "쇼핑몰 연결"], "tip": "이동 없이 내부에서 대부분 해결 가능. 셔틀 버스 이용 가능." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["인피니티 풀", "야경", "카지노"], "tip": "특별한 싱가포르 경험. 카지노 관람(비용 있음)도 경험." },
+            "large_group": { "score": 4, "fit": true, "highlights": ["대형 호텔", "연회 시설"], "tip": "대규모 그룹도 수용 가능. 단체 예약 시 혜택 문의." },
+            "family_all": { "score": 4, "fit": true, "highlights": ["57층 풀", "쇼핑몰", "레스토랑 다양"], "tip": "멀티제너레이션 싱가포르 여행의 상징적 선택." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "hard-rock-hotel-sentosa",
+          "name": "하드록 호텔 싱가포르 (센토사)",
+          "type": "4성급 패밀리",
+          "priceRange": "₩₩₩₩",
+          "description": "유니버설 스튜디오·워터파크 도보 거리. 록 음악 테마의 밝고 활기찬 분위기로 아이들이 좋아합니다.",
+          "bookingUrl": "https://www.booking.com/hotel/sg/hard-rock-hotel-singapore.ko.html",
+          "distanceToStation": "리조트 월드 센토사역 도보 5분",
+          "reviewScore": 4.4,
+          "reviewCount": "5,900건+",
+          "amenities": ["키즈 어메니티 세트", "아이들 전용 수영장 레인", "어린이 메뉴", "전자레인지 (요청 시)", "유아 침대 무료", "워터파크 패키지 추가 가능"],
+          "companionProfiles": {
+            "couple": { "score": 2, "fit": false, "highlights": [], "tip": "패밀리·키즈 중심 호텔. 로맨틱 여행에 비적합." },
+            "family_young_kids": { "score": 5, "fit": true, "highlights": ["USS 도보 거리", "키즈 수영장", "전자레인지", "어린이 메뉴", "유아 침대 무료"], "tip": "싱가포르 유소아 동반 1순위. USS·워터파크 바로 연결. 아이들이 가장 좋아하는 호텔." },
+            "family_elderly": { "score": 3, "fit": true, "highlights": ["센토사 내부", "수영장", "레스토랑"], "tip": "센토사 내 이동 편리. 모노레일 이용 가능." },
+            "small_group": { "score": 2, "fit": false, "highlights": [], "tip": "성인 그룹보다는 가족 여행에 특화." },
+            "large_group": { "score": 4, "fit": true, "highlights": ["대형 패밀리 리조트", "수영장", "USS 접근"], "tip": "대규모 가족 그룹에 최적." },
+            "family_all": { "score": 5, "fit": true, "highlights": ["USS 도보", "키즈 클럽", "수영장", "전자레인지"], "tip": "멀티제너레이션 싱가포르 여행에 최고." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        }
+      ]
+    },
+    "하와이": {
+      "country": "미국",
+      "city": "하와이",
+      "accommodations": [
+        {
+          "id": "hilton-hawaiian-village",
+          "name": "힐튼 하와이언 빌리지 (와이키키)",
+          "type": "4성급 패밀리 리조트",
+          "priceRange": "₩₩₩₩",
+          "description": "5개 타워·6개 수영장·해변 직접 접근. 매주 금요일 무료 불꽃놀이. 와이키키 최대 패밀리 리조트.",
+          "bookingUrl": "https://www.hilton.com/ko/hotels/hnlhwhh-hilton-hawaiian-village-waikiki-beach-resort/",
+          "distanceToStation": "와이키키 해변 도보 1분",
+          "reviewScore": 4.3,
+          "reviewCount": "18,000건+",
+          "amenities": ["6개 수영장 (어린이 풀 포함)", "키즈 클럽 (루아우 활동)", "매주 금요일 불꽃놀이", "전자레인지 (요청 시)", "유아 침대 무료", "어린이 메뉴"],
+          "companionProfiles": {
+            "couple": { "score": 3, "fit": true, "highlights": ["와이키키 해변 직결", "매주 불꽃놀이"], "tip": "규모가 크고 패밀리 위주. 커플에게 좋지만 조용한 분위기는 아님." },
+            "family_young_kids": { "score": 5, "fit": true, "highlights": ["6개 수영장", "키즈 클럽", "불꽃놀이", "어린이 메뉴", "해변 직결"], "tip": "하와이 유소아 동반 최고. 아이들이 독립적으로 즐길 수 있는 프로그램 많음." },
+            "family_elderly": { "score": 4, "fit": true, "highlights": ["해변 직결", "수영장 다양", "레스토랑 다수"], "tip": "리조트 내 모든 것 완비. 이동 없이 하와이 즐기기 가능." },
+            "small_group": { "score": 3, "fit": true, "highlights": ["해변", "수영장", "쇼핑몰 근접"], "tip": "와이키키 탐방 기지로 적합." },
+            "large_group": { "score": 4, "fit": true, "highlights": ["5개 타워", "연회 시설", "수영장"], "tip": "대규모 가족 모임, 단체 여행에 최고의 하와이 선택." },
+            "family_all": { "score": 5, "fit": true, "highlights": ["6개 수영장", "키즈 클럽", "불꽃놀이", "해변"], "tip": "멀티제너레이션 하와이 여행의 완벽한 선택." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "moana-surfrider-westin",
+          "name": "모아나 서프라이더 웨스틴 (와이키키)",
+          "type": "5성급 역사적 호텔",
+          "priceRange": "₩₩₩₩₩",
+          "description": "1901년 개업한 하와이 최초의 럭셔리 호텔. 와이키키 비치 정면, 역사적 식민지풍 건물.",
+          "bookingUrl": "https://www.marriott.com/hotels/travel/hnlmo-moana-surfrider-a-westin-resort-and-spa-waikiki-beach/",
+          "distanceToStation": "와이키키 비치 직결",
+          "reviewScore": 4.7,
+          "reviewCount": "9,200건+",
+          "amenities": ["수영장", "스파", "레스토랑 (반얀 트리 하", "피트니스"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["1901년 역사적 건물", "와이키키 비치 직결", "반얀 트리 하 애프터눈 티"], "tip": "하와이 최고의 역사적 로맨틱 호텔. 반얀 트리 하 하이 티 강추." },
+            "family_young_kids": { "score": 2, "fit": false, "highlights": [], "tip": "클래식한 럭셔리 호텔로 어린이 전용 시설 제한." },
+            "family_elderly": { "score": 5, "fit": true, "highlights": ["해변 직결", "역사적 건물", "스파", "레스토랑"], "tip": "이동 없이 최고 품질의 서비스 경험. 어르신 여행에 최고." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["역사적 호텔", "해변", "레스토랑"], "tip": "특별한 소규모 여행에 좋은 선택." },
+            "large_group": { "score": 2, "fit": false, "highlights": [], "tip": "소수 럭셔리 중심 호텔." },
+            "family_all": { "score": 3, "fit": true, "highlights": ["해변 직결", "레스토랑"], "tip": "해변 접근은 최고. 어린이 시설은 힐튼보다 부족." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        }
+      ]
+    },
+    "다낭": {
+      "country": "베트남",
+      "city": "다낭",
+      "accommodations": [
+        {
+          "id": "intercontinental-danang",
+          "name": "인터컨티넨탈 다낭 선 페닌슐라",
+          "type": "5성급 리조트",
+          "priceRange": "₩₩₩₩₩",
+          "description": "선 월드 손트라 내 절벽 위 럭셔리 리조트. 전 세계 50대 호텔 선정. 케이블카로만 접근 가능하며 프라이빗 비치 보유.",
+          "bookingUrl": "https://www.ihg.com/intercontinental/hotels/kr/ko/da-nang/danis/hoteldetail",
+          "reviewScore": 4.8,
+          "reviewCount": "2,300건+",
+          "amenities": ["프라이빗 비치", "수영장 3개", "스파", "케이블카 전용"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["절벽 위 프라이빗 리조트", "케이블카 전용 접근", "다낭 최고 파인다이닝"], "tip": "다낭 최고의 허니문·커플 숙소. 케이블카 탑승부터 특별한 경험 시작." },
+            "family_young_kids": { "score": 1, "fit": false, "highlights": [], "tip": "케이블카 이동이 있어 유아 동반에 불편. 고급 리조트라 어린이 시설 제한." },
+            "family_elderly": { "score": 3, "fit": true, "highlights": ["프라이빗 리조트", "스파"], "tip": "케이블카 이동이 있어 사전 확인 필요. 일단 들어오면 완벽한 휴식." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["절벽 뷰", "프라이빗 비치", "스파"], "tip": "특별한 소규모 여행에 최고의 다낭 경험." },
+            "large_group": { "score": 2, "fit": false, "highlights": [], "tip": "소수 럭셔리 중심." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "어린이 동반 가족에는 케이블카 및 절벽 위 위치가 부담." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "vinpearl-resort-danang",
+          "name": "빈펄 리조트 & 스파 다낭",
+          "type": "5성급 패밀리 올인클루시브",
+          "priceRange": "₩₩₩₩",
+          "description": "미케 비치 바로 앞. 워터파크·키즈클럽·레스토랑 5개 포함. 아이들이 하루 종일 즐길 수 있는 올인클루시브 리조트.",
+          "bookingUrl": "https://vinpearl.com/ko/hotels-resorts/vinpearl-resort-spa-da-nang",
+          "distanceToStation": "다낭 시내 차로 15분",
+          "reviewScore": 4.4,
+          "reviewCount": "5,600건+",
+          "amenities": ["워터파크 무료", "키즈 클럽 (만 3~12세)", "어린이 수영장", "키즈 메뉴", "유모차 대여", "유아 침대 무료", "전자레인지", "수유실"],
+          "companionProfiles": {
+            "couple": { "score": 2, "fit": false, "highlights": [], "tip": "패밀리 올인클루시브 중심. 커플에게 로맨틱한 분위기 아님." },
+            "family_young_kids": { "score": 5, "fit": true, "highlights": ["워터파크 무료", "키즈 클럽", "어린이 수영장", "전자레인지", "수유실", "유아 침대"], "tip": "다낭 유소아 동반 1순위. 워터파크+키즈클럽으로 아이들 천국. 수유실까지 완비." },
+            "family_elderly": { "score": 3, "fit": true, "highlights": ["해변 앞", "올인클루시브", "레스토랑 5개"], "tip": "해변 바로 앞이라 이동 최소화. 모든 식사 리조트 내 해결 가능." },
+            "small_group": { "score": 2, "fit": false, "highlights": [], "tip": "패밀리 리조트라 성인 그룹에는 부적합." },
+            "large_group": { "score": 4, "fit": true, "highlights": ["올인클루시브", "워터파크", "해변"], "tip": "대규모 가족 모임에 최고." },
+            "family_all": { "score": 5, "fit": true, "highlights": ["워터파크", "키즈클럽", "수유실", "레스토랑 5개"], "tip": "다낭 멀티제너레이션 가족 여행 압도적 1순위." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        }
+      ]
+    },
+    "파리": {
+      "country": "프랑스",
+      "city": "파리",
+      "accommodations": [
+        {
+          "id": "hotel-edition-paris",
+          "name": "호텔 에디션 파리 (오페라)",
+          "type": "5성급 디자인",
+          "priceRange": "₩₩₩₩₩",
+          "description": "갤러리 라파예트·오페라 가르니에 도보 2분. 루프탑 레스토랑에서 파리 전망. 모던 디자인과 클래식 파리의 조화.",
+          "bookingUrl": "https://www.marriott.com/hotels/travel/parep-the-paris-edition/",
+          "distanceToStation": "오페라역 도보 3분",
+          "reviewScore": 4.6,
+          "reviewCount": "1,500건+",
+          "amenities": ["루프탑 레스토랑", "바", "스파", "피트니스"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["루프탑 파리 전망", "오페라 가르니에 도보 2분", "갤러리 라파예트 도보"], "tip": "파리 최고의 모던 럭셔리 커플 호텔. 루프탑 선셋 예약 필수." },
+            "family_young_kids": { "score": 1, "fit": false, "highlights": [], "tip": "성인 디자인 호텔. 유아 시설 없음." },
+            "family_elderly": { "score": 4, "fit": true, "highlights": ["오페라역 도보 3분", "갤러리 라파예트 인접", "루프탑 레스토랑"], "tip": "지하철 접근성 최고. 대형 백화점 도보 거리로 쇼핑 편리." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["루프탑", "오페라 지구"], "tip": "파리 트렌디한 그룹 여행에 최적." },
+            "large_group": { "score": 2, "fit": false, "highlights": [], "tip": "대규모 예약 어려움." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "가족 여행에는 아파트형 숙소 추천." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "ibis-paris-marais",
+          "name": "이비스 파리 마레 바스티유",
+          "type": "3성급 체인",
+          "priceRange": "₩₩",
+          "description": "마레 지구 중심부, 가성비 좋은 체인 호텔. 짐 맡기고 바로 마레 골목 탐방 가능.",
+          "bookingUrl": "https://all.accor.com/hotel/7444/index.ko.shtml",
+          "distanceToStation": "바스티유역 도보 4분",
+          "reviewScore": 4.1,
+          "reviewCount": "4,200건+",
+          "amenities": ["조식 (선택)", "짐 보관"],
+          "companionProfiles": {
+            "couple": { "score": 3, "fit": true, "highlights": ["마레 지구 중심", "가성비"], "tip": "예산 아끼고 싶은 커플에게 가성비 선택." },
+            "family_young_kids": { "score": 2, "fit": false, "highlights": [], "tip": "기본 체인 호텔로 유아 시설 없음." },
+            "family_elderly": { "score": 3, "fit": true, "highlights": ["마레 중심", "바스티유역 도보"], "tip": "가성비 좋은 위치. 마레·바스티유 관광 기지." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["마레 중심", "가성비"], "tip": "예산 여행 소규모 그룹에 최고의 선택." },
+            "large_group": { "score": 4, "fit": true, "highlights": ["마레 중심", "가성비"], "tip": "단체 가성비 숙박에 적합." },
+            "family_all": { "score": 3, "fit": true, "highlights": ["마레 중심 위치"], "tip": "가성비 파리 여행의 기지." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "paris-apartment-montmartre",
+          "name": "아파트호텔 (몽마르트르·마레)",
+          "type": "아파트형 숙소",
+          "priceRange": "₩₩₩",
+          "description": "4인 이상 가족에게 최적. 주방·전자레인지·세탁기 완비로 유아식 조리 가능. 현지 마켓 장보기 체험 포함.",
+          "bookingUrl": "https://www.airbnb.co.kr/rooms/paris",
+          "amenities": ["주방 완비 (전자레인지·냉장고·인덕션)", "세탁기", "유아 침대 협의 가능", "편의점·약국 도보 5분"],
+          "companionProfiles": {
+            "couple": { "score": 3, "fit": true, "highlights": ["현지 생활 체험", "주방"], "tip": "마르쉐(시장)에서 장 봐서 요리하는 파리지앵 경험." },
+            "family_young_kids": { "score": 4, "fit": true, "highlights": ["주방 완비", "전자레인지", "세탁기", "넓은 공간"], "tip": "유아식 조리 가능. 세탁기로 장기 체류 편리. 파리 현지 생활 경험." },
+            "family_elderly": { "score": 3, "fit": true, "highlights": ["주방", "넓은 공간"], "tip": "장기 체류 가족에 적합. 계단 여부 사전 확인 필수." },
+            "small_group": { "score": 3, "fit": true, "highlights": ["주방", "현지 생활"], "tip": "친구 그룹 파리 여행에 가성비 좋은 선택." },
+            "large_group": { "score": 5, "fit": true, "highlights": ["넓은 공간", "주방 완비", "세탁기"], "tip": "대규모 가족·그룹에 호텔보다 훨씬 저렴하고 쾌적." },
+            "family_all": { "score": 4, "fit": true, "highlights": ["주방", "세탁기", "넓은 공간"], "tip": "멀티제너레이션 파리 여행의 실용적 선택." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        }
+      ]
+    },
+    "발리": {
+      "country": "인도네시아",
+      "city": "발리",
+      "accommodations": [
+        {
+          "id": "four-seasons-ubud",
+          "name": "포시즌스 발리 아트 우붓",
+          "type": "5성급 빌라 리조트",
+          "priceRange": "₩₩₩₩₩",
+          "description": "우붓 논밭 속 독립 빌라 74개. 전용 수영장·전통 발리 의식 체험·스파 포함. 세계 최고 리조트로 꾸준히 선정됩니다.",
+          "bookingUrl": "https://www.fourseasons.com/ubud/",
+          "reviewScore": 4.9,
+          "reviewCount": "2,100건+",
+          "amenities": ["전용 수영장 (각 빌라)", "스파", "요가 & 명상", "발리 전통 의식 체험"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["논밭 속 전용 빌라 수영장", "발리 의식 체험", "스파"], "tip": "세계 최고의 발리 허니문 경험. 요가·명상·의식 모두 체험 가능." },
+            "family_young_kids": { "score": 2, "fit": false, "highlights": [], "tip": "고급 성인 리조트 분위기. 어린이 전용 프로그램 제한." },
+            "family_elderly": { "score": 4, "fit": true, "highlights": ["조용한 자연 속", "스파", "개인 버틀러"], "tip": "버틀러 서비스로 이동 최소화. 최고의 휴식 환경." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["독립 빌라", "스파", "요가"], "tip": "특별한 소규모 웰니스 여행에 최고." },
+            "large_group": { "score": 2, "fit": false, "highlights": [], "tip": "소수 럭셔리 중심." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "어린이 동반 가족에는 풀빌라 렌탈이 더 적합." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "private-pool-villa-seminyak",
+          "name": "프라이빗 풀빌라 (스미냑·짱구)",
+          "type": "풀빌라 (에어비앤비)",
+          "priceRange": "₩₩₩",
+          "description": "4인 이상 가족은 전용 수영장 풀빌라 1채 임대가 호텔보다 저렴합니다. 주방·전자레인지 완비로 유아식 조리 가능.",
+          "bookingUrl": "https://www.airbnb.co.kr/rooms/bali-seminyak",
+          "amenities": ["전용 수영장 (수심 주의 확인 필수)", "주방 (전자레인지·냉장고)", "베이비시터 연결 가능 (별도 비용)", "세탁기"],
+          "companionProfiles": {
+            "couple": { "score": 4, "fit": true, "highlights": ["전용 수영장", "프라이빗 공간"], "tip": "프라이빗 풀빌라 커플 여행의 가성비 최고 선택." },
+            "family_young_kids": { "score": 4, "fit": true, "highlights": ["전용 수영장 (수심 확인)", "주방 전자레인지", "베이비시터 연결", "세탁기"], "tip": "유아식 조리 가능. 베이비시터 연결로 부모 자유 시간 가능. 수영장 수심 반드시 확인." },
+            "family_elderly": { "score": 3, "fit": true, "highlights": ["조용한 공간", "주방"], "tip": "계단 및 접근성 사전 확인 필요. 풀빌라는 보통 단층." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["전용 수영장", "주방", "프라이빗"], "tip": "소규모 그룹 전용 파티 & 휴식에 최고." },
+            "large_group": { "score": 5, "fit": true, "highlights": ["넓은 빌라", "전용 수영장", "주방", "세탁기"], "tip": "대규모 그룹은 여러 채 렌탈 가능. 호텔보다 훨씬 저렴하고 프라이빗." },
+            "family_all": { "score": 4, "fit": true, "highlights": ["전용 수영장", "주방", "베이비시터"], "tip": "발리 멀티제너레이션 여행의 가성비 최고 선택." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        }
+      ]
+    },
+    "런던": {
+      "country": "영국",
+      "city": "런던",
+      "accommodations": [
+        {
+          "id": "the-savoy-london",
+          "name": "더 새보이 (코벤트가든)",
+          "type": "5성급 팰리스 호텔",
+          "priceRange": "₩₩₩₩₩",
+          "description": "1889년 개업. 처칠·모네·비틀즈가 머문 런던 최고 아이콘 호텔. 템스강 뷰·버틀러 서비스·애프터눈 티.",
+          "bookingUrl": "https://www.fairmont.com/savoy-london/",
+          "distanceToStation": "코벤트가든역 도보 5분",
+          "reviewScore": 4.8,
+          "reviewCount": "5,600건+",
+          "amenities": ["수영장", "스파", "애프터눈 티", "파인다이닝", "버틀러 서비스"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["1889년 런던 최고 역사", "애프터눈 티", "버틀러 서비스"], "tip": "런던 최고의 아이코닉 호텔. 새보이 애프터눈 티는 예약 필수 경험." },
+            "family_young_kids": { "score": 1, "fit": false, "highlights": [], "tip": "역사적 고급 호텔이라 어린이 전용 시설 없음." },
+            "family_elderly": { "score": 5, "fit": true, "highlights": ["버틀러 서비스", "스파", "애프터눈 티", "내부 레스토랑"], "tip": "최고의 서비스로 이동 없이 런던 문화 경험 가능." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["애프터눈 티", "파인다이닝"], "tip": "특별한 소규모 런던 여행에 최고의 선택." },
+            "large_group": { "score": 2, "fit": false, "highlights": [], "tip": "소수 럭셔리 중심." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "어린이 동반 가족에는 부적합." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "citizenm-london-bankside",
+          "name": "시티즌M 런던 (뱅크사이드)",
+          "type": "3성급 스마트 호텔",
+          "priceRange": "₩₩₩",
+          "description": "테이트 모던·버러 마켓 도보 5분. 스마트 기기로 체크인·객실 조명 조절. 혁신적이고 가성비 좋은 디자인 호텔.",
+          "bookingUrl": "https://www.citizenm.com/destinations/london/london-bankside-hotel",
+          "distanceToStation": "사우스워크역 도보 5분",
+          "reviewScore": 4.5,
+          "reviewCount": "12,400건+",
+          "amenities": ["스마트 체크인", "24시간 바 & 카페", "피트니스"],
+          "companionProfiles": {
+            "couple": { "score": 4, "fit": true, "highlights": ["테이트 모던 도보 5분", "버러 마켓 도보 5분", "가성비"], "tip": "테이트+버러 마켓 탐방 최적 위치. 젊은 커플 가성비 선택." },
+            "family_young_kids": { "score": 1, "fit": false, "highlights": [], "tip": "객실이 작고 유아 시설 없음." },
+            "family_elderly": { "score": 2, "fit": false, "highlights": [], "tip": "스마트 기기 중심 체크인이 불편할 수 있음. 어르신에게는 기존 호텔 추천." },
+            "small_group": { "score": 5, "fit": true, "highlights": ["사우스뱅크 중심", "테이트 모던", "버러 마켓", "가성비"], "tip": "런던 미술·음식 탐방 그룹에 최고의 가성비." },
+            "large_group": { "score": 3, "fit": true, "highlights": ["중심 위치", "가성비"], "tip": "대규모 그룹도 수용 가능." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "가족 여행에는 아파트형 숙소 추천." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        }
+      ]
+    },
+    "뉴욕": {
+      "country": "미국",
+      "city": "뉴욕",
+      "accommodations": [
+        {
+          "id": "the-mark-hotel-nyc",
+          "name": "더 마크 호텔 (어퍼 이스트사이드)",
+          "type": "5성급 럭셔리",
+          "priceRange": "₩₩₩₩₩",
+          "description": "메트로폴리탄 미술관 도보 1분. 장 조지 레스토랑 입점. 셀러브리티 단골 호텔로 차분하고 고급스러운 분위기.",
+          "bookingUrl": "https://www.themarkhotel.com",
+          "distanceToStation": "77번가역 도보 5분",
+          "reviewScore": 4.8,
+          "reviewCount": "2,100건+",
+          "amenities": ["장 조지 레스토랑", "스파", "피트니스", "룸서비스 24시간"],
+          "companionProfiles": {
+            "couple": { "score": 5, "fit": true, "highlights": ["메트로폴리탄 미술관 도보 1분", "장 조지 레스토랑", "프라이빗 분위기"], "tip": "뉴욕 최고의 조용하고 고급스러운 커플 호텔. 메트 뮤지엄과 세트로 즐기기." },
+            "family_young_kids": { "score": 2, "fit": false, "highlights": [], "tip": "고급 조용한 분위기. 유아 전용 시설 없음." },
+            "family_elderly": { "score": 5, "fit": true, "highlights": ["메트 미술관 도보", "장 조지 다이닝", "조용한 환경"], "tip": "최고급 서비스와 메트 미술관 접근성. 어르신 문화 여행에 완벽." },
+            "small_group": { "score": 4, "fit": true, "highlights": ["메트 미술관", "장 조지"], "tip": "특별한 소규모 뉴욕 여행에 최고." },
+            "large_group": { "score": 2, "fit": false, "highlights": [], "tip": "소수 럭셔리 중심." },
+            "family_all": { "score": 2, "fit": false, "highlights": [], "tip": "어린이 동반 가족에는 마리오트 마퀴스 추천." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "marriott-marquis-times-square",
+          "name": "뉴욕 마리오트 마퀴스 (타임스퀘어)",
+          "type": "4성급 대형 호텔",
+          "priceRange": "₩₩₩",
+          "description": "타임스퀘어 한복판. 관광 접근성 최고. 가족·단체에 적합한 넓은 객실과 회전 레스토랑(45층 뷰).",
+          "bookingUrl": "https://www.marriott.com/hotels/travel/nycmq-new-york-marriott-marquis/",
+          "distanceToStation": "타임스퀘어-42번가역 도보 2분",
+          "reviewScore": 4.2,
+          "reviewCount": "22,000건+",
+          "amenities": ["전자레인지 (요청 시)", "유아 침대 무료", "수유실 (1층 안내)", "어린이 메뉴", "45층 회전 레스토랑"],
+          "companionProfiles": {
+            "couple": { "score": 3, "fit": true, "highlights": ["타임스퀘어 뷰", "45층 회전 레스토랑"], "tip": "위치가 최고이지만 번잡한 타임스퀘어 분위기." },
+            "family_young_kids": { "score": 4, "fit": true, "highlights": ["타임스퀘어 직결", "전자레인지", "유아 침대", "수유실", "어린이 메뉴"], "tip": "뉴욕 유소아 동반 가성비 선택. 타임스퀘어 중심으로 접근성 최고." },
+            "family_elderly": { "score": 4, "fit": true, "highlights": ["지하철 도보 2분", "회전 레스토랑", "내부 편의시설"], "tip": "타임스퀘어 중심으로 이동 편리. 45층 뷰 식사 추천." },
+            "small_group": { "score": 3, "fit": true, "highlights": ["타임스퀘어 중심", "가성비"], "tip": "뉴욕 탐방 그룹의 기지로 위치 최고." },
+            "large_group": { "score": 4, "fit": true, "highlights": ["대형 호텔", "연회 시설", "타임스퀘어"], "tip": "대규모 그룹도 수용 가능. 단체 예약 문의 권장." },
+            "family_all": { "score": 4, "fit": true, "highlights": ["유아 침대", "전자레인지", "수유실", "어린이 메뉴"], "tip": "멀티제너레이션 뉴욕 여행 가성비 선택." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        }
+      ]
+    },
+    "두바이": {
+      "country": "아랍에미리트",
+      "city": "두바이",
+      "accommodations": [
+        {
+          "id": "atlantis-the-palm",
+          "name": "아틀란티스 더 팜 (팜 아일랜드)",
+          "type": "5성급 패밀리 리조트",
+          "priceRange": "₩₩₩₩₩",
+          "description": "팜 주메이라 최대 리조트. 아쿠아 어드벤처 워터파크(유료)·아쿠아리움·프라이빗 비치·17개 레스토랑. 아이들이 최고라고 평가하는 두바이 패밀리 1위 숙소.",
+          "bookingUrl": "https://www.atlantis.com/dubai/atlantis-the-palm",
+          "distanceToStation": "팜 모노레일 아틀란티스역 직결",
+          "reviewScore": 4.5,
+          "reviewCount": "14,200건+",
+          "amenities": ["워터파크 아쿠아벤처 (투숙객 무료)", "키즈 클럽 (앰버서더 래그룬)", "어린이 수영장", "유아 침대 무료", "어린이 메뉴 (5개 레스토랑)", "전자레인지", "유모차 대여"],
+          "companionProfiles": {
+            "couple": { "score": 3, "fit": true, "highlights": ["프라이빗 비치", "17개 레스토랑", "스파"], "tip": "커플도 즐길 수 있지만 패밀리 분위기 강함. 스파&다이닝 중심으로 즐기기." },
+            "family_young_kids": { "score": 5, "fit": true, "highlights": ["워터파크 무료", "키즈 클럽", "어린이 수영장", "전자레인지", "유아 침대", "유모차 대여"], "tip": "두바이 유소아 동반 절대 1순위. 워터파크부터 아쿠아리움까지 아이들 천국." },
+            "family_elderly": { "score": 4, "fit": true, "highlights": ["모노레일 직결", "레스토랑 17개", "프라이빗 비치"], "tip": "모노레일로 접근 편리. 리조트 내 모든 것 완비. 이동 최소화." },
+            "small_group": { "score": 3, "fit": true, "highlights": ["워터파크", "비치", "레스토랑"], "tip": "두바이의 상징적 리조트 경험." },
+            "large_group": { "score": 4, "fit": true, "highlights": ["대형 리조트", "워터파크", "연회"], "tip": "대규모 가족 모임 최고." },
+            "family_all": { "score": 5, "fit": true, "highlights": ["워터파크", "키즈 클럽", "17개 레스토랑", "모노레일 직결"], "tip": "두바이 멀티제너레이션 여행 압도적 1순위." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        },
+        {
+          "id": "jumeirah-beach-hotel",
+          "name": "주메이라 비치 호텔",
+          "type": "5성급 비치프론트",
+          "priceRange": "₩₩₩₩",
+          "description": "버즈 알 아랍 바로 옆. 전 객실 오션뷰. 워터파크(와일드 와디)·다이빙 센터·어린이 클럽 포함.",
+          "bookingUrl": "https://www.jumeirah.com/en/hotels-resorts/dubai/jumeirah-beach-hotel",
+          "distanceToStation": "주메이라 비치 직결",
+          "reviewScore": 4.6,
+          "reviewCount": "9,300건+",
+          "amenities": ["와일드 와디 워터파크 무료", "어린이 클럽 (5~12세)", "베이비시팅 서비스 (별도)", "어린이 메뉴", "전자레인지", "유아 침대 무료"],
+          "companionProfiles": {
+            "couple": { "score": 4, "fit": true, "highlights": ["버즈 알 아랍 뷰", "전 객실 오션뷰", "다이빙 센터"], "tip": "버즈 알 아랍 바로 옆 절경. 커플 다이빙 체험 강추." },
+            "family_young_kids": { "score": 5, "fit": true, "highlights": ["와일드 와디 워터파크 무료", "어린이 클럽", "어린이 메뉴", "전자레인지", "유아 침대"], "tip": "두바이 유소아 동반 2순위. 워터파크 무료 입장이 최대 장점." },
+            "family_elderly": { "score": 4, "fit": true, "highlights": ["비치 직결", "오션뷰", "레스토랑 다수"], "tip": "비치 직결로 해변 산책 편리. 모든 식사 리조트 내 해결." },
+            "small_group": { "score": 3, "fit": true, "highlights": ["워터파크", "비치", "다이빙"], "tip": "두바이 비치 그룹 여행에 좋은 선택." },
+            "large_group": { "score": 4, "fit": true, "highlights": ["대형 리조트", "워터파크", "비치"], "tip": "대규모 가족 모임에 적합." },
+            "family_all": { "score": 5, "fit": true, "highlights": ["워터파크 무료", "어린이 클럽", "오션뷰", "비치 직결"], "tip": "두바이 멀티제너레이션 여행 최고의 가성비 선택." }
+          },
+          "lastUpdated": "2026-05-20",
+          "sources": []
+        }
+      ]
+    }
+  }
+}

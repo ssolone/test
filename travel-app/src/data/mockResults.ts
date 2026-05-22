@@ -8,6 +8,12 @@ const getMonthNum = (params: SearchParams): number => {
   return 6;
 };
 
+const getYear = (params: SearchParams): number => {
+  if (params.dateType === 'month' && params.year) return parseInt(params.year);
+  if (params.startDate) return new Date(params.startDate).getFullYear();
+  return new Date().getFullYear();
+};
+
 const getMonthSeason = (monthNum: number): string => {
   if (monthNum >= 3 && monthNum <= 5) return '봄';
   if (monthNum >= 6 && monthNum <= 8) return '여름';
@@ -562,10 +568,12 @@ const generateCityResult = (
   country: string,
   monthNum: number,
   season: string,
+  companion?: import('../types').CompanionType,
+  year?: number,
 ): TravelResult => {
   const cityInfo = getCityInfo(dest, country);
   const weatherSource = (weatherMap[dest] || {})[season] || defaultWeather[season as keyof typeof defaultWeather];
-  const cityData = getCityData(dest, monthNum, country);
+  const cityData = getCityData(dest, monthNum, country, companion, year);
 
   return {
     basicInfo: {
@@ -599,16 +607,18 @@ const generateCityResult = (
 // 하위 호환용 (단일 도시 첫 번째 결과)
 export const generateMockResult = (params: SearchParams): TravelResult => {
   const monthNum = getMonthNum(params);
+  const year = getYear(params);
   const season = getMonthSeason(monthNum);
   const primary = params.destinationCities[0] || '';
-  return generateCityResult(primary, params.destinationCountry, monthNum, season);
+  return generateCityResult(primary, params.destinationCountry, monthNum, season, params.companion, year);
 };
 
 // 멀티시티: 선택된 모든 도시의 결과 배열 반환
 export const generateAllResults = (params: SearchParams): TravelResult[] => {
   const monthNum = getMonthNum(params);
+  const year = getYear(params);
   const season = getMonthSeason(monthNum);
   return params.destinationCities.map((city) =>
-    generateCityResult(city, params.destinationCountry, monthNum, season)
+    generateCityResult(city, params.destinationCountry, monthNum, season, params.companion, year)
   );
 };

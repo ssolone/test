@@ -1,5 +1,9 @@
-import type { FestivalEvent, Restaurant, Accommodation } from '../types';
+import type { FestivalEvent, Restaurant, Accommodation, CompanionType } from '../types';
 import { cityFestivalMap, countryFestivalMap } from './festivalData';
+import {
+  getFestivalEventsByCity, hasCityInFestivalsDB,
+  getAccommodationsByCity, hasCityInAccommodationsDB,
+} from './db/loaders';
 
 export interface CityData {
   festivals: FestivalEvent[];
@@ -288,49 +292,55 @@ export const cityDataMap: Record<string, CityData> = {
 
 };
 
-// 도시 데이터 조회 (시즌 필터 포함)
-export function getCityData(city: string, monthNum: number, country?: string): CityData {
-  const data = cityDataMap[city];
+// 도시 데이터 조회 (시즌 필터 + JSON DB 우선)
+export function getCityData(city: string, monthNum: number, country?: string, companion?: CompanionType, year?: number): CityData {
+  const targetYear = year ?? new Date().getFullYear();
 
-  if (!data) {
-    return getDefaultCityData(city, monthNum, country);
+  // ─── 축제/공휴일: JSON DB 우선 ───
+  let festivals: FestivalEvent[];
+  if (hasCityInFestivalsDB(city)) {
+    festivals = getFestivalEventsByCity(city, targetYear, monthNum);
+  } else {
+    const data = cityDataMap[city];
+    if (data) {
+      const filtered = data.festivals.filter((f) => !f.months || f.months.includes(monthNum));
+      festivals = filtered.length > 0 ? filtered : data.festivals.slice(0, 3);
+    } else {
+      festivals = getDefaultFestivals(city, monthNum, country);
+    }
   }
 
-  // 해당 월에 관련된 이벤트만 필터링 (months 미지정 시 항상 표시)
-  const filteredFestivals = data.festivals.filter(
-    (f) => !f.months || f.months.includes(monthNum)
-  );
+  // ─── 숙소: JSON DB 우선 (동반자 타입 있을 때) ───
+  let accommodations: Accommodation[];
+  if (companion && hasCityInAccommodationsDB(city)) {
+    accommodations = getAccommodationsByCity(city, companion);
+  } else {
+    const data = cityDataMap[city];
+    accommodations = data ? data.accommodations : [
+      { name: `${city} 도심 호텔`, type: '4성급 비즈니스 호텔', priceRange: '₩₩₩', description: `${city} 중심부 접근성이 좋은 호텔.`, companionFit: ALL, bookingUrl: 'https://www.booking.com' },
+    ];
+  }
 
-  return {
-    ...data,
-    festivals: filteredFestivals.length > 0 ? filteredFestivals : data.festivals.slice(0, 3),
-  };
+  // ─── 식당: 항상 cityDataMap ───
+  const data = cityDataMap[city];
+  const restaurants: Restaurant[] = data ? data.restaurants : [
+    { name: `${city} 현지 재래시장`, cuisine: '현지 전통 음식', priceRange: '₩~₩₩', description: `${city} 현지 시장의 신선한 현지 음식.`, companionFit: ALL },
+    { name: `${city} 구시가지 레스토랑`, cuisine: '현지 전통식', priceRange: '₩₩', description: '구시가지 전통 음식점.', companionFit: ALL },
+  ];
+
+  return { festivals, restaurants, accommodations };
 }
 
-function getDefaultCityData(city: string, monthNum: number, country?: string): CityData {
-  // Try city-specific festival data first, then country fallback
+function getDefaultFestivals(city: string, monthNum: number, country?: string): FestivalEvent[] {
   const cityFestivals = cityFestivalMap[city];
   const countryFestivals = country ? countryFestivalMap[country] : undefined;
   const allFestivals = cityFestivals || countryFestivals;
 
-  let festivals: FestivalEvent[];
   if (allFestivals && allFestivals.length > 0) {
     const filtered = allFestivals.filter((f) => !f.months || f.months.includes(monthNum));
-    festivals = filtered.length > 0 ? filtered : allFestivals.slice(0, 3);
-  } else {
-    festivals = [
-      { name: `${city} 현지 공휴일`, period: '방문 전 확인', months: undefined, description: `${city}의 공휴일에는 일부 관광지·식당이 예고 없이 문을 닫을 수 있습니다. 외교부 해외안전여행 앱에서 현지 공휴일을 확인하세요.`, type: 'warning', impact: 'caution', tip: '구글 검색 "[도시명] public holidays [연도]"로 미리 확인하세요.' },
-    ];
+    return filtered.length > 0 ? filtered : allFestivals.slice(0, 3);
   }
-
-  return {
-    festivals,
-    restaurants: [
-      { name: `${city} 현지 재래시장`, cuisine: '현지 전통 음식', priceRange: '₩~₩₩', description: `${city} 현지 시장에서 가장 신선하고 저렴한 현지 음식을 맛볼 수 있습니다. 현지인이 많이 찾는 노점이 진짜 맛집입니다.`, companionFit: ALL },
-      { name: `${city} 구시가지 레스토랑`, cuisine: '현지 전통식', priceRange: '₩₩', description: '구시가지·역사 지구 주변에 모인 전통 음식점에서 현지 문화를 느끼며 식사할 수 있습니다.', companionFit: ALL },
-    ],
-    accommodations: [
-      { name: `${city} 도심 호텔`, type: '4성급 비즈니스 호텔', priceRange: '₩₩₩', description: `${city} 중심부 접근성이 좋은 호텔. 주요 관광지와 대중교통 이용이 편리한 위치를 우선 선택하세요.`, companionFit: ALL, bookingUrl: 'https://www.booking.com' },
-    ],
-  };
+  return [
+    { name: `${city} 현지 공휴일`, period: '방문 전 확인', months: undefined, description: `${city}의 공휴일에는 일부 관광지·식당이 예고 없이 문을 닫을 수 있습니다.`, type: 'warning', impact: 'caution', tip: '구글 검색 "[도시명] public holidays [연도]"로 미리 확인하세요.' },
+  ];
 }
