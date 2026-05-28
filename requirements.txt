@@ -1,0 +1,12 @@
+pytrends==4.9.2
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+anthropic==0.40.0
+sqlite-utils==3.35.2
+pydantic==2.5.0
+python-dotenv==1.0.0
+pandas==2.1.4
+tenacity==8.2.3
+loguru==0.7.2
+python-amazon-paapi==5.0.0
