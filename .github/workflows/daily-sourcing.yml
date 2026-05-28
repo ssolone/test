@@ -1,0 +1,73 @@
+name: Daily Product Sourcing
+
+on:
+  schedule:
+    # Runs at 01:00 KST (16:00 UTC) every day
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (skip Naver listing)"
+        required: false
+        default: "false"
+
+jobs:
+  source-products:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run sourcing pipeline
+        env:
+          # --- Naver ---
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          NAVER_COMMERCE_CLIENT_ID: ${{ secrets.NAVER_COMMERCE_CLIENT_ID }}
+          NAVER_COMMERCE_CLIENT_SECRET: ${{ secrets.NAVER_COMMERCE_CLIENT_SECRET }}
+          # --- AliExpress ---
+          ALIEXPRESS_APP_KEY: ${{ secrets.ALIEXPRESS_APP_KEY }}
+          ALIEXPRESS_APP_SECRET: ${{ secrets.ALIEXPRESS_APP_SECRET }}
+          ALIEXPRESS_TRACKING_ID: ${{ secrets.ALIEXPRESS_TRACKING_ID }}
+          # --- Amazon ---
+          AMAZON_ACCESS_KEY: ${{ secrets.AMAZON_ACCESS_KEY }}
+          AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
+          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
+          # --- eBay ---
+          EBAY_APP_ID: ${{ secrets.EBAY_APP_ID }}
+          # --- Claude / Anthropic ---
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # --- Config overrides ---
+          USD_TO_KRW: "1350"
+          MARKUP_MULTIPLIER: "2.5"
+          MIN_TREND_SCORE: "30"
+          MAX_PRODUCTS_TO_LIST: "20"
+        run: python src/main.py
+
+      - name: Upload products database as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: products-db-${{ github.run_id }}
+          path: data/
+          retention-days: 30
+
+      - name: Commit updated database to repo
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/products.db data/*.log || true
+          git diff --cached --quiet || git commit -m "chore: daily product sourcing $(date -u +%Y-%m-%d)"
+          git push origin ${{ github.ref_name }}
